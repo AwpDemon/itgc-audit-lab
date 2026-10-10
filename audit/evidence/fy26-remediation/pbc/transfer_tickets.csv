@@ -1,0 +1,3 @@
+ticket_id,employee_id,account,from_department,to_department,effective_date,groups_to_remove,groups_to_add,approver,completed_at,status
+TRF-00001,E1010,bnguyen,Finance,Finance,2026-01-14,APP-ERP-GL-Poster,,agonzalez,2026-01-16T15:00:00,Closed
+TRF-00002,E1051,aperez,Operations,Operations,2026-02-06,,,prossi,2026-02-09T15:00:00,Closed

@@ -1,0 +1,12 @@
+{
+ "min_pwd_length": 8,
+ "complexity_enabled": true,
+ "history_length": 24,
+ "max_pwd_age_days": 90.0,
+ "min_pwd_age_days": 1.0,
+ "lockout_threshold": 0,
+ "lockout_duration_minutes": 30.0,
+ "lockout_window_minutes": 30.0,
+ "fine_grained_policies": [],
+ "fine_grained_policies_note": "No PSOs returned: none exist OR the read-only audit account lacks rights to read them (default AD ACLs restrict PSOs to Domain Admins). Request a DA-run export if relevant."
+}

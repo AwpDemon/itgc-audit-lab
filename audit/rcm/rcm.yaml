@@ -1,0 +1,412 @@
+# Risk & Control Matrix (RCM) - Kestrel Valve Co. (fictional), FY2026 ITGC audit
+# In-scope systems: Active Directory (authentication + authorization for every in-scope app),
+# the ERP application (order-to-cash, procure-to-pay, general ledger) and its PostgreSQL
+# database, and the order-portal release pipeline (git + CI/CD).
+#
+# Framework mappings are the author's judgement of the closest objective/control:
+#   COBIT 2019 management objectives/practices, NIST SP 800-53 Rev. 5 controls,
+#   AICPA 2017 Trust Services Criteria (SOC 2) and the SOX ITGC domain.
+# Procedure types: Inquiry | Inspection | Observation | Re-performance.
+# Approach: analytic = 100% of the population tested with code; sample = random selection.
+
+engagement:
+  client: Kestrel Valve Co. (fictional)
+  period: 2025-10-01 to 2026-09-30
+  seed_key: FY2026            # random selections are reproducible from "<seed_key>:<control id>"
+  criteria: ISS-04 Information Security Standard v3.1 (audit/pbc/it_security_standard.yaml)
+
+risks:
+  R-APD-1: Unauthorized users obtain access to financially significant systems and data.
+  R-APD-2: Authorized users obtain access beyond their job responsibilities (incl. SoD conflicts).
+  R-APD-3: Former employees or unused accounts retain access that can be misused.
+  R-APD-4: Weak authentication allows credentials to be guessed or brute-forced.
+  R-PC-1: Unauthorized or untested changes are implemented in production.
+  R-PC-2: Developers make changes to production programs or data without independent review.
+  R-CO-1: Financial data cannot be recovered after loss or corruption.
+  R-CO-2: Failed batch processing or incidents go unresolved, causing incomplete financial data.
+
+controls:
+  - id: AC-01
+    name: User provisioning and transfers (joiner / mover)
+    domain: Access to Programs and Data
+    risk: [R-APD-1, R-APD-2]
+    objective: Access is granted only after documented approval by the line manager and matches the approved request; prior access is removed on transfer.
+    description: New-hire and transfer access is requested in the ITSM tool, approved by the line manager, and fulfilled by IT; transfer tickets list access to remove and add.
+    owner: IT Manager
+    frequency: As needed (event-driven)
+    nature: Manual
+    type: Preventive
+    key: true
+    risk_rating: High
+    approach: analytic
+    population: New hires in the period per HR roster (reconciled to AD accounts created in period); all transfers in the period.
+    procedures:
+      - {type: Inquiry, step: "Ask the IT Manager how access requests are raised, approved and fulfilled, and how transfers are handled."}
+      - {type: Inspection, step: "For each hire, inspect the access-request ticket for manager approval dated before the AD account was created."}
+      - {type: Re-performance, step: "Compare each hire's current AD group membership with the groups on the approved request."}
+      - {type: Re-performance, step: "For each transfer, confirm groups listed for removal are no longer present in AD."}
+    attributes:
+      A: Approved access request exists
+      B: Approval dated before account creation (AD whenCreated)
+      C: Approver is the employee's line manager per HR
+      D: Current AD access does not exceed the approved request
+      E: "Transfer: prior-role access removed"
+    criteria: ISS-04 logical_access.provisioning / transfers
+    cobit: [DSS05.04, DSS06.03]
+    nist: [AC-2, PS-5]
+    soc2: [CC6.2, CC6.3]
+
+  - id: AC-02
+    name: Timely removal of access for terminated users (leaver)
+    domain: Access to Programs and Data
+    risk: [R-APD-3]
+    objective: Access of terminated employees to AD and the ERP is removed within one business day of termination.
+    description: HR notifies IT of terminations via ticket; the Help Desk disables the AD account and deactivates the ERP user.
+    owner: Help Desk Lead / HR Director
+    frequency: As needed (event-driven)
+    nature: Manual
+    type: Preventive
+    key: true
+    risk_rating: High
+    approach: analytic
+    population: All terminations in the period per HR roster (system of record), plus all AD/ERP accounts belonging to anyone HR lists as terminated.
+    procedures:
+      - {type: Inquiry, step: "Ask HR and the Help Desk how terminations are communicated and actioned."}
+      - {type: Re-performance, step: "Match every terminated employee to AD (employeeID / network ID) and confirm the account is disabled."}
+      - {type: Re-performance, step: "Match every terminated employee to the ERP user table and confirm the user is inactive."}
+      - {type: Inspection, step: "Inspect the termination ticket and compute business days from termination date to completion."}
+      - {type: Re-performance, step: "For accounts still enabled, compare lastLogonTimestamp with the termination date (post-termination activity)."}
+    attributes:
+      A: AD account disabled
+      B: ERP user deactivated
+      C: Access removed within 1 business day (ticket completion)
+      D: No logon after termination date
+    criteria: ISS-04 logical_access.termination
+    cobit: [DSS05.04, DSS06.03]
+    nist: [AC-2, AC-2(3), PS-4]
+    soc2: [CC6.2]
+    compensating_controls: [AC-04]
+
+  - id: AC-03
+    name: Privileged access and segregation of duties
+    domain: Access to Programs and Data
+    risk: [R-APD-2, R-PC-2]
+    objective: Administrative access to AD, the ERP and its database is limited to authorized personnel, and no user holds conflicting ERP roles.
+    description: Privileged roles are approved by the CFO and recorded on the authorized privileged access list; developers are prohibited from production admin rights.
+    owner: IT Manager
+    frequency: Continuous (configuration)
+    nature: IT-dependent manual
+    type: Preventive
+    key: true
+    risk_rating: High
+    approach: analytic
+    population: Every member (recursive) of AD privileged groups; every ERP user with ERP_ADMIN; every PostgreSQL SUPERUSER; every ERP user (SoD rule set).
+    procedures:
+      - {type: Inquiry, step: "Obtain the authorized privileged access list and ask how it is maintained."}
+      - {type: Re-performance, step: "Compare recursive membership of Domain/Enterprise/Schema Admins, Administrators and operator groups to the authorized list."}
+      - {type: Re-performance, step: "Compare ERP_ADMIN holders and database superusers to the authorized list."}
+      - {type: Re-performance, step: "Run the SoD rule set (AP_CLERK+AP_APPROVER, GL_POSTER+GL_APPROVER, developer+production admin) over all users."}
+    attributes:
+      A: Privileged account is on the authorized list
+      B: No SoD conflict
+    criteria: ISS-04 logical_access.privileged_access
+    cobit: [DSS05.04, DSS06.03, APO13.01]
+    nist: [AC-5, AC-6, AC-6(5)]
+    soc2: [CC6.1, CC6.3]
+
+  - id: AC-04
+    name: Quarterly user access review
+    domain: Access to Programs and Data
+    risk: [R-APD-2, R-APD-3]
+    objective: Business owners review ERP and privileged AD access quarterly, within 30 days of quarter end; reviewers are independent of the access reviewed; removals are actioned.
+    description: The Controller reviews ERP access and the CFO reviews AD privileged groups each quarter; removal requests are ticketed.
+    owner: Controller / CFO
+    frequency: Quarterly
+    nature: Manual
+    type: Detective
+    key: true
+    risk_rating: High
+    approach: sample
+    population: Quarterly review sign-offs (4 quarters x 2 systems).
+    sampling: {frequency: quarterly, per_stratum: system}
+    procedures:
+      - {type: Inquiry, step: "Ask the Controller and CFO how review listings are produced and how completeness is confirmed."}
+      - {type: Inspection, step: "For each sampled review, inspect the sign-off date versus quarter end."}
+      - {type: Inspection, step: "Confirm the reviewer did not review their own (or their admin account's) access."}
+      - {type: Re-performance, step: "For each removal decision in a sampled review, confirm the entitlement is no longer present in AD/ERP."}
+    attributes:
+      A: Completed within 30 days of quarter end
+      B: Reviewer independent of the access reviewed
+      C: Requested removals actioned
+    criteria: ISS-04 logical_access.user_access_review
+    cobit: [DSS05.04, MEA02.01]
+    nist: [AC-2, AC-6(7)]
+    soc2: [CC6.2, CC6.3]
+
+  - id: AC-05
+    name: Password and account-lockout configuration
+    domain: Access to Programs and Data
+    risk: [R-APD-4]
+    objective: Domain password and lockout settings meet ISS-04; no user account bypasses password expiry or the password requirement.
+    description: The default domain password policy is configured by IT; exceptions to password expiry require an approved service-account exception.
+    owner: Systems Administrator
+    frequency: Continuous (configuration)
+    nature: Automated
+    type: Preventive
+    key: true
+    risk_rating: High
+    approach: analytic
+    population: Default domain policy (test of one for an automated control) + every enabled user account's userAccountControl flags.
+    procedures:
+      - {type: Inspection, step: "Read the domain password/lockout policy from AD and compare each setting with ISS-04 (test of one - automated control, with ITGCs over change)."}
+      - {type: Re-performance, step: "Decode userAccountControl for every enabled account; flag DONT_EXPIRE_PASSWORD (non-service) and PASSWD_NOTREQD."}
+    attributes:
+      A: Setting meets standard / account flags compliant
+    criteria: ISS-04 logical_access.password, logical_access.lockout
+    cobit: [DSS05.04]
+    nist: [IA-5, IA-5(1), AC-7]
+    soc2: [CC6.1]
+
+  - id: AC-06
+    name: Dormant account management
+    domain: Access to Programs and Data
+    risk: [R-APD-3]
+    objective: Enabled accounts inactive for more than 90 days are disabled.
+    description: IT runs a monthly inactive-account report and disables accounts with no logon in 90 days.
+    owner: Systems Administrator
+    frequency: Monthly
+    nature: IT-dependent manual
+    type: Detective
+    key: false
+    risk_rating: Moderate
+    approach: analytic
+    population: All enabled AD accounts at period end (excluding the auditor's read-only account).
+    procedures:
+      - {type: Re-performance, step: "Compute days since lastLogonTimestamp at period end for every enabled account; allow 14 days for replication lag."}
+    attributes:
+      A: Logged on within 90 days (+14-day replication tolerance) or disabled
+    criteria: ISS-04 logical_access.dormant_accounts
+    cobit: [DSS05.04]
+    nist: [AC-2(3)]
+    soc2: [CC6.2]
+
+  - id: AC-07
+    name: Service and generic account management
+    domain: Access to Programs and Data
+    risk: [R-APD-1, R-APD-3]
+    objective: Every service account is inventoried with an active owner; generic (shared) user accounts are not used.
+    description: IT maintains a service-account inventory reviewed annually; shared logins are prohibited by ISS-04.
+    owner: IT Manager
+    frequency: Annual (inventory review)
+    nature: Manual
+    type: Preventive
+    key: false
+    risk_rating: Moderate
+    approach: analytic
+    population: All enabled non-personal AD accounts (service OU, svc_* names, accounts without an employeeID).
+    procedures:
+      - {type: Inspection, step: "Inspect the service-account inventory and owner for each account."}
+      - {type: Re-performance, step: "Match each non-personal account to the inventory; match each owner to HR (active?)."}
+    attributes:
+      A: Inventoried with an owner
+      B: Owner is an active employee
+      C: Not a generic shared account
+    criteria: ISS-04 logical_access.service_accounts / generic_accounts
+    cobit: [DSS05.04]
+    nist: [AC-2, IA-2, IA-4]
+    soc2: [CC6.1, CC6.2]
+
+  - id: CM-01
+    name: Change authorization and testing
+    domain: Program Changes
+    risk: [R-PC-1]
+    objective: Every production change has a change ticket, is tested (UAT), and is approved by the CAB before deployment.
+    description: Developers raise a change ticket; the business signs off UAT; the CAB (Development Manager or IT Manager) approves before the Release Manager deploys.
+    owner: Development Manager
+    frequency: As needed (event-driven)
+    nature: Manual
+    type: Preventive
+    key: true
+    risk_rating: High
+    approach: sample
+    population: Production deployments from the CI/CD log, reconciled to release tags in git (completeness both directions).
+    procedures:
+      - {type: Inquiry, step: "Walk through the change process with the Development Manager (walkthrough of one change end to end)."}
+      - {type: Re-performance, step: "Reconcile CI/CD deployments to git release tags to confirm the population is complete."}
+      - {type: Inspection, step: "For each sampled release, inspect the change ticket for approval timing, testing evidence and approver independence."}
+    attributes:
+      A: Change ticket exists
+      B: Approved before deployment
+      C: Testing / UAT evidence documented
+      D: Approver independent of developer
+    criteria: ISS-04 change_management
+    cobit: [BAI06.01, BAI07.05]
+    nist: [CM-3, CM-3(2), CM-4]
+    soc2: [CC8.1]
+
+  - id: CM-02
+    name: Segregation of duties - developers cannot deploy to production
+    domain: Program Changes
+    risk: [R-PC-2]
+    objective: Production deployments are performed only by authorized deployers who did not author the change.
+    description: Only members of PRD-Deployers can run the production pipeline; deployers may not deploy their own code.
+    owner: Development Manager
+    frequency: As needed (event-driven)
+    nature: IT-dependent manual
+    type: Preventive
+    key: true
+    risk_rating: High
+    approach: analytic
+    population: All production deployments in the period.
+    procedures:
+      - {type: Re-performance, step: "For every deployment, compare the deployer with the commit authors in the release and with PRD-Deployers membership."}
+    attributes:
+      A: Deployer is an authorized deployer (PRD-Deployers)
+      B: Deployer did not author any commit in the release
+    criteria: ISS-04 change_management.developer_may_not_deploy_own_change
+    cobit: [BAI06.01, DSS06.03]
+    nist: [CM-5, AC-5]
+    soc2: [CC8.1, CC6.3]
+
+  - id: CM-03
+    name: Emergency change approval
+    domain: Program Changes
+    risk: [R-PC-1]
+    objective: Emergency changes are retrospectively approved within two business days of deployment.
+    description: Hotfixes may be deployed before CAB approval; the CAB approves retrospectively.
+    owner: Development Manager
+    frequency: As needed (event-driven)
+    nature: Manual
+    type: Detective
+    key: true
+    risk_rating: High
+    approach: sample
+    population: Emergency (hotfix) releases in the period.
+    procedures:
+      - {type: Inspection, step: "Inspect each sampled emergency change for retrospective approval within 2 business days."}
+    attributes:
+      A: Change ticket exists
+      B: Retro-approved within 2 business days
+    criteria: ISS-04 change_management.emergency_retro_approval_within_business_days
+    cobit: [BAI06.02]
+    nist: [CM-3]
+    soc2: [CC8.1]
+
+  - id: CM-04
+    name: Database changes only through the release process
+    domain: Program Changes
+    risk: [R-PC-1, R-PC-2]
+    objective: Every schema change applied to the production ERP database was shipped in an approved release.
+    description: Schema migrations are versioned in git and applied by the pipeline (as erp_owner) during deployment.
+    owner: Database Administrator
+    frequency: As needed (event-driven)
+    nature: Automated
+    type: Preventive
+    key: true
+    risk_rating: High
+    approach: analytic
+    population: Every row of the production schema_migrations table.
+    procedures:
+      - {type: Re-performance, step: "Match each applied migration to the release that shipped the migration file; confirm it was applied by the pipeline account near that deployment."}
+    attributes:
+      A: Migration shipped in a release
+      B: Applied by the pipeline account
+    criteria: ISS-04 change_management.database_changes_via_release_only
+    cobit: [BAI06.01, BAI06.03]
+    nist: [CM-3, CM-5, CM-6]
+    soc2: [CC8.1]
+
+  - id: OPS-01
+    name: Backup monitoring and failure resolution
+    domain: Computer Operations
+    risk: [R-CO-1]
+    objective: Daily ERP database backups complete; failures are ticketed within one business day and resolved.
+    description: The backup tool emails job results; IT raises an incident for each failure.
+    owner: Systems Administrator
+    frequency: Daily
+    nature: IT-dependent manual
+    type: Detective
+    key: true
+    risk_rating: Moderate
+    approach: analytic
+    population: All nightly ERP backup job runs in the period (backup scheduler log).
+    procedures:
+      - {type: Inspection, step: "Inspect the backup scheduler configuration (daily schedule, retention)."}
+      - {type: Re-performance, step: "Identify every failed run in the full job log and confirm an incident ticket exists."}
+    attributes:
+      A: Failure followed up with an incident ticket
+    criteria: ISS-04 operations.backup
+    cobit: [DSS04.07, DSS01.01]
+    nist: [CP-9]
+    soc2: [A1.2, CC7.4]
+
+  - id: OPS-02
+    name: Periodic restore testing
+    domain: Computer Operations
+    risk: [R-CO-1]
+    objective: Backups are restored at least annually to prove they are usable.
+    description: IT performs an annual restore of the ERP database to a test host and records the result.
+    owner: Systems Administrator
+    frequency: Annual
+    nature: Manual
+    type: Detective
+    key: true
+    risk_rating: Moderate
+    approach: sample
+    population: Restore tests performed in the period (restore test log).
+    procedures:
+      - {type: Inspection, step: "Inspect the restore-test log for a test performed in the period and its validation evidence."}
+      - {type: Re-performance, step: "Auditor restore: dump the ERP database, restore to a scratch database, compare row counts and per-table hashes."}
+    attributes:
+      A: Restore test performed in the period
+      B: Restore validated complete and accurate (auditor re-performance)
+    criteria: ISS-04 operations.restore_test
+    cobit: [DSS04.04, DSS04.07]
+    nist: [CP-9(1), CP-10]
+    soc2: [A1.3]
+
+  - id: OPS-03
+    name: Batch job monitoring (ERP to GL interface)
+    domain: Computer Operations
+    risk: [R-CO-2]
+    objective: Failed runs of the ERP-to-GL interface are identified, ticketed and successfully re-run.
+    description: Operations monitors the nightly interface; failures are ticketed and re-run the same day.
+    owner: Systems Administrator
+    frequency: Daily (business days)
+    nature: IT-dependent manual
+    type: Detective
+    key: true
+    risk_rating: Moderate
+    approach: analytic
+    population: All interface runs in the period (job scheduler log).
+    procedures:
+      - {type: Re-performance, step: "Identify every failed run and confirm a ticket and a successful re-run exist."}
+    attributes:
+      A: Failure ticketed and successfully re-run
+    criteria: ISS-04 operations.batch_monitoring
+    cobit: [DSS01.01, DSS01.03]
+    nist: [SI-4, AU-6]
+    soc2: [CC7.2, CC7.4]
+
+  - id: OPS-04
+    name: Incident management - P1 root-cause analysis
+    domain: Computer Operations
+    risk: [R-CO-2]
+    objective: Every P1 incident has a documented root-cause analysis within 10 business days.
+    description: P1 incidents are escalated to the IT Manager; a problem record with RCA is completed.
+    owner: IT Manager
+    frequency: As needed (event-driven)
+    nature: Manual
+    type: Detective
+    key: false
+    risk_rating: Moderate
+    approach: sample
+    population: All P1 incidents in the period (ITSM export).
+    procedures:
+      - {type: Inspection, step: "For each sampled P1 incident, inspect the problem record for an RCA completed within 10 business days."}
+    attributes:
+      A: RCA documented within 10 business days
+    criteria: ISS-04 operations.incident
+    cobit: [DSS02.04, DSS03.02]
+    nist: [IR-4, IR-5]
+    soc2: [CC7.4, CC7.5]

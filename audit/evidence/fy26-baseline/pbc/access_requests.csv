@@ -1,0 +1,14 @@
+ticket_id,type,employee_id,account,requested_groups,requested_by,approver,approver_title,approved_at,fulfilled_at,status
+AR-00001,new_hire,E1021,jjackson,APP-ERP-Users;GG-AllStaff;GG-Sales;VPN-Users,hr.jhernandez,jhernandez,VP Sales,2025-11-24T03:01:00,2025-11-26T13:01:00,Closed
+AR-00002,new_hire,E1062,storres,DEV-Developers;GG-AllStaff;GG-Engineering;VPN-Users,hr.mwhite,mwhite,Development Manager,2025-12-20T02:22:00,2025-12-22T11:22:00,Closed
+AR-00003,new_hire,E1028,bking,APP-ERP-Users;GG-AllStaff;GG-Sales;VPN-Users,hr.jhernandez,jhernandez,VP Sales,2026-01-19T06:15:00,2026-01-21T15:15:00,Closed
+AR-00004,new_hire,E1018,ebrown,FS-HR-RW;GG-AllStaff;GG-HR,hr.gpatel,gpatel,HR Director,2026-02-16T16:49:00,2026-02-17T12:49:00,Closed
+AR-00005,new_hire,E1011,rjackson,APP-ERP-GL-Poster;APP-ERP-Users;FS-Finance-RW;GG-AllStaff;GG-Finance,hr.agonzalez,agonzalez,Controller,2026-02-23T03:42:00,2026-02-25T09:42:00,Closed
+AR-00006,new_hire,E1042,mtaylor2,GG-AllStaff;GG-Operations,hr.prossi,prossi,Plant Manager,2026-03-06T13:14:00,2026-03-03T11:14:00,Closed
+AR-00007,new_hire,E1020,ewilson,APP-ERP-Users;GG-AllStaff;GG-Sales;VPN-Users,hr.jhernandez,jhernandez,VP Sales,2026-07-04T20:34:00,2026-07-07T13:34:00,Closed
+AR-00008,new_hire,E1037,phernandez,GG-AllStaff;GG-Operations,hr.prossi,prossi,Plant Manager,2026-07-14T16:20:00,2026-07-15T13:20:00,Closed
+AR-00009,new_hire,E1050,cadams,APP-ERP-Users;GG-AllStaff;GG-Operations,hr.prossi,prossi,Plant Manager,2026-07-13T12:41:00,2026-07-16T09:41:00,Closed
+AR-00010,new_hire,E1049,jadams,APP-ERP-Users;GG-AllStaff;GG-Operations,hr.prossi,prossi,Plant Manager,2026-07-18T16:40:00,2026-07-21T14:40:00,Closed
+AR-00011,new_hire,E1034,rharris,APP-ERP-Users;GG-AllStaff;GG-Operations,hr.prossi,prossi,Plant Manager,2026-07-21T09:03:00,2026-07-21T14:03:00,Closed
+AR-00012,new_hire,E1006,mmoreau,APP-ERP-AP-Clerk;APP-ERP-Users;FS-Finance-RW;GG-AllStaff;GG-Finance,hr.agonzalez,agonzalez,Controller,2026-08-14T01:30:00,2026-08-14T12:30:00,Closed
+AR-00013,new_hire,E1007,apatel,APP-ERP-AP-Clerk;APP-ERP-Users;FS-Finance-RW;GG-AllStaff;GG-Finance,hr.agonzalez,agonzalez,Controller,2026-09-09T04:59:00,2026-09-11T11:59:00,Closed

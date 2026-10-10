@@ -1,0 +1,57 @@
+[
+ {
+  "version": "V001",
+  "applied_at": "2025-10-07T21:41:00",
+  "applied_by": "erp_owner"
+ },
+ {
+  "version": "V002",
+  "applied_at": "2025-11-04T13:50:00",
+  "applied_by": "erp_owner"
+ },
+ {
+  "version": "V003",
+  "applied_at": "2025-11-18T19:56:00",
+  "applied_by": "erp_owner"
+ },
+ {
+  "version": "V004",
+  "applied_at": "2025-12-23T19:42:00",
+  "applied_by": "erp_owner"
+ },
+ {
+  "version": "V005",
+  "applied_at": "2026-01-27T19:50:00",
+  "applied_by": "erp_owner"
+ },
+ {
+  "version": "V006",
+  "applied_at": "2026-03-10T19:08:00",
+  "applied_by": "erp_owner"
+ },
+ {
+  "version": "V008",
+  "applied_at": "2026-04-30T19:14:00",
+  "applied_by": "erp_owner"
+ },
+ {
+  "version": "V009",
+  "applied_at": "2026-06-04T19:19:00",
+  "applied_by": "erp_owner"
+ },
+ {
+  "version": "V010",
+  "applied_at": "2026-07-23T19:04:00",
+  "applied_by": "erp_owner"
+ },
+ {
+  "version": "V011",
+  "applied_at": "2026-08-06T19:10:00",
+  "applied_by": "erp_owner"
+ },
+ {
+  "version": "V012",
+  "applied_at": "2026-05-14T22:41:07",
+  "applied_by": "ahaddad"
+ }
+]

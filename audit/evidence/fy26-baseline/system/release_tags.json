@@ -1,0 +1,1038 @@
+[
+ {
+  "tag": "rel-2025-10-07-hotfix",
+  "tag_object": "0f42e41ad17e1e27428b397c0fee5967a2892ccb",
+  "commit": "7af3ed2ab49ddcaf860b4661ec452ce9e2dcba90",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2025-10-07T21:38:00Z",
+  "change_ref_in_tag": "CHG-00001",
+  "commits": [
+   {
+    "sha": "7af3ed2ab49ddcaf860b4661ec452ce9e2dcba90",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-10-06T21:38:00Z",
+    "subject": "CHG-00001: migration V001"
+   },
+   {
+    "sha": "384500b1d8244d860e8c28d5ac66ee0a04f33b38",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-10-06T12:35:00Z",
+    "subject": "CHG-00001: update pricing.py (4/4)"
+   },
+   {
+    "sha": "50bf347620cd3b8cf6c414b7a41efdd60cea3e08",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-10-06T15:36:00Z",
+    "subject": "CHG-00001: update auth.py (3/4)"
+   },
+   {
+    "sha": "9fb585a360c180824babff3103457897378062d6",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-10-06T19:37:00Z",
+    "subject": "CHG-00001: update auth.py (2/4)"
+   },
+   {
+    "sha": "1d7481365cd4c12ee7d34ba9fcddaf1fae930f3c",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-10-04T18:38:00Z",
+    "subject": "CHG-00001: update reports.py (1/4)"
+   }
+  ],
+  "migrations": [
+   "V001__release_1.sql"
+  ]
+ },
+ {
+  "tag": "rel-2025-10-21",
+  "tag_object": "ba16832776e1412cb66f1067ead4293276d66f37",
+  "commit": "fdff005eab4c976b7c4550209ae7b2a010242296",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2025-10-21T19:24:00Z",
+  "change_ref_in_tag": "CHG-00002",
+  "commits": [
+   {
+    "sha": "fdff005eab4c976b7c4550209ae7b2a010242296",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-10-20T17:21:00Z",
+    "subject": "CHG-00002: update pricing.py (4/4)"
+   },
+   {
+    "sha": "8b34d2220cea9a4bce140a8a819618c8cb70ed6a",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-10-20T10:22:00Z",
+    "subject": "CHG-00002: update reports.py (3/4)"
+   },
+   {
+    "sha": "c8894e0839a23ecfd3794f6591f8a799d68ecc3f",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-10-17T17:23:00Z",
+    "subject": "CHG-00002: update pricing.py (2/4)"
+   },
+   {
+    "sha": "f083323ef741a72ff41b683bdfe107acc1891981",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-10-20T17:24:00Z",
+    "subject": "CHG-00002: update reports.py (1/4)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2025-11-04-hotfix",
+  "tag_object": "4f05add0a2b9aa72ce77a07d471ad2dbe1e1643d",
+  "commit": "365dfac781b8c4abe4a8df145a1c4d0da116aeed",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2025-11-04T13:47:00Z",
+  "change_ref_in_tag": "CHG-00003",
+  "commits": [
+   {
+    "sha": "365dfac781b8c4abe4a8df145a1c4d0da116aeed",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-11-03T13:47:00Z",
+    "subject": "CHG-00003: migration V002"
+   },
+   {
+    "sha": "0ac9df1fbd3fa52a7b47d51773aae26a0fb70500",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-11-02T08:44:00Z",
+    "subject": "CHG-00003: update reports.py (4/4)"
+   },
+   {
+    "sha": "b033e440f81a11945ca2e9434bc9bb5007c6b9ff",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-11-02T12:45:00Z",
+    "subject": "CHG-00003: update auth.py (3/4)"
+   },
+   {
+    "sha": "b4fb7f3471f31fd6553fd81d787be6900cf59730",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-10-30T06:46:00Z",
+    "subject": "CHG-00003: update orders.py (2/4)"
+   },
+   {
+    "sha": "7034127465f847e79ba779a38df5e669085c01d1",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-10-30T12:47:00Z",
+    "subject": "CHG-00003: update auth.py (1/4)"
+   }
+  ],
+  "migrations": [
+   "V002__release_3.sql"
+  ]
+ },
+ {
+  "tag": "rel-2025-11-18",
+  "tag_object": "a928706f052388200d76c8c310a7573c32822c5e",
+  "commit": "f8cc9fac72074b71f759a8e336c111aad66a2d9f",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2025-11-18T19:53:00Z",
+  "change_ref_in_tag": "CHG-00004",
+  "commits": [
+   {
+    "sha": "f8cc9fac72074b71f759a8e336c111aad66a2d9f",
+    "author": "Sharon Torres",
+    "author_email": "storres@kestrel-valve.example",
+    "authored_at": "2025-11-17T19:53:00Z",
+    "subject": "CHG-00004: migration V003"
+   },
+   {
+    "sha": "8745dac3e8a459745fe248a0d54731e87181650b",
+    "author": "Sharon Torres",
+    "author_email": "storres@kestrel-valve.example",
+    "authored_at": "2025-11-16T17:51:00Z",
+    "subject": "CHG-00004: update auth.py (3/3)"
+   },
+   {
+    "sha": "b04611d94aba8ecde1aae1f2382f588891420567",
+    "author": "Sharon Torres",
+    "author_email": "storres@kestrel-valve.example",
+    "authored_at": "2025-11-13T14:52:00Z",
+    "subject": "CHG-00004: update auth.py (2/3)"
+   },
+   {
+    "sha": "bd4779daf504bb28c6473c391e4c8235d01b4a4d",
+    "author": "Sharon Torres",
+    "author_email": "storres@kestrel-valve.example",
+    "authored_at": "2025-11-16T10:53:00Z",
+    "subject": "CHG-00004: update orders.py (1/3)"
+   }
+  ],
+  "migrations": [
+   "V003__release_4.sql"
+  ]
+ },
+ {
+  "tag": "rel-2025-11-25",
+  "tag_object": "55f41a1b5068a1130917aab161518d9b232f7ed8",
+  "commit": "f690bb4fe1cd5ac7a71132db3b1b315842df80c0",
+  "tagger": "Angela Haddad",
+  "tagger_email": "ahaddad@kestrel-valve.example",
+  "tagged_at": "2025-11-25T19:21:00Z",
+  "change_ref_in_tag": "CHG-00005",
+  "commits": [
+   {
+    "sha": "f690bb4fe1cd5ac7a71132db3b1b315842df80c0",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2025-11-23T11:18:00Z",
+    "subject": "CHG-00005: update auth.py (4/4)"
+   },
+   {
+    "sha": "d1dbed332cfb7c27e9449de36feab731d9594884",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2025-11-20T18:19:00Z",
+    "subject": "CHG-00005: update auth.py (3/4)"
+   },
+   {
+    "sha": "c8aa8cb7d89598e10af3bbd2b79bb8ef2676e442",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2025-11-24T10:20:00Z",
+    "subject": "CHG-00005: update orders.py (2/4)"
+   },
+   {
+    "sha": "112aba02801a1b0983057f2cbca368a46feb6293",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2025-11-20T15:21:00Z",
+    "subject": "CHG-00005: update invoices.py (1/4)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2025-12-09",
+  "tag_object": "429aefa90bdebbda858a8cbd86c304248f35836c",
+  "commit": "2fd8c401b90aaab57c0ddc5395f7c5ab178d0753",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2025-12-09T19:45:00Z",
+  "change_ref_in_tag": "CHG-00006",
+  "commits": [
+   {
+    "sha": "2fd8c401b90aaab57c0ddc5395f7c5ab178d0753",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2025-12-04T11:44:00Z",
+    "subject": "CHG-00006: update invoices.py (2/2)"
+   },
+   {
+    "sha": "2e8e0c32c34e61cf905e4c136b7bda7769ea839d",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2025-12-05T13:45:00Z",
+    "subject": "CHG-00006: update reports.py (1/2)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2025-12-23",
+  "tag_object": "e0b8c57c18ba2fa9372eb15772094774691f7417",
+  "commit": "4a9383ef14d993e6586334108220842e5dc34027",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2025-12-23T19:39:00Z",
+  "change_ref_in_tag": "CHG-00007",
+  "commits": [
+   {
+    "sha": "4a9383ef14d993e6586334108220842e5dc34027",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-12-22T19:39:00Z",
+    "subject": "CHG-00007: migration V004"
+   },
+   {
+    "sha": "2bea5c8a4631507c74ed9b9cf589bbdedd5a24c6",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-12-20T10:37:00Z",
+    "subject": "CHG-00007: update reports.py (3/3)"
+   },
+   {
+    "sha": "3e27a279a81c5838f89cb56bb8763fb56165f732",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-12-21T17:38:00Z",
+    "subject": "CHG-00007: update auth.py (2/3)"
+   },
+   {
+    "sha": "09da84fa68e24f7bb1b13e7a9b7b6b52b27bb0cb",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2025-12-20T15:39:00Z",
+    "subject": "CHG-00007: update pricing.py (1/3)"
+   }
+  ],
+  "migrations": [
+   "V004__release_7.sql"
+  ]
+ },
+ {
+  "tag": "rel-2026-01-01-hotfix",
+  "tag_object": "db6ef3e931c99394af5b301654c79a50135a280b",
+  "commit": "75f1d51415ee5b17359c7b7dbe7c597a779fa62a",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-01-01T18:48:00Z",
+  "change_ref_in_tag": "CHG-00008",
+  "commits": [
+   {
+    "sha": "75f1d51415ee5b17359c7b7dbe7c597a779fa62a",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2025-12-27T16:47:00Z",
+    "subject": "CHG-00008: update orders.py (2/2)"
+   },
+   {
+    "sha": "1bc500ce56566a413adb54a425102783ffcc1e24",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2025-12-29T10:48:00Z",
+    "subject": "CHG-00008: update invoices.py (1/2)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-01-13",
+  "tag_object": "2abdf0ae70dc0991e13c0dcde29eea3ecefa67d0",
+  "commit": "2f4493f024a636baed5be1f6403ccb9ea489628a",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-01-13T19:39:00Z",
+  "change_ref_in_tag": "none",
+  "commits": [
+   {
+    "sha": "2f4493f024a636baed5be1f6403ccb9ea489628a",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2026-01-08T12:39:00Z",
+    "subject": "no-ticket: update pricing.py (1/1)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-01-27",
+  "tag_object": "82696f48521bf4f42d38fadd765444288a720ae1",
+  "commit": "d152c7221ad70ab81a2d19e5695193f36dc33114",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-01-27T19:47:00Z",
+  "change_ref_in_tag": "CHG-00009",
+  "commits": [
+   {
+    "sha": "d152c7221ad70ab81a2d19e5695193f36dc33114",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-01-26T19:47:00Z",
+    "subject": "CHG-00009: migration V005"
+   },
+   {
+    "sha": "44d24eb99d772d5d7e942a16dfc936e40df5fd90",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-01-24T16:47:00Z",
+    "subject": "CHG-00009: update reports.py (1/1)"
+   }
+  ],
+  "migrations": [
+   "V005__release_10.sql"
+  ]
+ },
+ {
+  "tag": "rel-2026-02-10",
+  "tag_object": "a700655b7a29053eb5a8b4d1ea4b7ae339dede52",
+  "commit": "31238c346fe6af566d6653437c07355c47e14592",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-02-10T19:31:00Z",
+  "change_ref_in_tag": "CHG-00010",
+  "commits": [
+   {
+    "sha": "31238c346fe6af566d6653437c07355c47e14592",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-02-06T18:31:00Z",
+    "subject": "CHG-00010: update orders.py (1/1)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-02-17",
+  "tag_object": "dd82f702135136b79882e009015fc68d2c9a6933",
+  "commit": "faf3b70d7fd44308c3b6e1359a10e87192f6aade",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-02-17T19:14:00Z",
+  "change_ref_in_tag": "CHG-00011",
+  "commits": [
+   {
+    "sha": "faf3b70d7fd44308c3b6e1359a10e87192f6aade",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-02-12T13:14:00Z",
+    "subject": "CHG-00011: update invoices.py (1/1)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-02-24",
+  "tag_object": "cdb8f6f5f380fc528669a29addcc5096de6f7ec7",
+  "commit": "e035af9e29a9d9fbdf16e8ca5d98b4d1e3559a22",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-02-24T19:33:00Z",
+  "change_ref_in_tag": "CHG-00012",
+  "commits": [
+   {
+    "sha": "e035af9e29a9d9fbdf16e8ca5d98b4d1e3559a22",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-02-23T14:30:00Z",
+    "subject": "CHG-00012: update auth.py (4/4)"
+   },
+   {
+    "sha": "fe92a903128a013a367fe31b97e5774d2e0eabb0",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-02-21T11:31:00Z",
+    "subject": "CHG-00012: update orders.py (3/4)"
+   },
+   {
+    "sha": "9ecfc4bd3bbf6773b19dea05f3c260cf3274874d",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-02-20T17:32:00Z",
+    "subject": "CHG-00012: update orders.py (2/4)"
+   },
+   {
+    "sha": "393be71332b10d77ffd45b27c996256ce88883ba",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-02-21T11:33:00Z",
+    "subject": "CHG-00012: update auth.py (1/4)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-03-10",
+  "tag_object": "a5ee71bd894466925a191c325afcc0641af6fed7",
+  "commit": "5a4fd2c88ef3b6bf07eb67894120d4944e415a03",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-03-10T19:05:00Z",
+  "change_ref_in_tag": "CHG-00013",
+  "commits": [
+   {
+    "sha": "5a4fd2c88ef3b6bf07eb67894120d4944e415a03",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-03-09T19:05:00Z",
+    "subject": "CHG-00013: migration V006"
+   },
+   {
+    "sha": "d5d590d6b0cee48c6cdd1bd6add6319ef037202c",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-03-06T14:05:00Z",
+    "subject": "CHG-00013: update reports.py (1/1)"
+   }
+  ],
+  "migrations": [
+   "V006__release_14.sql"
+  ]
+ },
+ {
+  "tag": "rel-2026-03-24",
+  "tag_object": "3e30494b53c98e655287210cae8333e42a26801c",
+  "commit": "82e4d94396bc5ef4b39fda5ceca86356ce5b0f13",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-03-24T19:00:00Z",
+  "change_ref_in_tag": "none",
+  "commits": [
+   {
+    "sha": "82e4d94396bc5ef4b39fda5ceca86356ce5b0f13",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-03-23T19:00:00Z",
+    "subject": "no-ticket: migration V007"
+   },
+   {
+    "sha": "637f81a2e74655151a7395dc8088ec80e69c5795",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-03-21T18:00:00Z",
+    "subject": "no-ticket: update reports.py (1/1)"
+   }
+  ],
+  "migrations": [
+   "V007__release_15.sql"
+  ]
+ },
+ {
+  "tag": "rel-2026-03-31",
+  "tag_object": "b064f199c440ca3882ce3009ed2d4bee99f24e5c",
+  "commit": "96c16938c4019bf4350b9c9bd5c09ecca8532387",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-03-31T19:19:00Z",
+  "change_ref_in_tag": "CHG-00014",
+  "commits": [
+   {
+    "sha": "96c16938c4019bf4350b9c9bd5c09ecca8532387",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-03-29T12:16:00Z",
+    "subject": "CHG-00014: update reports.py (4/4)"
+   },
+   {
+    "sha": "5dbdfc95fe9f8fee6fd7f1fdb654578cee8e7956",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-03-29T14:17:00Z",
+    "subject": "CHG-00014: update pricing.py (3/4)"
+   },
+   {
+    "sha": "1d632658298bed76b9f7f3dac2671856a0bc071b",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-03-30T11:18:00Z",
+    "subject": "CHG-00014: update orders.py (2/4)"
+   },
+   {
+    "sha": "fce6ca55a7efc96b94d9be3ef6925452468b3fce",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-03-28T16:19:00Z",
+    "subject": "CHG-00014: update auth.py (1/4)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-04-07",
+  "tag_object": "45f3718fd344514a88e5784f3ea4aa2e5d2eb9f2",
+  "commit": "1ee36b58955c66f73c8d1227203532cf37ec2aaf",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-04-07T19:11:00Z",
+  "change_ref_in_tag": "CHG-00015",
+  "commits": [
+   {
+    "sha": "1ee36b58955c66f73c8d1227203532cf37ec2aaf",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-04-03T17:11:00Z",
+    "subject": "CHG-00015: update pricing.py (1/1)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-04-21",
+  "tag_object": "0f173c379dd372c70a6e0bb5b1899b14c4d4025b",
+  "commit": "be6bd4a280ac028e328b78ae0ad16a9aede33c6f",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-04-21T19:05:00Z",
+  "change_ref_in_tag": "CHG-00016",
+  "commits": [
+   {
+    "sha": "be6bd4a280ac028e328b78ae0ad16a9aede33c6f",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-04-18T12:02:00Z",
+    "subject": "CHG-00016: update pricing.py (4/4)"
+   },
+   {
+    "sha": "63e43f980c1c403de88f22fc787969f4c79153b9",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-04-16T14:03:00Z",
+    "subject": "CHG-00016: update reports.py (3/4)"
+   },
+   {
+    "sha": "d55bcba255426677229367f7591073bda32cd8c5",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-04-18T16:04:00Z",
+    "subject": "CHG-00016: update reports.py (2/4)"
+   },
+   {
+    "sha": "9bfdb1eb14f6560867ea80c6b767fe4be2b2bb14",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-04-17T12:05:00Z",
+    "subject": "CHG-00016: update auth.py (1/4)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-04-30",
+  "tag_object": "b029fe05fd45d06a00028ac51cf4bdd5071e921c",
+  "commit": "44e881fdb0ddac03ca9ca3e9befb909938e52373",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-04-30T19:11:00Z",
+  "change_ref_in_tag": "CHG-00017",
+  "commits": [
+   {
+    "sha": "44e881fdb0ddac03ca9ca3e9befb909938e52373",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-04-29T19:11:00Z",
+    "subject": "CHG-00017: migration V008"
+   },
+   {
+    "sha": "3d1d2f3607a9de098f33e7423f040dcacd4347e2",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-04-28T17:11:00Z",
+    "subject": "CHG-00017: update pricing.py (1/1)"
+   }
+  ],
+  "migrations": [
+   "V008__release_19.sql"
+  ]
+ },
+ {
+  "tag": "rel-2026-05-14",
+  "tag_object": "9d7b0c25331797dfbd8ef34f2f558a7f36fbb088",
+  "commit": "1659e7024a34de598a13039d4a4106af8a28b0e4",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-05-14T19:43:00Z",
+  "change_ref_in_tag": "CHG-00018",
+  "commits": [
+   {
+    "sha": "1659e7024a34de598a13039d4a4106af8a28b0e4",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-05-12T15:43:00Z",
+    "subject": "CHG-00018: update pricing.py (1/1)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-05-28",
+  "tag_object": "5e301b7092b32810e39ac35a195df799ee4a8e0b",
+  "commit": "513bdb1b0b407b9b1c30bd60f35ebc3847c3dc52",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-05-28T19:38:00Z",
+  "change_ref_in_tag": "CHG-00019",
+  "commits": [
+   {
+    "sha": "513bdb1b0b407b9b1c30bd60f35ebc3847c3dc52",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-05-23T13:35:00Z",
+    "subject": "CHG-00019: update auth.py (4/4)"
+   },
+   {
+    "sha": "16a7e3d378c79b114355cf86487a4755a734bf4f",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-05-27T16:36:00Z",
+    "subject": "CHG-00019: update reports.py (3/4)"
+   },
+   {
+    "sha": "f200e3e708af2efe0b94a578a3ad3fda07d0deaf",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-05-26T14:37:00Z",
+    "subject": "CHG-00019: update invoices.py (2/4)"
+   },
+   {
+    "sha": "4f7a4b4d884d3407b888674e496b277f790f3761",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-05-27T11:38:00Z",
+    "subject": "CHG-00019: update auth.py (1/4)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-06-04",
+  "tag_object": "ffbba08e07a4316a997234c64bc7714c45967b0f",
+  "commit": "e77149b7e6bec546d56e37b9919910c4187aa661",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-06-04T19:16:00Z",
+  "change_ref_in_tag": "CHG-00020",
+  "commits": [
+   {
+    "sha": "e77149b7e6bec546d56e37b9919910c4187aa661",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2026-06-03T19:16:00Z",
+    "subject": "CHG-00020: migration V009"
+   },
+   {
+    "sha": "cb358d0be4b066b1b73480a96ec231e8f3668241",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2026-05-31T12:13:00Z",
+    "subject": "CHG-00020: update orders.py (4/4)"
+   },
+   {
+    "sha": "bb95b8726c367ff8449804723afc5c22a2b336a8",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2026-05-30T12:14:00Z",
+    "subject": "CHG-00020: update reports.py (3/4)"
+   },
+   {
+    "sha": "780983f4996c4f3a95fbe678346e8be873940aa2",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2026-05-30T18:15:00Z",
+    "subject": "CHG-00020: update reports.py (2/4)"
+   },
+   {
+    "sha": "4daac46d55cfdc695774b2f823d3ecaeb3c04013",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2026-05-30T13:16:00Z",
+    "subject": "CHG-00020: update pricing.py (1/4)"
+   }
+  ],
+  "migrations": [
+   "V009__release_22.sql"
+  ]
+ },
+ {
+  "tag": "rel-2026-06-16",
+  "tag_object": "4e662c8e10b620e5f819ec7bb1435b628011b830",
+  "commit": "39ce3c517c583d88b3c201e3837cd779b5c1c1af",
+  "tagger": "Angela Haddad",
+  "tagger_email": "ahaddad@kestrel-valve.example",
+  "tagged_at": "2026-06-16T19:50:00Z",
+  "change_ref_in_tag": "CHG-00021",
+  "commits": [
+   {
+    "sha": "39ce3c517c583d88b3c201e3837cd779b5c1c1af",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-06-12T16:48:00Z",
+    "subject": "CHG-00021: update orders.py (3/3)"
+   },
+   {
+    "sha": "119d083aaec86c8cb2d984c7cba710d6c9117ac8",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-06-14T17:49:00Z",
+    "subject": "CHG-00021: update pricing.py (2/3)"
+   },
+   {
+    "sha": "b26dd7df3a8d4239467ff6e570054c9151197dda",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-06-12T12:50:00Z",
+    "subject": "CHG-00021: update orders.py (1/3)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-06-23",
+  "tag_object": "640a6dccbaebc53323d984c4cd312fde4eb9eb7b",
+  "commit": "dd7326337d57528c9cbce0ef9625617fd8c420b6",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-06-23T19:07:00Z",
+  "change_ref_in_tag": "CHG-00022",
+  "commits": [
+   {
+    "sha": "dd7326337d57528c9cbce0ef9625617fd8c420b6",
+    "author": "Sharon Torres",
+    "author_email": "storres@kestrel-valve.example",
+    "authored_at": "2026-06-22T16:06:00Z",
+    "subject": "CHG-00022: update auth.py (2/2)"
+   },
+   {
+    "sha": "eabb74c520be3bb35e927ceb60da1438ab80ef19",
+    "author": "Sharon Torres",
+    "author_email": "storres@kestrel-valve.example",
+    "authored_at": "2026-06-20T18:07:00Z",
+    "subject": "CHG-00022: update orders.py (1/2)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-07-07",
+  "tag_object": "fdf9ca14d3aa58e9121d49fcdc82205e5099654b",
+  "commit": "e3e1e946825ab0969b0d34d97810477c56a3c0cc",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-07-07T19:33:00Z",
+  "change_ref_in_tag": "CHG-00023",
+  "commits": [
+   {
+    "sha": "e3e1e946825ab0969b0d34d97810477c56a3c0cc",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-07-06T17:32:00Z",
+    "subject": "CHG-00023: update pricing.py (2/2)"
+   },
+   {
+    "sha": "fec77bdb476a6adda475bc833da7bd536b1b5892",
+    "author": "Daniel Adams",
+    "author_email": "dadams@kestrel-valve.example",
+    "authored_at": "2026-07-06T13:33:00Z",
+    "subject": "CHG-00023: update auth.py (1/2)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-07-14",
+  "tag_object": "dcb5db504559e7e087f77ed27596f66ef594452b",
+  "commit": "dcf472231aa8d4ccf04d90a3eab0e441fbe11178",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-07-14T19:09:00Z",
+  "change_ref_in_tag": "CHG-00024",
+  "commits": [
+   {
+    "sha": "dcf472231aa8d4ccf04d90a3eab0e441fbe11178",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-07-11T13:08:00Z",
+    "subject": "CHG-00024: update auth.py (2/2)"
+   },
+   {
+    "sha": "8c730c8e628d489c40f6f62cb8954b8037a2a4d0",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-07-09T12:09:00Z",
+    "subject": "CHG-00024: update pricing.py (1/2)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-07-23",
+  "tag_object": "3e750a17db11844d72910e840e01fe69e6159707",
+  "commit": "d0d4d2f1d6c2e6b7fcd66c089329007f3da6cf72",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-07-23T19:01:00Z",
+  "change_ref_in_tag": "CHG-00025",
+  "commits": [
+   {
+    "sha": "d0d4d2f1d6c2e6b7fcd66c089329007f3da6cf72",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2026-07-22T19:01:00Z",
+    "subject": "CHG-00025: migration V010"
+   },
+   {
+    "sha": "374d81b710603d5d4398994343affb2f784794fb",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2026-07-20T11:01:00Z",
+    "subject": "CHG-00025: update orders.py (1/1)"
+   }
+  ],
+  "migrations": [
+   "V010__release_27.sql"
+  ]
+ },
+ {
+  "tag": "rel-2026-08-06",
+  "tag_object": "84e0fb07029f48f4d9b0ab91875692aa328362b6",
+  "commit": "82eab0209057628d1f6408571497fd9bb9dc0cda",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-08-06T19:07:00Z",
+  "change_ref_in_tag": "CHG-00026",
+  "commits": [
+   {
+    "sha": "82eab0209057628d1f6408571497fd9bb9dc0cda",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2026-08-05T19:07:00Z",
+    "subject": "CHG-00026: migration V011"
+   },
+   {
+    "sha": "89edf28add40484a73321f8755ec5f516fc489b9",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2026-08-05T11:07:00Z",
+    "subject": "CHG-00026: update reports.py (1/1)"
+   }
+  ],
+  "migrations": [
+   "V011__release_28.sql"
+  ]
+ },
+ {
+  "tag": "rel-2026-08-18",
+  "tag_object": "3278ae1a8edc97a8f6abf215f6d017bb443d944c",
+  "commit": "3ac05286a1e28e3348e48c536a7e888906907759",
+  "tagger": "Angela Haddad",
+  "tagger_email": "ahaddad@kestrel-valve.example",
+  "tagged_at": "2026-08-18T19:24:00Z",
+  "change_ref_in_tag": "CHG-00027",
+  "commits": [
+   {
+    "sha": "3ac05286a1e28e3348e48c536a7e888906907759",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-08-16T10:21:00Z",
+    "subject": "CHG-00027: update orders.py (4/4)"
+   },
+   {
+    "sha": "0f56c8d97eaa3dc06fd6cb02268052622dc15cfb",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-08-15T14:22:00Z",
+    "subject": "CHG-00027: update reports.py (3/4)"
+   },
+   {
+    "sha": "6235070ae144ce19e4c3cf972b94bdb8e00afece",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-08-17T16:23:00Z",
+    "subject": "CHG-00027: update orders.py (2/4)"
+   },
+   {
+    "sha": "969d9417ffdc80d2bfcba51e7ab2d1545c1ea5b4",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-08-14T11:24:00Z",
+    "subject": "CHG-00027: update invoices.py (1/4)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-08-27",
+  "tag_object": "f3cf2212fb9d9de3795e8ae01065d4555036f666",
+  "commit": "3dc5b0d71fcd1d5f978702ac29954b4d12281162",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-08-27T19:44:00Z",
+  "change_ref_in_tag": "CHG-00028",
+  "commits": [
+   {
+    "sha": "3dc5b0d71fcd1d5f978702ac29954b4d12281162",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-08-25T10:43:00Z",
+    "subject": "CHG-00028: update orders.py (2/2)"
+   },
+   {
+    "sha": "347af102702e205033120ae0bcdfa499a354a129",
+    "author": "Angela Haddad",
+    "author_email": "ahaddad@kestrel-valve.example",
+    "authored_at": "2026-08-25T10:44:00Z",
+    "subject": "CHG-00028: update invoices.py (1/2)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-09-08-hotfix",
+  "tag_object": "08207c746a5ee593683a6d5cb43aaed6b245ccb5",
+  "commit": "26c53eb167b6fdfda1553b8605cbdcd3ffafdebe",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-09-08T11:12:00Z",
+  "change_ref_in_tag": "CHG-00029",
+  "commits": [
+   {
+    "sha": "26c53eb167b6fdfda1553b8605cbdcd3ffafdebe",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2026-09-03T02:09:00Z",
+    "subject": "CHG-00029: update auth.py (4/4)"
+   },
+   {
+    "sha": "bf483a3a45eb3190994b936df4c58058ff4ae12f",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2026-09-06T05:10:00Z",
+    "subject": "CHG-00029: update pricing.py (3/4)"
+   },
+   {
+    "sha": "b5ce5e128fc8e7014bea07fcfacb22619c89d8e3",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2026-09-05T02:11:00Z",
+    "subject": "CHG-00029: update invoices.py (2/4)"
+   },
+   {
+    "sha": "4b7a8308c209ac94f700f7c605d9edfd7280728a",
+    "author": "Daniel King",
+    "author_email": "dking@kestrel-valve.example",
+    "authored_at": "2026-09-03T06:12:00Z",
+    "subject": "CHG-00029: update orders.py (1/4)"
+   }
+  ],
+  "migrations": []
+ },
+ {
+  "tag": "rel-2026-09-17",
+  "tag_object": "8bb29afd18e526c16093d2d3532bdbd07137f670",
+  "commit": "21dcd55e0d09adec0dc500461443009409faf5c5",
+  "tagger": "Brenda Scott",
+  "tagger_email": "bscott@kestrel-valve.example",
+  "tagged_at": "2026-09-17T19:48:00Z",
+  "change_ref_in_tag": "CHG-00030",
+  "commits": [
+   {
+    "sha": "21dcd55e0d09adec0dc500461443009409faf5c5",
+    "author": "Sharon Torres",
+    "author_email": "storres@kestrel-valve.example",
+    "authored_at": "2026-09-15T15:46:00Z",
+    "subject": "CHG-00030: update auth.py (3/3)"
+   },
+   {
+    "sha": "e0cac2128a8edaf8007f08f649ac5d96eba263d4",
+    "author": "Sharon Torres",
+    "author_email": "storres@kestrel-valve.example",
+    "authored_at": "2026-09-15T15:47:00Z",
+    "subject": "CHG-00030: update reports.py (2/3)"
+   },
+   {
+    "sha": "cbef6fd224d6fb06a86955b7a08d0740224eb5f4",
+    "author": "Sharon Torres",
+    "author_email": "storres@kestrel-valve.example",
+    "authored_at": "2026-09-14T15:48:00Z",
+    "subject": "CHG-00030: update auth.py (1/3)"
+   }
+  ],
+  "migrations": []
+ }
+]

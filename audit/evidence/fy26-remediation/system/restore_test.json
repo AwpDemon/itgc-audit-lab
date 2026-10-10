@@ -1,0 +1,61 @@
+{
+ "database": "erp",
+ "backup_seconds": 0.04,
+ "restore_seconds": 0.11,
+ "validation_seconds": 0.22,
+ "total_seconds": 0.37,
+ "dump_bytes": 44418,
+ "tables_mismatched": 0,
+ "tables": [
+  {
+   "table": "app.gl_journal",
+   "source_rows": 1200,
+   "restored_rows": 1200,
+   "source_md5": "10a38edb6b8d2b0e1040d0e2ce3dcf61",
+   "restored_md5": "10a38edb6b8d2b0e1040d0e2ce3dcf61",
+   "match": true
+  },
+  {
+   "table": "app.invoices",
+   "source_rows": 1500,
+   "restored_rows": 1500,
+   "source_md5": "eef4a2379fc0dc0b5d04256867c7fcc6",
+   "restored_md5": "eef4a2379fc0dc0b5d04256867c7fcc6",
+   "match": true
+  },
+  {
+   "table": "app.user_roles",
+   "source_rows": 55,
+   "restored_rows": 55,
+   "source_md5": "329190df539edeb7e24f99da7aea1890",
+   "restored_md5": "329190df539edeb7e24f99da7aea1890",
+   "match": true
+  },
+  {
+   "table": "app.users",
+   "source_rows": 51,
+   "restored_rows": 51,
+   "source_md5": "5f2201504cd5bdf5d4ee5d9e94c09a09",
+   "restored_md5": "5f2201504cd5bdf5d4ee5d9e94c09a09",
+   "match": true
+  },
+  {
+   "table": "app.vendors",
+   "source_rows": 60,
+   "restored_rows": 60,
+   "source_md5": "a65a3f3d81b4a9ccc4c80ce43fdd6fae",
+   "restored_md5": "a65a3f3d81b4a9ccc4c80ce43fdd6fae",
+   "match": true
+  },
+  {
+   "table": "public.schema_migrations",
+   "source_rows": 11,
+   "restored_rows": 11,
+   "source_md5": "db387bf45feba8ba83d8fcc9d5420bd7",
+   "restored_md5": "db387bf45feba8ba83d8fcc9d5420bd7",
+   "match": true
+  }
+ ],
+ "pg_version": "16.4 (Debian 16.4-1.pgdg120+2)",
+ "performed_at": "2026-10-10T20:37:30Z"
+}

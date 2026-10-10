@@ -1,0 +1,5728 @@
+{
+ "evidence": "fy26-remediation",
+ "evidence_manifest_generated_at": "2026-10-10T20:44:33+00:00",
+ "results": {
+  "AC-01": {
+   "control_id": "AC-01",
+   "approach": "analytic",
+   "population_desc": "New hires (HR) in period + transfers",
+   "population_size": 16,
+   "sample_size": 16,
+   "selection": "100% of population (population below sampling threshold)",
+   "conclusion": "Not effective",
+   "exceptions": 2,
+   "exception_items": [
+    "hire:mtaylor2",
+    "hire:mbrown"
+   ],
+   "notes": [],
+   "completeness": {
+    "hr_hires": 14,
+    "ad_accounts_created_in_period_not_in_hr": []
+   },
+   "rows": [
+    {
+     "item": "hire:jjackson",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2025-12-01",
+      "ad_created": "2025-11-26T13:01:00+00:00",
+      "ticket": "AR-00001",
+      "approved_at": "2025-11-24T03:01:00",
+      "approver": "jhernandez"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:storres",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2025-12-25",
+      "ad_created": "2025-12-22T11:22:00+00:00",
+      "ticket": "AR-00002",
+      "approved_at": "2025-12-20T02:22:00",
+      "approver": "mwhite"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:bking",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-01-23",
+      "ad_created": "2026-01-21T15:15:00+00:00",
+      "ticket": "AR-00003",
+      "approved_at": "2026-01-19T06:15:00",
+      "approver": "jhernandez"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:ebrown",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-02-20",
+      "ad_created": "2026-02-17T12:49:00+00:00",
+      "ticket": "AR-00004",
+      "approved_at": "2026-02-16T16:49:00",
+      "approver": "gpatel"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:rjackson",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-02-26",
+      "ad_created": "2026-02-25T09:42:00+00:00",
+      "ticket": "AR-00005",
+      "approved_at": "2026-02-23T03:42:00",
+      "approver": "agonzalez"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:mtaylor2",
+     "attrs": {
+      "A": "Pass",
+      "B": "Exception",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-03-05",
+      "ad_created": "2026-03-03T11:14:00+00:00",
+      "ticket": "AR-00006",
+      "approved_at": "2026-03-06T13:14:00",
+      "approver": "prossi"
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "hire:ewilson",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-07-08",
+      "ad_created": "2026-07-07T13:34:00+00:00",
+      "ticket": "AR-00007",
+      "approved_at": "2026-07-04T20:34:00",
+      "approver": "jhernandez"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:phernandez",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-07-17",
+      "ad_created": "2026-07-15T13:20:00+00:00",
+      "ticket": "AR-00008",
+      "approved_at": "2026-07-14T16:20:00",
+      "approver": "prossi"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:mbrown",
+     "attrs": {
+      "A": "Exception",
+      "B": "N/A",
+      "C": "N/A",
+      "D": "N/A",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-07-20",
+      "ad_created": "2026-07-15T10:53:00+00:00",
+      "ticket": null
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "hire:cadams",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-07-21",
+      "ad_created": "2026-07-16T09:41:00+00:00",
+      "ticket": "AR-00009",
+      "approved_at": "2026-07-13T12:41:00",
+      "approver": "prossi"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:jadams",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-07-23",
+      "ad_created": "2026-07-21T14:40:00+00:00",
+      "ticket": "AR-00010",
+      "approved_at": "2026-07-18T16:40:00",
+      "approver": "prossi"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:rharris",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-07-24",
+      "ad_created": "2026-07-21T14:03:00+00:00",
+      "ticket": "AR-00011",
+      "approved_at": "2026-07-21T09:03:00",
+      "approver": "prossi"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:mmoreau",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-08-19",
+      "ad_created": "2026-08-14T12:30:00+00:00",
+      "ticket": "AR-00012",
+      "approved_at": "2026-08-14T01:30:00",
+      "approver": "agonzalez"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:apatel",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-09-14",
+      "ad_created": "2026-09-11T11:59:00+00:00",
+      "ticket": "AR-00013",
+      "approved_at": "2026-09-09T04:59:00",
+      "approver": "agonzalez"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "transfer:bnguyen",
+     "attrs": {
+      "A": "Pass",
+      "B": "N/A",
+      "C": "N/A",
+      "D": "Pass",
+      "E": "Pass"
+     },
+     "detail": {
+      "ticket": "TRF-00001",
+      "effective": "2026-01-14",
+      "retained_groups": [],
+      "missing_groups": []
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "transfer:aperez",
+     "attrs": {
+      "A": "Pass",
+      "B": "N/A",
+      "C": "N/A",
+      "D": "Pass",
+      "E": "Pass"
+     },
+     "detail": {
+      "ticket": "TRF-00002",
+      "effective": "2026-02-06",
+      "retained_groups": [],
+      "missing_groups": []
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "analytic_exception_items": null,
+   "name": "User provisioning and transfers (joiner / mover)",
+   "domain": "Access to Programs and Data",
+   "key": true,
+   "tested": 16,
+   "sample_exception_items": [
+    "hire:mtaylor2",
+    "hire:mbrown"
+   ],
+   "sample_conclusion": "Not effective",
+   "final_rows": [
+    {
+     "item": "hire:jjackson",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2025-12-01",
+      "ad_created": "2025-11-26T13:01:00+00:00",
+      "ticket": "AR-00001",
+      "approved_at": "2025-11-24T03:01:00",
+      "approver": "jhernandez"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:storres",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2025-12-25",
+      "ad_created": "2025-12-22T11:22:00+00:00",
+      "ticket": "AR-00002",
+      "approved_at": "2025-12-20T02:22:00",
+      "approver": "mwhite"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:bking",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-01-23",
+      "ad_created": "2026-01-21T15:15:00+00:00",
+      "ticket": "AR-00003",
+      "approved_at": "2026-01-19T06:15:00",
+      "approver": "jhernandez"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:ebrown",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-02-20",
+      "ad_created": "2026-02-17T12:49:00+00:00",
+      "ticket": "AR-00004",
+      "approved_at": "2026-02-16T16:49:00",
+      "approver": "gpatel"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:rjackson",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-02-26",
+      "ad_created": "2026-02-25T09:42:00+00:00",
+      "ticket": "AR-00005",
+      "approved_at": "2026-02-23T03:42:00",
+      "approver": "agonzalez"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:mtaylor2",
+     "attrs": {
+      "A": "Pass",
+      "B": "Exception",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-03-05",
+      "ad_created": "2026-03-03T11:14:00+00:00",
+      "ticket": "AR-00006",
+      "approved_at": "2026-03-06T13:14:00",
+      "approver": "prossi"
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "hire:ewilson",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-07-08",
+      "ad_created": "2026-07-07T13:34:00+00:00",
+      "ticket": "AR-00007",
+      "approved_at": "2026-07-04T20:34:00",
+      "approver": "jhernandez"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:phernandez",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-07-17",
+      "ad_created": "2026-07-15T13:20:00+00:00",
+      "ticket": "AR-00008",
+      "approved_at": "2026-07-14T16:20:00",
+      "approver": "prossi"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:mbrown",
+     "attrs": {
+      "A": "Exception",
+      "B": "N/A",
+      "C": "N/A",
+      "D": "N/A",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-07-20",
+      "ad_created": "2026-07-15T10:53:00+00:00",
+      "ticket": null
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "hire:cadams",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-07-21",
+      "ad_created": "2026-07-16T09:41:00+00:00",
+      "ticket": "AR-00009",
+      "approved_at": "2026-07-13T12:41:00",
+      "approver": "prossi"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:jadams",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-07-23",
+      "ad_created": "2026-07-21T14:40:00+00:00",
+      "ticket": "AR-00010",
+      "approved_at": "2026-07-18T16:40:00",
+      "approver": "prossi"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:rharris",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-07-24",
+      "ad_created": "2026-07-21T14:03:00+00:00",
+      "ticket": "AR-00011",
+      "approved_at": "2026-07-21T09:03:00",
+      "approver": "prossi"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:mmoreau",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-08-19",
+      "ad_created": "2026-08-14T12:30:00+00:00",
+      "ticket": "AR-00012",
+      "approved_at": "2026-08-14T01:30:00",
+      "approver": "agonzalez"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "hire:apatel",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass",
+      "E": "N/A"
+     },
+     "detail": {
+      "hire_date": "2026-09-14",
+      "ad_created": "2026-09-11T11:59:00+00:00",
+      "ticket": "AR-00013",
+      "approved_at": "2026-09-09T04:59:00",
+      "approver": "agonzalez"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "transfer:bnguyen",
+     "attrs": {
+      "A": "Pass",
+      "B": "N/A",
+      "C": "N/A",
+      "D": "Pass",
+      "E": "Pass"
+     },
+     "detail": {
+      "ticket": "TRF-00001",
+      "effective": "2026-01-14",
+      "retained_groups": [],
+      "missing_groups": []
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "transfer:aperez",
+     "attrs": {
+      "A": "Pass",
+      "B": "N/A",
+      "C": "N/A",
+      "D": "Pass",
+      "E": "Pass"
+     },
+     "detail": {
+      "ticket": "TRF-00002",
+      "effective": "2026-02-06",
+      "retained_groups": [],
+      "missing_groups": []
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "final_exception_items": [
+    "hire:mtaylor2",
+    "hire:mbrown"
+   ],
+   "final_conclusion": "Not effective"
+  },
+  "AC-02": {
+   "control_id": "AC-02",
+   "approach": "analytic",
+   "population_desc": "All employees HR lists as terminated (timeliness for in-period leavers)",
+   "population_size": 16,
+   "sample_size": 16,
+   "selection": "100% of population (data analytic)",
+   "conclusion": "Not effective",
+   "exceptions": 2,
+   "exception_items": [
+    "leaver:klee",
+    "leaver:mchen"
+   ],
+   "notes": [],
+   "completeness": {},
+   "rows": [
+    {
+     "item": "leaver:lnovak",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2024-02-08",
+      "ad_enabled": false,
+      "erp_active": false,
+      "last_logon": "2024-02-06T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:bdavis",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2024-05-09",
+      "ad_enabled": false,
+      "erp_active": false,
+      "last_logon": "2024-05-09T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:sroberts2",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2024-11-08",
+      "ad_enabled": false,
+      "erp_active": "not found",
+      "last_logon": "2024-11-05T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:dthomas",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2024-11-14",
+      "ad_enabled": false,
+      "erp_active": false,
+      "last_logon": "2024-11-12T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:sgreen",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2025-07-23",
+      "ad_enabled": false,
+      "erp_active": "not found",
+      "last_logon": "2025-07-20T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:mdavis",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2025-10-22",
+      "ad_enabled": false,
+      "erp_active": "not found",
+      "ticket": "TRM-00001",
+      "completed": "2025-10-22T12:00:00",
+      "business_days": 0,
+      "last_logon": "2025-10-21T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:lperez",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2025-12-04",
+      "ad_enabled": false,
+      "erp_active": false,
+      "ticket": "TRM-00002",
+      "completed": "2025-12-04T14:00:00",
+      "business_days": 0,
+      "last_logon": "2025-12-03T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:mwhite2",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2025-12-04",
+      "ad_enabled": false,
+      "erp_active": false,
+      "ticket": "TRM-00003",
+      "completed": "2025-12-04T16:00:00",
+      "business_days": 0,
+      "last_logon": "2025-12-03T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:klee",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Exception"
+     },
+     "detail": {
+      "termination_date": "2026-02-19",
+      "ad_enabled": false,
+      "erp_active": false,
+      "ticket": "TRM-00004",
+      "completed": "2026-02-20T16:00:00",
+      "business_days": 1,
+      "last_logon": "2026-02-25T21:14:00+00:00"
+     },
+     "notes": [
+      "lastLogonTimestamp after termination: conclusive evidence of post-termination use (replication lag can only make the timestamp older, never newer)."
+     ],
+     "exception": true
+    },
+    {
+     "item": "leaver:mchen",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Exception",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2026-02-19",
+      "ad_enabled": false,
+      "erp_active": false,
+      "ticket": "TRM-00005",
+      "completed": "2026-03-04T11:00:00",
+      "business_days": 9,
+      "last_logon": "2026-02-19T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "leaver:tgonzalez",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2026-02-23",
+      "ad_enabled": false,
+      "erp_active": false,
+      "ticket": "TRM-00006",
+      "completed": "2026-02-23T11:00:00",
+      "business_days": 0,
+      "last_logon": "2026-02-20T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:mrodriguez",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2026-03-09",
+      "ad_enabled": false,
+      "erp_active": "not found",
+      "ticket": "TRM-00007",
+      "completed": "2026-03-10T15:00:00",
+      "business_days": 1,
+      "last_logon": "2026-03-08T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:jgonzalez",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2026-04-08",
+      "ad_enabled": false,
+      "erp_active": "not found",
+      "ticket": "TRM-00008",
+      "completed": "2026-04-08T16:00:00",
+      "business_days": 0,
+      "last_logon": "2026-04-08T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:ethomas",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2026-04-20",
+      "ad_enabled": false,
+      "erp_active": "not found",
+      "ticket": "TRM-00009",
+      "completed": "2026-04-20T14:00:00",
+      "business_days": 0,
+      "last_logon": "2026-04-18T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:rjones",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2026-05-05",
+      "ad_enabled": false,
+      "erp_active": false,
+      "ticket": "TRM-00010",
+      "completed": "2026-05-06T15:00:00",
+      "business_days": 1,
+      "last_logon": "2026-05-04T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:framirez",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2026-08-11",
+      "ad_enabled": false,
+      "erp_active": false,
+      "ticket": "TRM-00011",
+      "completed": "2026-08-11T11:00:00",
+      "business_days": 0,
+      "last_logon": "2026-08-08T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "analytic_exception_items": null,
+   "name": "Timely removal of access for terminated users (leaver)",
+   "domain": "Access to Programs and Data",
+   "key": true,
+   "tested": 16,
+   "sample_exception_items": [
+    "leaver:klee",
+    "leaver:mchen"
+   ],
+   "sample_conclusion": "Not effective",
+   "final_rows": [
+    {
+     "item": "leaver:lnovak",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2024-02-08",
+      "ad_enabled": false,
+      "erp_active": false,
+      "last_logon": "2024-02-06T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:bdavis",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2024-05-09",
+      "ad_enabled": false,
+      "erp_active": false,
+      "last_logon": "2024-05-09T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:sroberts2",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2024-11-08",
+      "ad_enabled": false,
+      "erp_active": "not found",
+      "last_logon": "2024-11-05T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:dthomas",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2024-11-14",
+      "ad_enabled": false,
+      "erp_active": false,
+      "last_logon": "2024-11-12T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:sgreen",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2025-07-23",
+      "ad_enabled": false,
+      "erp_active": "not found",
+      "last_logon": "2025-07-20T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:mdavis",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2025-10-22",
+      "ad_enabled": false,
+      "erp_active": "not found",
+      "ticket": "TRM-00001",
+      "completed": "2025-10-22T12:00:00",
+      "business_days": 0,
+      "last_logon": "2025-10-21T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:lperez",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2025-12-04",
+      "ad_enabled": false,
+      "erp_active": false,
+      "ticket": "TRM-00002",
+      "completed": "2025-12-04T14:00:00",
+      "business_days": 0,
+      "last_logon": "2025-12-03T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:mwhite2",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2025-12-04",
+      "ad_enabled": false,
+      "erp_active": false,
+      "ticket": "TRM-00003",
+      "completed": "2025-12-04T16:00:00",
+      "business_days": 0,
+      "last_logon": "2025-12-03T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:klee",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Exception"
+     },
+     "detail": {
+      "termination_date": "2026-02-19",
+      "ad_enabled": false,
+      "erp_active": false,
+      "ticket": "TRM-00004",
+      "completed": "2026-02-20T16:00:00",
+      "business_days": 1,
+      "last_logon": "2026-02-25T21:14:00+00:00"
+     },
+     "notes": [
+      "lastLogonTimestamp after termination: conclusive evidence of post-termination use (replication lag can only make the timestamp older, never newer)."
+     ],
+     "exception": true
+    },
+    {
+     "item": "leaver:mchen",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Exception",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2026-02-19",
+      "ad_enabled": false,
+      "erp_active": false,
+      "ticket": "TRM-00005",
+      "completed": "2026-03-04T11:00:00",
+      "business_days": 9,
+      "last_logon": "2026-02-19T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "leaver:tgonzalez",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2026-02-23",
+      "ad_enabled": false,
+      "erp_active": false,
+      "ticket": "TRM-00006",
+      "completed": "2026-02-23T11:00:00",
+      "business_days": 0,
+      "last_logon": "2026-02-20T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:mrodriguez",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2026-03-09",
+      "ad_enabled": false,
+      "erp_active": "not found",
+      "ticket": "TRM-00007",
+      "completed": "2026-03-10T15:00:00",
+      "business_days": 1,
+      "last_logon": "2026-03-08T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:jgonzalez",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2026-04-08",
+      "ad_enabled": false,
+      "erp_active": "not found",
+      "ticket": "TRM-00008",
+      "completed": "2026-04-08T16:00:00",
+      "business_days": 0,
+      "last_logon": "2026-04-08T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:ethomas",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2026-04-20",
+      "ad_enabled": false,
+      "erp_active": "not found",
+      "ticket": "TRM-00009",
+      "completed": "2026-04-20T14:00:00",
+      "business_days": 0,
+      "last_logon": "2026-04-18T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:rjones",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2026-05-05",
+      "ad_enabled": false,
+      "erp_active": false,
+      "ticket": "TRM-00010",
+      "completed": "2026-05-06T15:00:00",
+      "business_days": 1,
+      "last_logon": "2026-05-04T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "leaver:framirez",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "termination_date": "2026-08-11",
+      "ad_enabled": false,
+      "erp_active": false,
+      "ticket": "TRM-00011",
+      "completed": "2026-08-11T11:00:00",
+      "business_days": 0,
+      "last_logon": "2026-08-08T16:00:00+00:00"
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "final_exception_items": [
+    "leaver:klee",
+    "leaver:mchen"
+   ],
+   "final_conclusion": "Not effective"
+  },
+  "AC-03": {
+   "control_id": "AC-03",
+   "approach": "analytic",
+   "population_desc": "All privileged AD/ERP/DB accounts + SoD rule set over all active ERP users",
+   "population_size": 48,
+   "sample_size": 48,
+   "selection": "100% of population (data analytic)",
+   "conclusion": "Not effective",
+   "exceptions": 1,
+   "exception_items": [
+    "Active Directory:svc_backup"
+   ],
+   "notes": [
+    "SoD rule set run over 40 active ERP users; 0 with conflicts listed."
+   ],
+   "completeness": {},
+   "rows": [
+    {
+     "item": "Active Directory:adm-awilliams",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "Administrators",
+       "Domain Admins"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "Active Directory:adm-dgarcia",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "Administrators",
+       "Domain Admins"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "Active Directory:adm-mivanova",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "Administrators",
+       "Domain Admins"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "Active Directory:administrator",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "Administrators",
+       "Domain Admins",
+       "Enterprise Admins",
+       "Group Policy Creator Owners",
+       "Schema Admins"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "Active Directory:svc_backup",
+     "attrs": {
+      "A": "Exception",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "Backup Operators"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "ERP database:eokafor",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "SUPERUSER"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "ERP database:erp_owner",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "SUPERUSER"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "ERP:erpadmin",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "ERP_ADMIN"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "analytic_exception_items": null,
+   "name": "Privileged access and segregation of duties",
+   "domain": "Access to Programs and Data",
+   "key": true,
+   "tested": 48,
+   "sample_exception_items": [
+    "Active Directory:svc_backup"
+   ],
+   "sample_conclusion": "Not effective",
+   "final_rows": [
+    {
+     "item": "Active Directory:adm-awilliams",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "Administrators",
+       "Domain Admins"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "Active Directory:adm-dgarcia",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "Administrators",
+       "Domain Admins"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "Active Directory:adm-mivanova",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "Administrators",
+       "Domain Admins"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "Active Directory:administrator",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "Administrators",
+       "Domain Admins",
+       "Enterprise Admins",
+       "Group Policy Creator Owners",
+       "Schema Admins"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "Active Directory:svc_backup",
+     "attrs": {
+      "A": "Exception",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "Backup Operators"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "ERP database:eokafor",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "SUPERUSER"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "ERP database:erp_owner",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "SUPERUSER"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "ERP:erpadmin",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "privileges": [
+       "ERP_ADMIN"
+      ],
+      "sod": ""
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "final_exception_items": [
+    "Active Directory:svc_backup"
+   ],
+   "final_conclusion": "Not effective"
+  },
+  "AC-04": {
+   "control_id": "AC-04",
+   "approach": "sample",
+   "population_desc": "Quarterly access-review sign-offs, stratified by system (2 x 4 quarters)",
+   "population_size": 8,
+   "sample_size": 4,
+   "selection": "Random selection (seed 'FY2026:AC-04:ERP'), quarterly band, high risk -> n=2 per system",
+   "conclusion": "Effective",
+   "exceptions": 0,
+   "exception_items": [],
+   "notes": [],
+   "completeness": {},
+   "rows": [
+    {
+     "item": "FY26-Q2-ADPRIV",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A"
+     },
+     "detail": {
+      "system": "AD privileged groups",
+      "quarter_end": "2026-03-31",
+      "signed_off": "2026-04-10",
+      "days_after_qe": 10,
+      "reviewer": "dokafor",
+      "removals_requested": 0,
+      "removals_not_actioned": []
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "FY26-Q4-ADPRIV",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A"
+     },
+     "detail": {
+      "system": "AD privileged groups",
+      "quarter_end": "2026-09-30",
+      "signed_off": "2026-10-13",
+      "days_after_qe": 13,
+      "reviewer": "dokafor",
+      "removals_requested": 0,
+      "removals_not_actioned": []
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "FY26-Q3-ERP",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A"
+     },
+     "detail": {
+      "system": "ERP",
+      "quarter_end": "2026-06-30",
+      "signed_off": "2026-07-13",
+      "days_after_qe": 13,
+      "reviewer": "agonzalez",
+      "removals_requested": 0,
+      "removals_not_actioned": []
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "FY26-Q4-ERP",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass"
+     },
+     "detail": {
+      "system": "ERP",
+      "quarter_end": "2026-09-30",
+      "signed_off": "2026-10-19",
+      "days_after_qe": 19,
+      "reviewer": "agonzalez",
+      "removals_requested": 1,
+      "removals_not_actioned": []
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "analytic_exception_items": [
+    "FY26-Q3-ADPRIV",
+    "FY26-Q2-ERP"
+   ],
+   "name": "Quarterly user access review",
+   "domain": "Access to Programs and Data",
+   "key": true,
+   "tested": 4,
+   "sample_exception_items": [],
+   "sample_conclusion": "Effective",
+   "final_rows": [
+    {
+     "item": "FY26-Q2-ADPRIV",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A"
+     },
+     "detail": {
+      "system": "AD privileged groups",
+      "quarter_end": "2026-03-31",
+      "signed_off": "2026-04-10",
+      "days_after_qe": 10,
+      "reviewer": "dokafor",
+      "removals_requested": 0,
+      "removals_not_actioned": []
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "FY26-Q4-ADPRIV",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A"
+     },
+     "detail": {
+      "system": "AD privileged groups",
+      "quarter_end": "2026-09-30",
+      "signed_off": "2026-10-13",
+      "days_after_qe": 13,
+      "reviewer": "dokafor",
+      "removals_requested": 0,
+      "removals_not_actioned": []
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "FY26-Q3-ERP",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "N/A"
+     },
+     "detail": {
+      "system": "ERP",
+      "quarter_end": "2026-06-30",
+      "signed_off": "2026-07-13",
+      "days_after_qe": 13,
+      "reviewer": "agonzalez",
+      "removals_requested": 0,
+      "removals_not_actioned": []
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "FY26-Q4-ERP",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass"
+     },
+     "detail": {
+      "system": "ERP",
+      "quarter_end": "2026-09-30",
+      "signed_off": "2026-10-19",
+      "days_after_qe": 19,
+      "reviewer": "agonzalez",
+      "removals_requested": 1,
+      "removals_not_actioned": []
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "FY26-Q3-ADPRIV",
+     "attrs": {
+      "A": "Pass",
+      "B": "Exception",
+      "C": "N/A"
+     },
+     "detail": {
+      "system": "AD privileged groups",
+      "quarter_end": "2026-06-30",
+      "signed_off": "2026-07-15",
+      "days_after_qe": 15,
+      "reviewer": "dgarcia",
+      "removals_requested": 0,
+      "removals_not_actioned": []
+     },
+     "notes": [
+      "Identified outside the sample by full-population analytic."
+     ],
+     "exception": true
+    },
+    {
+     "item": "FY26-Q2-ERP",
+     "attrs": {
+      "A": "Exception",
+      "B": "Pass",
+      "C": "N/A"
+     },
+     "detail": {
+      "system": "ERP",
+      "quarter_end": "2026-03-31",
+      "signed_off": "2026-05-11",
+      "days_after_qe": 41,
+      "reviewer": "agonzalez",
+      "removals_requested": 0,
+      "removals_not_actioned": []
+     },
+     "notes": [
+      "Identified outside the sample by full-population analytic."
+     ],
+     "exception": true
+    }
+   ],
+   "final_exception_items": [
+    "FY26-Q3-ADPRIV",
+    "FY26-Q2-ERP"
+   ],
+   "final_conclusion": "Not effective"
+  },
+  "AC-05": {
+   "control_id": "AC-05",
+   "approach": "analytic",
+   "population_desc": "Domain password/lockout policy + all enabled accounts' UAC flags",
+   "population_size": 77,
+   "sample_size": 77,
+   "selection": "Test of one (automated setting) + 100% analytic",
+   "conclusion": "Not effective",
+   "exceptions": 1,
+   "exception_items": [
+    "svc_scan"
+   ],
+   "notes": [
+    "userAccountControl decoded for all 70 enabled accounts; only non-compliant accounts listed.",
+    "Domain policy is an automated control: a test of one is sufficient when ITGCs over change to it are effective.",
+    "Scope limitation: No PSOs returned: none exist OR the read-only audit account lacks rights to read them (default AD ACLs restrict PSOs to Domain Admins). Request a DA-run export if relevant."
+   ],
+   "completeness": {},
+   "rows": [
+    {
+     "item": "domain:minPwdLength",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "actual": 12,
+      "required": ">= 12"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "domain:complexity",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "actual": true,
+      "required": "enabled"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "domain:pwdHistoryLength",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "actual": 24,
+      "required": ">= 24"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "domain:maxPwdAge",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "actual": 90.0,
+      "required": "1-90 days"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "domain:minPwdAge",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "actual": 1.0,
+      "required": ">= 1 day"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "domain:lockoutThreshold",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "actual": 5,
+      "required": "1-5 attempts"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "domain:lockoutDuration",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "actual": 30.0,
+      "required": ">= 30 min"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "svc_scan",
+     "attrs": {
+      "A": "Exception"
+     },
+     "detail": {
+      "kind": "service",
+      "flags": [
+       "DONT_EXPIRE_PASSWORD",
+       "NORMAL_ACCOUNT"
+      ],
+      "issue": "DONT_EXPIRE_PASSWORD without approved exception"
+     },
+     "notes": [],
+     "exception": true
+    }
+   ],
+   "analytic_exception_items": null,
+   "name": "Password and account-lockout configuration",
+   "domain": "Access to Programs and Data",
+   "key": true,
+   "tested": 77,
+   "sample_exception_items": [
+    "svc_scan"
+   ],
+   "sample_conclusion": "Not effective",
+   "final_rows": [
+    {
+     "item": "domain:minPwdLength",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "actual": 12,
+      "required": ">= 12"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "domain:complexity",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "actual": true,
+      "required": "enabled"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "domain:pwdHistoryLength",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "actual": 24,
+      "required": ">= 24"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "domain:maxPwdAge",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "actual": 90.0,
+      "required": "1-90 days"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "domain:minPwdAge",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "actual": 1.0,
+      "required": ">= 1 day"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "domain:lockoutThreshold",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "actual": 5,
+      "required": "1-5 attempts"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "domain:lockoutDuration",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "actual": 30.0,
+      "required": ">= 30 min"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "svc_scan",
+     "attrs": {
+      "A": "Exception"
+     },
+     "detail": {
+      "kind": "service",
+      "flags": [
+       "DONT_EXPIRE_PASSWORD",
+       "NORMAL_ACCOUNT"
+      ],
+      "issue": "DONT_EXPIRE_PASSWORD without approved exception"
+     },
+     "notes": [],
+     "exception": true
+    }
+   ],
+   "final_exception_items": [
+    "svc_scan"
+   ],
+   "final_conclusion": "Not effective"
+  },
+  "AC-06": {
+   "control_id": "AC-06",
+   "approach": "analytic",
+   "population_desc": "All enabled AD accounts existing at period end",
+   "population_size": 69,
+   "sample_size": 69,
+   "selection": "100% of population (data analytic)",
+   "conclusion": "Effective",
+   "exceptions": 0,
+   "exception_items": [],
+   "notes": [
+    "Threshold 90 days + 14-day lastLogonTimestamp replication tolerance; only exceptions listed."
+   ],
+   "completeness": {},
+   "rows": [],
+   "analytic_exception_items": null,
+   "name": "Dormant account management",
+   "domain": "Access to Programs and Data",
+   "key": false,
+   "tested": 69,
+   "sample_exception_items": [],
+   "sample_conclusion": "Effective",
+   "final_rows": [],
+   "final_exception_items": [],
+   "final_conclusion": "Effective"
+  },
+  "AC-07": {
+   "control_id": "AC-07",
+   "approach": "analytic",
+   "population_desc": "All enabled service and generic AD accounts",
+   "population_size": 4,
+   "sample_size": 4,
+   "selection": "100% of population (data analytic)",
+   "conclusion": "Not effective",
+   "exceptions": 1,
+   "exception_items": [
+    "svc_scan"
+   ],
+   "notes": [],
+   "completeness": {},
+   "rows": [
+    {
+     "item": "svc_backup",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass"
+     },
+     "detail": {
+      "owner": "mivanova",
+      "owner_status": "Active",
+      "description": "Nightly backup agent"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "svc_erp_app",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass"
+     },
+     "detail": {
+      "owner": "eokafor",
+      "owner_status": "Active",
+      "description": "ERP application service"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "svc_monitor",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass"
+     },
+     "detail": {
+      "owner": "awilliams",
+      "owner_status": "Active",
+      "description": "Monitoring agent (read-only)"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "svc_scan",
+     "attrs": {
+      "A": "Exception",
+      "B": "N/A",
+      "C": "Pass"
+     },
+     "detail": {
+      "owner": null,
+      "owner_status": null,
+      "description": "Network scanner/copier SMTP relay"
+     },
+     "notes": [],
+     "exception": true
+    }
+   ],
+   "analytic_exception_items": null,
+   "name": "Service and generic account management",
+   "domain": "Access to Programs and Data",
+   "key": false,
+   "tested": 4,
+   "sample_exception_items": [
+    "svc_scan"
+   ],
+   "sample_conclusion": "Not effective",
+   "final_rows": [
+    {
+     "item": "svc_backup",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass"
+     },
+     "detail": {
+      "owner": "mivanova",
+      "owner_status": "Active",
+      "description": "Nightly backup agent"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "svc_erp_app",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass"
+     },
+     "detail": {
+      "owner": "eokafor",
+      "owner_status": "Active",
+      "description": "ERP application service"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "svc_monitor",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass"
+     },
+     "detail": {
+      "owner": "awilliams",
+      "owner_status": "Active",
+      "description": "Monitoring agent (read-only)"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "svc_scan",
+     "attrs": {
+      "A": "Exception",
+      "B": "N/A",
+      "C": "Pass"
+     },
+     "detail": {
+      "owner": null,
+      "owner_status": null,
+      "description": "Network scanner/copier SMTP relay"
+     },
+     "notes": [],
+     "exception": true
+    }
+   ],
+   "final_exception_items": [
+    "svc_scan"
+   ],
+   "final_conclusion": "Not effective"
+  },
+  "CM-01": {
+   "control_id": "CM-01",
+   "approach": "sample",
+   "population_desc": "Production deployments (CI/CD log reconciled to git tags)",
+   "population_size": 32,
+   "sample_size": 15,
+   "selection": "Random selection (seed 'FY2026:CM-01'), weekly band, high risk -> n=15",
+   "conclusion": "Effective",
+   "exceptions": 0,
+   "exception_items": [],
+   "notes": [],
+   "completeness": {
+    "deployments_in_ci_log": 32,
+    "release_tags_in_git": 32,
+    "deployed_without_tag": [],
+    "tagged_without_deployment": [],
+    "reconciled": true
+   },
+   "rows": [
+    {
+     "item": "rel-2025-10-07-hotfix",
+     "attrs": {
+      "A": "Pass",
+      "B": "N/A",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00001",
+      "type": "Emergency",
+      "approved_at": "2025-10-08T10:00:00",
+      "deployed_at": "2025-10-07T21:38:00",
+      "approver": "dgarcia",
+      "developer": "dking",
+      "test_evidence": "Smoke test in production (emergency)"
+     },
+     "notes": [
+      "Emergency change: approval timing tested under CM-03."
+     ],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-10-21",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00002",
+      "type": "Normal",
+      "approved_at": "2025-10-18T17:24:00",
+      "deployed_at": "2025-10-21T19:24:00",
+      "approver": "dgarcia",
+      "developer": "dking",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-11-18",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00004",
+      "type": "Normal",
+      "approved_at": "2025-11-12T18:53:00",
+      "deployed_at": "2025-11-18T19:53:00",
+      "approver": "dgarcia",
+      "developer": "storres",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-11-25",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00005",
+      "type": "Normal",
+      "approved_at": "2025-11-21T18:21:00",
+      "deployed_at": "2025-11-25T19:21:00",
+      "approver": "dgarcia",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-12-09",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00006",
+      "type": "Normal",
+      "approved_at": "2025-12-06T14:45:00",
+      "deployed_at": "2025-12-09T19:45:00",
+      "approver": "mwhite",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-02-10",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00010",
+      "type": "Normal",
+      "approved_at": "2026-02-09T17:31:00",
+      "deployed_at": "2026-02-10T19:31:00",
+      "approver": "dgarcia",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-02-17",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00011",
+      "type": "Normal",
+      "approved_at": "2026-02-16T16:14:00",
+      "deployed_at": "2026-02-17T19:14:00",
+      "approver": "mwhite",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-02-24",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00012",
+      "type": "Normal",
+      "approved_at": "2026-02-23T16:33:00",
+      "deployed_at": "2026-02-24T19:33:00",
+      "approver": "mwhite",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-05-28",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00019",
+      "type": "Normal",
+      "approved_at": "2026-05-22T15:38:00",
+      "deployed_at": "2026-05-28T19:38:00",
+      "approver": "mwhite",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-06-04",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00020",
+      "type": "Normal",
+      "approved_at": "2026-06-01T18:16:00",
+      "deployed_at": "2026-06-04T19:16:00",
+      "approver": "mwhite",
+      "developer": "dking",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-06-16",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00021",
+      "type": "Normal",
+      "approved_at": "2026-06-14T16:50:00",
+      "deployed_at": "2026-06-16T19:50:00",
+      "approver": "dgarcia",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-07-07",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00023",
+      "type": "Normal",
+      "approved_at": "2026-07-02T17:33:00",
+      "deployed_at": "2026-07-07T19:33:00",
+      "approver": "mwhite",
+      "developer": "dadams",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-07-14",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00024",
+      "type": "Normal",
+      "approved_at": "2026-07-12T14:09:00",
+      "deployed_at": "2026-07-14T19:09:00",
+      "approver": "dgarcia",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-08-18",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00027",
+      "type": "Normal",
+      "approved_at": "2026-08-12T15:24:00",
+      "deployed_at": "2026-08-18T19:24:00",
+      "approver": "mwhite",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-08-27",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00028",
+      "type": "Normal",
+      "approved_at": "2026-08-21T14:44:00",
+      "deployed_at": "2026-08-27T19:44:00",
+      "approver": "mwhite",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "analytic_exception_items": [
+    "rel-2026-01-13",
+    "rel-2026-03-24",
+    "rel-2026-04-21",
+    "rel-2026-09-17"
+   ],
+   "name": "Change authorization and testing",
+   "domain": "Program Changes",
+   "key": true,
+   "tested": 15,
+   "sample_exception_items": [],
+   "sample_conclusion": "Effective",
+   "final_rows": [
+    {
+     "item": "rel-2025-10-07-hotfix",
+     "attrs": {
+      "A": "Pass",
+      "B": "N/A",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00001",
+      "type": "Emergency",
+      "approved_at": "2025-10-08T10:00:00",
+      "deployed_at": "2025-10-07T21:38:00",
+      "approver": "dgarcia",
+      "developer": "dking",
+      "test_evidence": "Smoke test in production (emergency)"
+     },
+     "notes": [
+      "Emergency change: approval timing tested under CM-03."
+     ],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-10-21",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00002",
+      "type": "Normal",
+      "approved_at": "2025-10-18T17:24:00",
+      "deployed_at": "2025-10-21T19:24:00",
+      "approver": "dgarcia",
+      "developer": "dking",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-11-18",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00004",
+      "type": "Normal",
+      "approved_at": "2025-11-12T18:53:00",
+      "deployed_at": "2025-11-18T19:53:00",
+      "approver": "dgarcia",
+      "developer": "storres",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-11-25",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00005",
+      "type": "Normal",
+      "approved_at": "2025-11-21T18:21:00",
+      "deployed_at": "2025-11-25T19:21:00",
+      "approver": "dgarcia",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-12-09",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00006",
+      "type": "Normal",
+      "approved_at": "2025-12-06T14:45:00",
+      "deployed_at": "2025-12-09T19:45:00",
+      "approver": "mwhite",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-02-10",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00010",
+      "type": "Normal",
+      "approved_at": "2026-02-09T17:31:00",
+      "deployed_at": "2026-02-10T19:31:00",
+      "approver": "dgarcia",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-02-17",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00011",
+      "type": "Normal",
+      "approved_at": "2026-02-16T16:14:00",
+      "deployed_at": "2026-02-17T19:14:00",
+      "approver": "mwhite",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-02-24",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00012",
+      "type": "Normal",
+      "approved_at": "2026-02-23T16:33:00",
+      "deployed_at": "2026-02-24T19:33:00",
+      "approver": "mwhite",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-05-28",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00019",
+      "type": "Normal",
+      "approved_at": "2026-05-22T15:38:00",
+      "deployed_at": "2026-05-28T19:38:00",
+      "approver": "mwhite",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-06-04",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00020",
+      "type": "Normal",
+      "approved_at": "2026-06-01T18:16:00",
+      "deployed_at": "2026-06-04T19:16:00",
+      "approver": "mwhite",
+      "developer": "dking",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-06-16",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00021",
+      "type": "Normal",
+      "approved_at": "2026-06-14T16:50:00",
+      "deployed_at": "2026-06-16T19:50:00",
+      "approver": "dgarcia",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-07-07",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00023",
+      "type": "Normal",
+      "approved_at": "2026-07-02T17:33:00",
+      "deployed_at": "2026-07-07T19:33:00",
+      "approver": "mwhite",
+      "developer": "dadams",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-07-14",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00024",
+      "type": "Normal",
+      "approved_at": "2026-07-12T14:09:00",
+      "deployed_at": "2026-07-14T19:09:00",
+      "approver": "dgarcia",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-08-18",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00027",
+      "type": "Normal",
+      "approved_at": "2026-08-12T15:24:00",
+      "deployed_at": "2026-08-18T19:24:00",
+      "approver": "mwhite",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-08-27",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00028",
+      "type": "Normal",
+      "approved_at": "2026-08-21T14:44:00",
+      "deployed_at": "2026-08-27T19:44:00",
+      "approver": "mwhite",
+      "developer": "ahaddad",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-01-13",
+     "attrs": {
+      "A": "Exception",
+      "B": "N/A",
+      "C": "N/A",
+      "D": "N/A"
+     },
+     "detail": {
+      "deployed_at": "2026-01-13T19:39:00",
+      "deployed_by": "bscott",
+      "ticket": "none"
+     },
+     "notes": [
+      "Identified outside the sample by full-population analytic."
+     ],
+     "exception": true
+    },
+    {
+     "item": "rel-2026-03-24",
+     "attrs": {
+      "A": "Exception",
+      "B": "N/A",
+      "C": "N/A",
+      "D": "N/A"
+     },
+     "detail": {
+      "deployed_at": "2026-03-24T19:00:00",
+      "deployed_by": "bscott",
+      "ticket": "none"
+     },
+     "notes": [
+      "Identified outside the sample by full-population analytic."
+     ],
+     "exception": true
+    },
+    {
+     "item": "rel-2026-04-21",
+     "attrs": {
+      "A": "Pass",
+      "B": "Exception",
+      "C": "Pass",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00016",
+      "type": "Normal",
+      "approved_at": "2026-04-23T22:05:00",
+      "deployed_at": "2026-04-21T19:05:00",
+      "approver": "dgarcia",
+      "developer": "dadams",
+      "test_evidence": "UAT sign-off attached; regression suite passed"
+     },
+     "notes": [
+      "Identified outside the sample by full-population analytic."
+     ],
+     "exception": true
+    },
+    {
+     "item": "rel-2026-09-17",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass",
+      "C": "Exception",
+      "D": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00030",
+      "type": "Normal",
+      "approved_at": "2026-09-14T17:48:00",
+      "deployed_at": "2026-09-17T19:48:00",
+      "approver": "mwhite",
+      "developer": "storres",
+      "test_evidence": "(blank)"
+     },
+     "notes": [
+      "Identified outside the sample by full-population analytic."
+     ],
+     "exception": true
+    }
+   ],
+   "final_exception_items": [
+    "rel-2026-01-13",
+    "rel-2026-03-24",
+    "rel-2026-04-21",
+    "rel-2026-09-17"
+   ],
+   "final_conclusion": "Not effective"
+  },
+  "CM-02": {
+   "control_id": "CM-02",
+   "approach": "analytic",
+   "population_desc": "All production deployments in the period",
+   "population_size": 32,
+   "sample_size": 32,
+   "selection": "100% of population (data analytic)",
+   "conclusion": "Not effective",
+   "exceptions": 3,
+   "exception_items": [
+    "rel-2025-11-25",
+    "rel-2026-06-16",
+    "rel-2026-08-18"
+   ],
+   "notes": [
+    "Deployer authorization uses current PRD-Deployers membership as the best available evidence of membership during the period (group history is not retained by AD)."
+   ],
+   "completeness": {
+    "deployments_in_ci_log": 32,
+    "release_tags_in_git": 32,
+    "deployed_without_tag": [],
+    "tagged_without_deployment": [],
+    "reconciled": true
+   },
+   "rows": [
+    {
+     "item": "rel-2025-10-07-hotfix",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2025-10-07T21:38:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-10-21",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2025-10-21T19:24:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-11-04-hotfix",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2025-11-04T13:47:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-11-18",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "storres"
+      ],
+      "deployed_at": "2025-11-18T19:53:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-11-25",
+     "attrs": {
+      "A": "Exception",
+      "B": "Exception"
+     },
+     "detail": {
+      "deployed_by": "ahaddad",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2025-11-25T19:21:00"
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "rel-2025-12-09",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2025-12-09T19:45:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-12-23",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2025-12-23T19:39:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-01-01-hotfix",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-01-01T18:48:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-01-13",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2026-01-13T19:39:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-01-27",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-01-27T19:47:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-02-10",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-02-10T19:31:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-02-17",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-02-17T19:14:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-02-24",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-02-24T19:33:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-03-10",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-03-10T19:05:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-03-24",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dadams"
+      ],
+      "deployed_at": "2026-03-24T19:00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-03-31",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dadams"
+      ],
+      "deployed_at": "2026-03-31T19:19:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-04-07",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dadams"
+      ],
+      "deployed_at": "2026-04-07T19:11:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-04-21",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dadams"
+      ],
+      "deployed_at": "2026-04-21T19:05:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-04-30",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dadams"
+      ],
+      "deployed_at": "2026-04-30T19:11:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-05-14",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-05-14T19:43:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-05-28",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-05-28T19:38:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-06-04",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2026-06-04T19:16:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-06-16",
+     "attrs": {
+      "A": "Exception",
+      "B": "Exception"
+     },
+     "detail": {
+      "deployed_by": "ahaddad",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-06-16T19:50:00"
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "rel-2026-06-23",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "storres"
+      ],
+      "deployed_at": "2026-06-23T19:07:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-07-07",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dadams"
+      ],
+      "deployed_at": "2026-07-07T19:33:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-07-14",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-07-14T19:09:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-07-23",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2026-07-23T19:01:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-08-06",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2026-08-06T19:07:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-08-18",
+     "attrs": {
+      "A": "Exception",
+      "B": "Exception"
+     },
+     "detail": {
+      "deployed_by": "ahaddad",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-08-18T19:24:00"
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "rel-2026-08-27",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-08-27T19:44:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-09-08-hotfix",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2026-09-08T11:12:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-09-17",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "storres"
+      ],
+      "deployed_at": "2026-09-17T19:48:00"
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "analytic_exception_items": null,
+   "name": "Segregation of duties - developers cannot deploy to production",
+   "domain": "Program Changes",
+   "key": true,
+   "tested": 32,
+   "sample_exception_items": [
+    "rel-2025-11-25",
+    "rel-2026-06-16",
+    "rel-2026-08-18"
+   ],
+   "sample_conclusion": "Not effective",
+   "final_rows": [
+    {
+     "item": "rel-2025-10-07-hotfix",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2025-10-07T21:38:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-10-21",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2025-10-21T19:24:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-11-04-hotfix",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2025-11-04T13:47:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-11-18",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "storres"
+      ],
+      "deployed_at": "2025-11-18T19:53:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-11-25",
+     "attrs": {
+      "A": "Exception",
+      "B": "Exception"
+     },
+     "detail": {
+      "deployed_by": "ahaddad",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2025-11-25T19:21:00"
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "rel-2025-12-09",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2025-12-09T19:45:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-12-23",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2025-12-23T19:39:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-01-01-hotfix",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-01-01T18:48:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-01-13",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2026-01-13T19:39:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-01-27",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-01-27T19:47:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-02-10",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-02-10T19:31:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-02-17",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-02-17T19:14:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-02-24",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-02-24T19:33:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-03-10",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-03-10T19:05:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-03-24",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dadams"
+      ],
+      "deployed_at": "2026-03-24T19:00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-03-31",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dadams"
+      ],
+      "deployed_at": "2026-03-31T19:19:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-04-07",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dadams"
+      ],
+      "deployed_at": "2026-04-07T19:11:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-04-21",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dadams"
+      ],
+      "deployed_at": "2026-04-21T19:05:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-04-30",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dadams"
+      ],
+      "deployed_at": "2026-04-30T19:11:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-05-14",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-05-14T19:43:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-05-28",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-05-28T19:38:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-06-04",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2026-06-04T19:16:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-06-16",
+     "attrs": {
+      "A": "Exception",
+      "B": "Exception"
+     },
+     "detail": {
+      "deployed_by": "ahaddad",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-06-16T19:50:00"
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "rel-2026-06-23",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "storres"
+      ],
+      "deployed_at": "2026-06-23T19:07:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-07-07",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dadams"
+      ],
+      "deployed_at": "2026-07-07T19:33:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-07-14",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-07-14T19:09:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-07-23",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2026-07-23T19:01:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-08-06",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2026-08-06T19:07:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-08-18",
+     "attrs": {
+      "A": "Exception",
+      "B": "Exception"
+     },
+     "detail": {
+      "deployed_by": "ahaddad",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-08-18T19:24:00"
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "rel-2026-08-27",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "ahaddad"
+      ],
+      "deployed_at": "2026-08-27T19:44:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-09-08-hotfix",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "dking"
+      ],
+      "deployed_at": "2026-09-08T11:12:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2026-09-17",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "deployed_by": "bscott",
+      "commit_authors": [
+       "storres"
+      ],
+      "deployed_at": "2026-09-17T19:48:00"
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "final_exception_items": [
+    "rel-2025-11-25",
+    "rel-2026-06-16",
+    "rel-2026-08-18"
+   ],
+   "final_conclusion": "Not effective"
+  },
+  "CM-03": {
+   "control_id": "CM-03",
+   "approach": "sample",
+   "population_desc": "Emergency (hotfix) releases",
+   "population_size": 4,
+   "sample_size": 2,
+   "selection": "Random selection (seed 'FY2026:CM-03'), quarterly band, high risk -> n=2",
+   "conclusion": "Effective",
+   "exceptions": 0,
+   "exception_items": [],
+   "notes": [],
+   "completeness": {},
+   "rows": [
+    {
+     "item": "rel-2025-10-07-hotfix",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00001",
+      "deployed_at": "2025-10-07T21:38:00",
+      "approved_at": "2025-10-08T10:00:00",
+      "business_days_to_approval": 1
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-11-04-hotfix",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00003",
+      "deployed_at": "2025-11-04T13:47:00",
+      "approved_at": "2025-11-06T10:00:00",
+      "business_days_to_approval": 2
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "analytic_exception_items": [],
+   "name": "Emergency change approval",
+   "domain": "Program Changes",
+   "key": true,
+   "tested": 2,
+   "sample_exception_items": [],
+   "sample_conclusion": "Effective",
+   "final_rows": [
+    {
+     "item": "rel-2025-10-07-hotfix",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00001",
+      "deployed_at": "2025-10-07T21:38:00",
+      "approved_at": "2025-10-08T10:00:00",
+      "business_days_to_approval": 1
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "rel-2025-11-04-hotfix",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "ticket": "CHG-00003",
+      "deployed_at": "2025-11-04T13:47:00",
+      "approved_at": "2025-11-06T10:00:00",
+      "business_days_to_approval": 2
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "final_exception_items": [],
+   "final_conclusion": "Effective"
+  },
+  "CM-04": {
+   "control_id": "CM-04",
+   "approach": "analytic",
+   "population_desc": "Every row in production public.schema_migrations",
+   "population_size": 11,
+   "sample_size": 11,
+   "selection": "100% of population (data analytic)",
+   "conclusion": "Not effective",
+   "exceptions": 1,
+   "exception_items": [
+    "V012"
+   ],
+   "notes": [],
+   "completeness": {},
+   "rows": [
+    {
+     "item": "V001",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2025-10-07T21:41:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2025-10-07-hotfix",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V002",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2025-11-04T13:50:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2025-11-04-hotfix",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V003",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2025-11-18T19:56:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2025-11-18",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V004",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2025-12-23T19:42:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2025-12-23",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V005",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2026-01-27T19:50:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2026-01-27",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V006",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2026-03-10T19:08:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2026-03-10",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V008",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2026-04-30T19:14:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2026-04-30",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V009",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2026-06-04T19:19:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2026-06-04",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V010",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2026-07-23T19:04:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2026-07-23",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V011",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2026-08-06T19:10:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2026-08-06",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V012",
+     "attrs": {
+      "A": "Exception",
+      "B": "Exception"
+     },
+     "detail": {
+      "applied_at": "2026-05-14T22:41:07",
+      "applied_by": "ahaddad",
+      "release": null
+     },
+     "notes": [],
+     "exception": true
+    }
+   ],
+   "analytic_exception_items": null,
+   "name": "Database changes only through the release process",
+   "domain": "Program Changes",
+   "key": true,
+   "tested": 11,
+   "sample_exception_items": [
+    "V012"
+   ],
+   "sample_conclusion": "Not effective",
+   "final_rows": [
+    {
+     "item": "V001",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2025-10-07T21:41:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2025-10-07-hotfix",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V002",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2025-11-04T13:50:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2025-11-04-hotfix",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V003",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2025-11-18T19:56:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2025-11-18",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V004",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2025-12-23T19:42:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2025-12-23",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V005",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2026-01-27T19:50:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2026-01-27",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V006",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2026-03-10T19:08:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2026-03-10",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V008",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2026-04-30T19:14:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2026-04-30",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V009",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2026-06-04T19:19:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2026-06-04",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V010",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2026-07-23T19:04:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2026-07-23",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V011",
+     "attrs": {
+      "A": "Pass",
+      "B": "Pass"
+     },
+     "detail": {
+      "applied_at": "2026-08-06T19:10:00",
+      "applied_by": "erp_owner",
+      "release": "rel-2026-08-06",
+      "minutes_after_deploy": 3.0
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "V012",
+     "attrs": {
+      "A": "Exception",
+      "B": "Exception"
+     },
+     "detail": {
+      "applied_at": "2026-05-14T22:41:07",
+      "applied_by": "ahaddad",
+      "release": null
+     },
+     "notes": [],
+     "exception": true
+    }
+   ],
+   "final_exception_items": [
+    "V012"
+   ],
+   "final_conclusion": "Not effective"
+  },
+  "OPS-01": {
+   "control_id": "OPS-01",
+   "approach": "analytic",
+   "population_desc": "All nightly ERP backup runs in the period (scheduler log); failures tested",
+   "population_size": 365,
+   "sample_size": 9,
+   "selection": "100% of failed runs identified by analytic over the full job log",
+   "conclusion": "Not effective",
+   "exceptions": 2,
+   "exception_items": [
+    "2026-01-28",
+    "2026-06-26"
+   ],
+   "notes": [
+    "365 runs in period, 9 failed (2.5%).",
+    "Observation: 2 consecutive failed nights 2025-11-16 to 2025-11-17 - recovery point exposure of 3 days.",
+    "Observation: 3 consecutive failed nights 2026-06-03 to 2026-06-05 - recovery point exposure of 4 days.",
+    "Sampling study: a traditional random sample of 20 daily runs would have contained 1 failed run(s) (2026-06-01)."
+   ],
+   "completeness": {
+    "runs": 365,
+    "expected_days": 365
+   },
+   "rows": [
+    {
+     "item": "2025-11-16",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "INC-00001",
+      "start": "2025-11-16T01:00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2025-11-17",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "INC-00002",
+      "start": "2025-11-17T01:05:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2025-11-26",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "INC-00003",
+      "start": "2025-11-26T01:00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-01-28",
+     "attrs": {
+      "A": "Exception"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "none",
+      "start": "2026-01-28T01:09:00"
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "2026-06-01",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "INC-00004",
+      "start": "2026-06-01T01:02:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-06-03",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "INC-00005",
+      "start": "2026-06-03T01:03:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-06-04",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "INC-00006",
+      "start": "2026-06-04T01:01:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-06-05",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "INC-00007",
+      "start": "2026-06-05T01:08:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-06-26",
+     "attrs": {
+      "A": "Exception"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "none",
+      "start": "2026-06-26T01:01:00"
+     },
+     "notes": [],
+     "exception": true
+    }
+   ],
+   "analytic_exception_items": null,
+   "name": "Backup monitoring and failure resolution",
+   "domain": "Computer Operations",
+   "key": true,
+   "tested": 9,
+   "sample_exception_items": [
+    "2026-01-28",
+    "2026-06-26"
+   ],
+   "sample_conclusion": "Not effective",
+   "final_rows": [
+    {
+     "item": "2025-11-16",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "INC-00001",
+      "start": "2025-11-16T01:00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2025-11-17",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "INC-00002",
+      "start": "2025-11-17T01:05:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2025-11-26",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "INC-00003",
+      "start": "2025-11-26T01:00:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-01-28",
+     "attrs": {
+      "A": "Exception"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "none",
+      "start": "2026-01-28T01:09:00"
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "2026-06-01",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "INC-00004",
+      "start": "2026-06-01T01:02:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-06-03",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "INC-00005",
+      "start": "2026-06-03T01:03:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-06-04",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "INC-00006",
+      "start": "2026-06-04T01:01:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-06-05",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "INC-00007",
+      "start": "2026-06-05T01:08:00"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-06-26",
+     "attrs": {
+      "A": "Exception"
+     },
+     "detail": {
+      "status": "Failed",
+      "ticket": "none",
+      "start": "2026-06-26T01:01:00"
+     },
+     "notes": [],
+     "exception": true
+    }
+   ],
+   "final_exception_items": [
+    "2026-01-28",
+    "2026-06-26"
+   ],
+   "final_conclusion": "Not effective"
+  },
+  "OPS-02": {
+   "control_id": "OPS-02",
+   "approach": "sample",
+   "population_desc": "Restore tests in the period (annual control -> test of one)",
+   "population_size": 0,
+   "sample_size": 1,
+   "selection": "Annual control: 1 occurrence expected",
+   "conclusion": "Not effective",
+   "exceptions": 1,
+   "exception_items": [
+    "management restore test (FY2026)"
+   ],
+   "notes": [
+    "Auditor re-performance proves the backup mechanism works today; it does NOT cure the control failure (management did not perform the control during the period)."
+   ],
+   "completeness": {},
+   "rows": [
+    {
+     "item": "management restore test (FY2026)",
+     "attrs": {
+      "A": "Exception",
+      "B": "N/A"
+     },
+     "detail": {
+      "tests_in_period": 0,
+      "most_recent_test": "2024-11-14"
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "auditor re-performance",
+     "attrs": {
+      "A": "N/A",
+      "B": "Pass"
+     },
+     "detail": {
+      "database": "erp",
+      "backup_seconds": 0.04,
+      "restore_seconds": 0.11,
+      "total_seconds": 0.37,
+      "dump_bytes": 44418,
+      "tables": 6,
+      "rows_restored": 2877,
+      "tables_mismatched": 0,
+      "performed_at": "2026-10-10T20:37:30Z"
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "analytic_exception_items": null,
+   "name": "Periodic restore testing",
+   "domain": "Computer Operations",
+   "key": true,
+   "tested": 1,
+   "sample_exception_items": [
+    "management restore test (FY2026)"
+   ],
+   "sample_conclusion": "Not effective",
+   "final_rows": [
+    {
+     "item": "management restore test (FY2026)",
+     "attrs": {
+      "A": "Exception",
+      "B": "N/A"
+     },
+     "detail": {
+      "tests_in_period": 0,
+      "most_recent_test": "2024-11-14"
+     },
+     "notes": [],
+     "exception": true
+    },
+    {
+     "item": "auditor re-performance",
+     "attrs": {
+      "A": "N/A",
+      "B": "Pass"
+     },
+     "detail": {
+      "database": "erp",
+      "backup_seconds": 0.04,
+      "restore_seconds": 0.11,
+      "total_seconds": 0.37,
+      "dump_bytes": 44418,
+      "tables": 6,
+      "rows_restored": 2877,
+      "tables_mismatched": 0,
+      "performed_at": "2026-10-10T20:37:30Z"
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "final_exception_items": [
+    "management restore test (FY2026)"
+   ],
+   "final_conclusion": "Not effective"
+  },
+  "OPS-03": {
+   "control_id": "OPS-03",
+   "approach": "analytic",
+   "population_desc": "All ERP-to-GL interface runs in the period; failures tested",
+   "population_size": 261,
+   "sample_size": 6,
+   "selection": "100% of failed runs identified by analytic over the full job log",
+   "conclusion": "Effective",
+   "exceptions": 0,
+   "exception_items": [],
+   "notes": [
+    "261 business-day runs, 6 failed."
+   ],
+   "completeness": {},
+   "rows": [
+    {
+     "item": "2026-02-11",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "ticket": "INC-00008",
+      "rerun": "Success"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-04-22",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "ticket": "INC-00009",
+      "rerun": "Success"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-05-21",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "ticket": "INC-00010",
+      "rerun": "Success"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-06-19",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "ticket": "INC-00011",
+      "rerun": "Success"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-08-19",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "ticket": "INC-00012",
+      "rerun": "Success"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-09-08",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "ticket": "INC-00013",
+      "rerun": "Success"
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "analytic_exception_items": null,
+   "name": "Batch job monitoring (ERP to GL interface)",
+   "domain": "Computer Operations",
+   "key": true,
+   "tested": 6,
+   "sample_exception_items": [],
+   "sample_conclusion": "Effective",
+   "final_rows": [
+    {
+     "item": "2026-02-11",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "ticket": "INC-00008",
+      "rerun": "Success"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-04-22",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "ticket": "INC-00009",
+      "rerun": "Success"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-05-21",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "ticket": "INC-00010",
+      "rerun": "Success"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-06-19",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "ticket": "INC-00011",
+      "rerun": "Success"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-08-19",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "ticket": "INC-00012",
+      "rerun": "Success"
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "2026-09-08",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "ticket": "INC-00013",
+      "rerun": "Success"
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "final_exception_items": [],
+   "final_conclusion": "Effective"
+  },
+  "OPS-04": {
+   "control_id": "OPS-04",
+   "approach": "sample",
+   "population_desc": "P1 incidents in the period",
+   "population_size": 3,
+   "sample_size": 2,
+   "selection": "Random selection (seed 'FY2026:OPS-04'), quarterly band, low risk -> n=2",
+   "conclusion": "Effective",
+   "exceptions": 0,
+   "exception_items": [],
+   "notes": [],
+   "completeness": {},
+   "rows": [
+    {
+     "item": "INC-00036",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "opened": "2025-11-20T08:05:00",
+      "rca": "PRB-2600",
+      "business_days": 7
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "INC-00038",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "opened": "2026-08-17T08:05:00",
+      "rca": "PRB-2602",
+      "business_days": 6
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "analytic_exception_items": [],
+   "name": "Incident management - P1 root-cause analysis",
+   "domain": "Computer Operations",
+   "key": false,
+   "tested": 2,
+   "sample_exception_items": [],
+   "sample_conclusion": "Effective",
+   "final_rows": [
+    {
+     "item": "INC-00036",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "opened": "2025-11-20T08:05:00",
+      "rca": "PRB-2600",
+      "business_days": 7
+     },
+     "notes": [],
+     "exception": false
+    },
+    {
+     "item": "INC-00038",
+     "attrs": {
+      "A": "Pass"
+     },
+     "detail": {
+      "opened": "2026-08-17T08:05:00",
+      "rca": "PRB-2602",
+      "business_days": 6
+     },
+     "notes": [],
+     "exception": false
+    }
+   ],
+   "final_exception_items": [],
+   "final_conclusion": "Effective"
+  }
+ },
+ "deficiencies": [
+  {
+   "control_id": "AC-01",
+   "name": "User provisioning and transfers (joiner / mover)",
+   "domain": "Access to Programs and Data",
+   "key": true,
+   "exceptions": 2,
+   "tested": 16,
+   "realised": false,
+   "pervasive": false,
+   "compensating": [],
+   "compensating_effective": false,
+   "classification": "Control deficiency",
+   "mw_consideration": false,
+   "rationale": [
+    "2 exception(s) in 16 item(s) tested; tolerable deviation rate is 0 -> control not effective.",
+    "No evidence the risk was realised (exposure only)."
+   ]
+  },
+  {
+   "control_id": "AC-02",
+   "name": "Timely removal of access for terminated users (leaver)",
+   "domain": "Access to Programs and Data",
+   "key": true,
+   "exceptions": 2,
+   "tested": 16,
+   "realised": true,
+   "pervasive": false,
+   "compensating": [
+    "AC-04"
+   ],
+   "compensating_effective": false,
+   "classification": "Significant deficiency",
+   "mw_consideration": false,
+   "rationale": [
+    "2 exception(s) in 16 item(s) tested; tolerable deviation rate is 0 -> control not effective.",
+    "Risk realised in the evidence (failed attribute(s) D).",
+    "Compensating control(s) AC-04 NOT effective - cannot be relied on."
+   ]
+  },
+  {
+   "control_id": "AC-03",
+   "name": "Privileged access and segregation of duties",
+   "domain": "Access to Programs and Data",
+   "key": true,
+   "exceptions": 1,
+   "tested": 48,
+   "realised": true,
+   "pervasive": true,
+   "compensating": [],
+   "compensating_effective": false,
+   "classification": "Significant deficiency",
+   "mw_consideration": true,
+   "rationale": [
+    "1 exception(s) in 48 item(s) tested; tolerable deviation rate is 0 -> control not effective.",
+    "Risk realised in the evidence (failed attribute(s) A).",
+    "Pervasive: affects domain-wide settings or tier-0/database administration.",
+    "Realised AND pervasive: escalate for material-weakness consideration (requires the financial-statement impact assessment, outside ITGC scope)."
+   ]
+  },
+  {
+   "control_id": "AC-04",
+   "name": "Quarterly user access review",
+   "domain": "Access to Programs and Data",
+   "key": true,
+   "exceptions": 2,
+   "tested": 4,
+   "realised": false,
+   "pervasive": false,
+   "compensating": [],
+   "compensating_effective": false,
+   "classification": "Control deficiency",
+   "mw_consideration": false,
+   "rationale": [
+    "2 exception(s) in 4 item(s) tested; tolerable deviation rate is 0 -> control not effective.",
+    "No evidence the risk was realised (exposure only)."
+   ]
+  },
+  {
+   "control_id": "AC-05",
+   "name": "Password and account-lockout configuration",
+   "domain": "Access to Programs and Data",
+   "key": true,
+   "exceptions": 1,
+   "tested": 77,
+   "realised": false,
+   "pervasive": false,
+   "compensating": [],
+   "compensating_effective": false,
+   "classification": "Control deficiency",
+   "mw_consideration": false,
+   "rationale": [
+    "1 exception(s) in 77 item(s) tested; tolerable deviation rate is 0 -> control not effective.",
+    "No evidence the risk was realised (exposure only)."
+   ]
+  },
+  {
+   "control_id": "AC-07",
+   "name": "Service and generic account management",
+   "domain": "Access to Programs and Data",
+   "key": false,
+   "exceptions": 1,
+   "tested": 4,
+   "realised": false,
+   "pervasive": false,
+   "compensating": [],
+   "compensating_effective": false,
+   "classification": "Control deficiency",
+   "mw_consideration": false,
+   "rationale": [
+    "1 exception(s) in 4 item(s) tested; tolerable deviation rate is 0 -> control not effective.",
+    "No evidence the risk was realised (exposure only)."
+   ]
+  },
+  {
+   "control_id": "CM-01",
+   "name": "Change authorization and testing",
+   "domain": "Program Changes",
+   "key": true,
+   "exceptions": 4,
+   "tested": 15,
+   "realised": true,
+   "pervasive": false,
+   "compensating": [],
+   "compensating_effective": false,
+   "classification": "Significant deficiency",
+   "mw_consideration": false,
+   "rationale": [
+    "4 exception(s) in 15 item(s) tested; tolerable deviation rate is 0 -> control not effective.",
+    "Risk realised in the evidence (failed attribute(s) A, B)."
+   ]
+  },
+  {
+   "control_id": "CM-02",
+   "name": "Segregation of duties - developers cannot deploy to production",
+   "domain": "Program Changes",
+   "key": true,
+   "exceptions": 3,
+   "tested": 32,
+   "realised": true,
+   "pervasive": false,
+   "compensating": [],
+   "compensating_effective": false,
+   "classification": "Significant deficiency",
+   "mw_consideration": false,
+   "rationale": [
+    "3 exception(s) in 32 item(s) tested; tolerable deviation rate is 0 -> control not effective.",
+    "Risk realised in the evidence (failed attribute(s) B)."
+   ]
+  },
+  {
+   "control_id": "CM-04",
+   "name": "Database changes only through the release process",
+   "domain": "Program Changes",
+   "key": true,
+   "exceptions": 1,
+   "tested": 11,
+   "realised": true,
+   "pervasive": false,
+   "compensating": [],
+   "compensating_effective": false,
+   "classification": "Significant deficiency",
+   "mw_consideration": false,
+   "rationale": [
+    "1 exception(s) in 11 item(s) tested; tolerable deviation rate is 0 -> control not effective.",
+    "Risk realised in the evidence (failed attribute(s) A)."
+   ]
+  },
+  {
+   "control_id": "OPS-01",
+   "name": "Backup monitoring and failure resolution",
+   "domain": "Computer Operations",
+   "key": true,
+   "exceptions": 2,
+   "tested": 9,
+   "realised": false,
+   "pervasive": false,
+   "compensating": [],
+   "compensating_effective": false,
+   "classification": "Control deficiency",
+   "mw_consideration": false,
+   "rationale": [
+    "2 exception(s) in 9 item(s) tested; tolerable deviation rate is 0 -> control not effective.",
+    "No evidence the risk was realised (exposure only)."
+   ]
+  },
+  {
+   "control_id": "OPS-02",
+   "name": "Periodic restore testing",
+   "domain": "Computer Operations",
+   "key": true,
+   "exceptions": 1,
+   "tested": 1,
+   "realised": false,
+   "pervasive": false,
+   "compensating": [],
+   "compensating_effective": false,
+   "classification": "Control deficiency",
+   "mw_consideration": false,
+   "rationale": [
+    "1 exception(s) in 1 item(s) tested; tolerable deviation rate is 0 -> control not effective.",
+    "No evidence the risk was realised (exposure only)."
+   ]
+  }
+ ],
+ "aggregates": [
+  {
+   "risk_id": "R-APD-1",
+   "risk": "Unauthorized users obtain access to financially significant systems and data.",
+   "controls": [
+    "AC-01",
+    "AC-07"
+   ],
+   "classification": "Significant deficiency",
+   "rationale": "2 of 2 controls addressing this risk are not effective (AC-01, AC-07); no control addressing it is effective - risk unmitigated."
+  },
+  {
+   "risk_id": "R-APD-2",
+   "risk": "Authorized users obtain access beyond their job responsibilities (incl. SoD conflicts).",
+   "controls": [
+    "AC-01",
+    "AC-03",
+    "AC-04"
+   ],
+   "classification": "Significant deficiency",
+   "rationale": "3 of 3 controls addressing this risk are not effective (AC-01, AC-03, AC-04); no control addressing it is effective - risk unmitigated."
+  },
+  {
+   "risk_id": "R-APD-3",
+   "risk": "Former employees or unused accounts retain access that can be misused.",
+   "controls": [
+    "AC-02",
+    "AC-04",
+    "AC-07"
+   ],
+   "classification": "Significant deficiency",
+   "rationale": "3 of 4 controls addressing this risk are not effective (AC-02, AC-04, AC-07); remaining effective: AC-06."
+  },
+  {
+   "risk_id": "R-PC-1",
+   "risk": "Unauthorized or untested changes are implemented in production.",
+   "controls": [
+    "CM-01",
+    "CM-04"
+   ],
+   "classification": "Significant deficiency",
+   "rationale": "2 of 3 controls addressing this risk are not effective (CM-01, CM-04); remaining effective: CM-03."
+  },
+  {
+   "risk_id": "R-PC-2",
+   "risk": "Developers make changes to production programs or data without independent review.",
+   "controls": [
+    "AC-03",
+    "CM-02",
+    "CM-04"
+   ],
+   "classification": "Significant deficiency",
+   "rationale": "3 of 3 controls addressing this risk are not effective (AC-03, CM-02, CM-04); no control addressing it is effective - risk unmitigated."
+  },
+  {
+   "risk_id": "R-CO-1",
+   "risk": "Financial data cannot be recovered after loss or corruption.",
+   "controls": [
+    "OPS-01",
+    "OPS-02"
+   ],
+   "classification": "Significant deficiency",
+   "rationale": "2 of 2 controls addressing this risk are not effective (OPS-01, OPS-02); no control addressing it is effective - risk unmitigated."
+  }
+ ],
+ "scoring": {
+  "planted": 39,
+  "detected": 19,
+  "recall": 0.48717948717948717,
+  "sampled_controls_planted": 8,
+  "sampled_controls_found_by_sample": 1,
+  "sampled_controls_found_by_analytic": 7,
+  "issues": [
+   {
+    "issue_id": "P2",
+    "control_id": "AC-01",
+    "item": "mtaylor2",
+    "description": "Access request approved 3 days after the account was created",
+    "detected": true,
+    "detected_by_sample_only_approach": true,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "P1",
+    "control_id": "AC-01",
+    "item": "mbrown",
+    "description": "New hire account created with no access request ticket",
+    "detected": true,
+    "detected_by_sample_only_approach": true,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "P3",
+    "control_id": "AC-01",
+    "item": "cadams",
+    "description": "New hire granted APP-ERP-GL-Approver, which was not on the approved request",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "M1",
+    "control_id": "AC-01",
+    "item": "bnguyen",
+    "description": "Transferred employee kept prior-role access (APP-ERP-GL-Poster) after transfer ticket closed",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "D4",
+    "control_id": "AC-02",
+    "item": "mchen",
+    "description": "AD/ERP access removed 9 business days after termination",
+    "detected": true,
+    "detected_by_sample_only_approach": true,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "D1",
+    "control_id": "AC-02",
+    "item": "klee",
+    "description": "Terminated user still enabled in AD and logged on after termination date",
+    "detected": true,
+    "detected_by_sample_only_approach": true,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "D2",
+    "control_id": "AC-02",
+    "item": "ethomas",
+    "description": "Terminated user still enabled in AD",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "D3",
+    "control_id": "AC-02",
+    "item": "framirez",
+    "description": "Terminated user disabled in AD but still active in the ERP",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "DM-rnovak",
+    "control_id": "AC-06",
+    "item": "rnovak",
+    "description": "Enabled account with no logon in more than 90 days",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "DM-gmensah",
+    "control_id": "AC-06",
+    "item": "gmensah",
+    "description": "Enabled account with no logon in more than 90 days",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "DM-lbaker",
+    "control_id": "AC-06",
+    "item": "lbaker",
+    "description": "Account of employee on leave of absence not disabled after 90 days of inactivity",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "PW3-pjohnson",
+    "control_id": "AC-05",
+    "item": "pjohnson",
+    "description": "Non-service user account set to 'password never expires'",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "PW3-jallen",
+    "control_id": "AC-05",
+    "item": "jallen",
+    "description": "Non-service user account set to 'password never expires'",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "PW4",
+    "control_id": "AC-05",
+    "item": "mmoore",
+    "description": "User account flagged PASSWD_NOTREQD (password not required)",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "PW1",
+    "control_id": "AC-05",
+    "item": "domain:minPwdLength",
+    "description": "Domain minimum password length 8 vs. standard 12",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "PW2",
+    "control_id": "AC-05",
+    "item": "domain:lockoutThreshold",
+    "description": "Account lockout disabled (threshold 0) vs. standard 5",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "PR1",
+    "control_id": "AC-03",
+    "item": "ahaddad",
+    "description": "Software developer's everyday account is a member of Domain Admins",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "PR2",
+    "control_id": "AC-03",
+    "item": "svc_backup",
+    "description": "Backup service account is a member of Domain Admins",
+    "detected": true,
+    "detected_by_sample_only_approach": true,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "SV2",
+    "control_id": "AC-07",
+    "item": "svc_scan",
+    "description": "Service account not in the service-account inventory (no owner)",
+    "detected": true,
+    "detected_by_sample_only_approach": true,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "SV3",
+    "control_id": "AC-07",
+    "item": "svc_legacyftp",
+    "description": "Service account owner is a terminated employee",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "DM-svc_legacyftp",
+    "control_id": "AC-06",
+    "item": "svc_legacyftp",
+    "description": "Service account inactive for 412 days but still enabled",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "SV1",
+    "control_id": "AC-07",
+    "item": "frontdesk",
+    "description": "Generic shared account enabled with ERP access",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "PR4",
+    "control_id": "AC-03",
+    "item": "apatel",
+    "description": "AP clerk holds the ERP_ADMIN role",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "SOD1",
+    "control_id": "AC-03",
+    "item": "brivera",
+    "description": "User can both enter vendor invoices (AP_CLERK) and approve payments (AP_APPROVER)",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "PR3",
+    "control_id": "AC-03",
+    "item": "ahaddad",
+    "description": "Software developer has SUPERUSER on the production ERP database",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "SOD-rel-2025-11-25",
+    "control_id": "CM-02",
+    "item": "rel-2025-11-25",
+    "description": "Developer deployed their own change to production",
+    "detected": true,
+    "detected_by_sample_only_approach": true,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "C1-rel-2026-01-13",
+    "control_id": "CM-01",
+    "item": "rel-2026-01-13",
+    "description": "Production release with no change ticket",
+    "detected": true,
+    "detected_by_sample_only_approach": false,
+    "approach": "sample"
+   },
+   {
+    "issue_id": "C1-rel-2026-03-24",
+    "control_id": "CM-01",
+    "item": "rel-2026-03-24",
+    "description": "Production release with no change ticket",
+    "detected": true,
+    "detected_by_sample_only_approach": false,
+    "approach": "sample"
+   },
+   {
+    "issue_id": "C2-rel-2026-04-21",
+    "control_id": "CM-01",
+    "item": "rel-2026-04-21",
+    "description": "Change approved two days after it was deployed",
+    "detected": true,
+    "detected_by_sample_only_approach": false,
+    "approach": "sample"
+   },
+   {
+    "issue_id": "SOD-rel-2026-06-16",
+    "control_id": "CM-02",
+    "item": "rel-2026-06-16",
+    "description": "Developer deployed their own change to production",
+    "detected": true,
+    "detected_by_sample_only_approach": true,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "SOD-rel-2026-08-18",
+    "control_id": "CM-02",
+    "item": "rel-2026-08-18",
+    "description": "Developer deployed their own change to production",
+    "detected": true,
+    "detected_by_sample_only_approach": true,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "C3-rel-2026-09-17",
+    "control_id": "CM-01",
+    "item": "rel-2026-09-17",
+    "description": "No testing / UAT evidence on the change ticket",
+    "detected": true,
+    "detected_by_sample_only_approach": false,
+    "approach": "sample"
+   },
+   {
+    "issue_id": "DB1",
+    "control_id": "CM-04",
+    "item": "V012",
+    "description": "Schema change applied directly to production outside the release process",
+    "detected": true,
+    "detected_by_sample_only_approach": true,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "U1",
+    "control_id": "AC-04",
+    "item": "FY26-Q2-ERP",
+    "description": "ERP access review signed off 41 days after quarter end (standard: 30)",
+    "detected": true,
+    "detected_by_sample_only_approach": false,
+    "approach": "sample"
+   },
+   {
+    "issue_id": "U3",
+    "control_id": "AC-04",
+    "item": "FY26-Q3-ADPRIV",
+    "description": "IT Manager reviewed privileged groups that include his own admin account",
+    "detected": true,
+    "detected_by_sample_only_approach": false,
+    "approach": "sample"
+   },
+   {
+    "issue_id": "U2",
+    "control_id": "AC-04",
+    "item": "FY26-Q4-ERP",
+    "description": "Access-review removal (APP-ERP-AP-Approver) marked complete but still present in AD",
+    "detected": false,
+    "detected_by_sample_only_approach": false,
+    "approach": "sample"
+   },
+   {
+    "issue_id": "BK-2026-01-28",
+    "control_id": "OPS-01",
+    "item": "2026-01-28",
+    "description": "Backup failure with no incident ticket / follow-up",
+    "detected": true,
+    "detected_by_sample_only_approach": true,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "BK-2026-06-26",
+    "control_id": "OPS-01",
+    "item": "2026-06-26",
+    "description": "Backup failure with no incident ticket / follow-up",
+    "detected": true,
+    "detected_by_sample_only_approach": true,
+    "approach": "analytic"
+   },
+   {
+    "issue_id": "RT1",
+    "control_id": "OPS-02",
+    "item": "management restore test (FY2026)",
+    "description": "No restore test performed during the audit period (annual requirement)",
+    "detected": true,
+    "detected_by_sample_only_approach": true,
+    "approach": "sample"
+   }
+  ],
+  "extras": [
+   {
+    "control_id": "AC-05",
+    "item": "svc_scan",
+    "kind": "knock-on of a planted issue (same entity planted under another control)"
+   }
+  ]
+ }
+}

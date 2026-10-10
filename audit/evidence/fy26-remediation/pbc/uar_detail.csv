@@ -1,0 +1,2 @@
+review_id,account,entitlement,decision,reviewer,comment,removal_ticket,removal_status
+FY26-Q4-ERP,amartinez,APP-ERP-AP-Approver,Remove,agonzalez,Duplicate approver; Controller covers AP approvals,AR-REMOVE-0412,Closed

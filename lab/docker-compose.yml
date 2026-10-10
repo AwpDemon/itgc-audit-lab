@@ -1,0 +1,45 @@
+# ITGC audit lab: an AD domain controller (Samba 4) + the ERP application database (PostgreSQL).
+# Ports bind to 127.0.0.1 only; nothing in this lab is reachable from the network.
+# Lab credentials below are throwaway values for a disposable, synthetic environment.
+name: itgc-lab
+
+services:
+  dc:
+    build: ./samba
+    image: itgc-lab/samba-dc:local
+    hostname: dc1
+    domainname: kestrel.lab.test
+    environment:
+      SAMBA_REALM: KESTREL.LAB.TEST
+      SAMBA_DOMAIN: KESTREL
+      SAMBA_ADMIN_PASS: ${SAMBA_ADMIN_PASS:-Lab-Only-Adm1n!2026}
+    cap_add: [SYS_ADMIN]          # needed for security.* xattrs (NT ACLs on sysvol)
+    volumes:
+      - dc-data:/var/lib/samba
+    ports:
+      - "127.0.0.1:1389:389"
+      - "127.0.0.1:1636:636"
+    healthcheck:
+      test: ["CMD-SHELL", "ldapsearch -x -H ldap://127.0.0.1 -s base -b '' namingContexts >/dev/null"]
+      interval: 10s
+      retries: 30
+
+  erpdb:
+    image: postgres:16.4-bookworm
+    environment:
+      POSTGRES_DB: erp
+      POSTGRES_USER: erp_owner
+      POSTGRES_PASSWORD: ${ERP_DB_PASS:-lab-only-erp-owner}
+    volumes:
+      - erp-data:/var/lib/postgresql/data
+      - ./scripts:/lab-scripts:ro
+    ports:
+      - "127.0.0.1:15432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U erp_owner -d erp"]
+      interval: 5s
+      retries: 30
+
+volumes:
+  dc-data:
+  erp-data:

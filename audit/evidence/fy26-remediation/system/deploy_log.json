@@ -1,0 +1,290 @@
+[
+ {
+  "pipeline_run": "run-4101",
+  "environment": "production",
+  "tag": "rel-2025-10-07-hotfix",
+  "commit": "7af3ed2ab49ddcaf860b4661ec452ce9e2dcba90",
+  "deployed_at": "2025-10-07T21:38:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4102",
+  "environment": "production",
+  "tag": "rel-2025-10-21",
+  "commit": "fdff005eab4c976b7c4550209ae7b2a010242296",
+  "deployed_at": "2025-10-21T19:24:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4103",
+  "environment": "production",
+  "tag": "rel-2025-11-04-hotfix",
+  "commit": "365dfac781b8c4abe4a8df145a1c4d0da116aeed",
+  "deployed_at": "2025-11-04T13:47:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4104",
+  "environment": "production",
+  "tag": "rel-2025-11-18",
+  "commit": "f8cc9fac72074b71f759a8e336c111aad66a2d9f",
+  "deployed_at": "2025-11-18T19:53:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4105",
+  "environment": "production",
+  "tag": "rel-2025-11-25",
+  "commit": "f690bb4fe1cd5ac7a71132db3b1b315842df80c0",
+  "deployed_at": "2025-11-25T19:21:00",
+  "deployed_by": "ahaddad",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4106",
+  "environment": "production",
+  "tag": "rel-2025-12-09",
+  "commit": "2fd8c401b90aaab57c0ddc5395f7c5ab178d0753",
+  "deployed_at": "2025-12-09T19:45:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4107",
+  "environment": "production",
+  "tag": "rel-2025-12-23",
+  "commit": "4a9383ef14d993e6586334108220842e5dc34027",
+  "deployed_at": "2025-12-23T19:39:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4108",
+  "environment": "production",
+  "tag": "rel-2026-01-01-hotfix",
+  "commit": "75f1d51415ee5b17359c7b7dbe7c597a779fa62a",
+  "deployed_at": "2026-01-01T18:48:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4109",
+  "environment": "production",
+  "tag": "rel-2026-01-13",
+  "commit": "2f4493f024a636baed5be1f6403ccb9ea489628a",
+  "deployed_at": "2026-01-13T19:39:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4110",
+  "environment": "production",
+  "tag": "rel-2026-01-27",
+  "commit": "d152c7221ad70ab81a2d19e5695193f36dc33114",
+  "deployed_at": "2026-01-27T19:47:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4111",
+  "environment": "production",
+  "tag": "rel-2026-02-10",
+  "commit": "31238c346fe6af566d6653437c07355c47e14592",
+  "deployed_at": "2026-02-10T19:31:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4112",
+  "environment": "production",
+  "tag": "rel-2026-02-17",
+  "commit": "faf3b70d7fd44308c3b6e1359a10e87192f6aade",
+  "deployed_at": "2026-02-17T19:14:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4113",
+  "environment": "production",
+  "tag": "rel-2026-02-24",
+  "commit": "e035af9e29a9d9fbdf16e8ca5d98b4d1e3559a22",
+  "deployed_at": "2026-02-24T19:33:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4114",
+  "environment": "production",
+  "tag": "rel-2026-03-10",
+  "commit": "5a4fd2c88ef3b6bf07eb67894120d4944e415a03",
+  "deployed_at": "2026-03-10T19:05:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4115",
+  "environment": "production",
+  "tag": "rel-2026-03-24",
+  "commit": "82e4d94396bc5ef4b39fda5ceca86356ce5b0f13",
+  "deployed_at": "2026-03-24T19:00:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4116",
+  "environment": "production",
+  "tag": "rel-2026-03-31",
+  "commit": "96c16938c4019bf4350b9c9bd5c09ecca8532387",
+  "deployed_at": "2026-03-31T19:19:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4117",
+  "environment": "production",
+  "tag": "rel-2026-04-07",
+  "commit": "1ee36b58955c66f73c8d1227203532cf37ec2aaf",
+  "deployed_at": "2026-04-07T19:11:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4118",
+  "environment": "production",
+  "tag": "rel-2026-04-21",
+  "commit": "be6bd4a280ac028e328b78ae0ad16a9aede33c6f",
+  "deployed_at": "2026-04-21T19:05:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4119",
+  "environment": "production",
+  "tag": "rel-2026-04-30",
+  "commit": "44e881fdb0ddac03ca9ca3e9befb909938e52373",
+  "deployed_at": "2026-04-30T19:11:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4120",
+  "environment": "production",
+  "tag": "rel-2026-05-14",
+  "commit": "1659e7024a34de598a13039d4a4106af8a28b0e4",
+  "deployed_at": "2026-05-14T19:43:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4121",
+  "environment": "production",
+  "tag": "rel-2026-05-28",
+  "commit": "513bdb1b0b407b9b1c30bd60f35ebc3847c3dc52",
+  "deployed_at": "2026-05-28T19:38:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4122",
+  "environment": "production",
+  "tag": "rel-2026-06-04",
+  "commit": "e77149b7e6bec546d56e37b9919910c4187aa661",
+  "deployed_at": "2026-06-04T19:16:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4123",
+  "environment": "production",
+  "tag": "rel-2026-06-16",
+  "commit": "39ce3c517c583d88b3c201e3837cd779b5c1c1af",
+  "deployed_at": "2026-06-16T19:50:00",
+  "deployed_by": "ahaddad",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4124",
+  "environment": "production",
+  "tag": "rel-2026-06-23",
+  "commit": "dd7326337d57528c9cbce0ef9625617fd8c420b6",
+  "deployed_at": "2026-06-23T19:07:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4125",
+  "environment": "production",
+  "tag": "rel-2026-07-07",
+  "commit": "e3e1e946825ab0969b0d34d97810477c56a3c0cc",
+  "deployed_at": "2026-07-07T19:33:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4126",
+  "environment": "production",
+  "tag": "rel-2026-07-14",
+  "commit": "dcf472231aa8d4ccf04d90a3eab0e441fbe11178",
+  "deployed_at": "2026-07-14T19:09:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4127",
+  "environment": "production",
+  "tag": "rel-2026-07-23",
+  "commit": "d0d4d2f1d6c2e6b7fcd66c089329007f3da6cf72",
+  "deployed_at": "2026-07-23T19:01:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4128",
+  "environment": "production",
+  "tag": "rel-2026-08-06",
+  "commit": "82eab0209057628d1f6408571497fd9bb9dc0cda",
+  "deployed_at": "2026-08-06T19:07:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4129",
+  "environment": "production",
+  "tag": "rel-2026-08-18",
+  "commit": "3ac05286a1e28e3348e48c536a7e888906907759",
+  "deployed_at": "2026-08-18T19:24:00",
+  "deployed_by": "ahaddad",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4130",
+  "environment": "production",
+  "tag": "rel-2026-08-27",
+  "commit": "3dc5b0d71fcd1d5f978702ac29954b4d12281162",
+  "deployed_at": "2026-08-27T19:44:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4131",
+  "environment": "production",
+  "tag": "rel-2026-09-08-hotfix",
+  "commit": "26c53eb167b6fdfda1553b8605cbdcd3ffafdebe",
+  "deployed_at": "2026-09-08T11:12:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ },
+ {
+  "pipeline_run": "run-4132",
+  "environment": "production",
+  "tag": "rel-2026-09-17",
+  "commit": "21dcd55e0d09adec0dc500461443009409faf5c5",
+  "deployed_at": "2026-09-17T19:48:00",
+  "deployed_by": "bscott",
+  "result": "success"
+ }
+]

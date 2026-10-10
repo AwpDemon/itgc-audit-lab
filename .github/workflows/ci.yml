@@ -1,0 +1,24 @@
+name: ci
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt && pip install --no-deps -e .
+      - name: Lint
+        run: ruff check src tests lab
+      - name: Evidence integrity (SHA-256 manifest)
+        run: |
+          python -m itgc verify audit/evidence/fy26-baseline
+          python -m itgc verify audit/evidence/fy26-remediation
+      - name: Tests
+        run: pytest -q
+      - name: Re-run the audit from committed evidence
+        run: python -m itgc audit --out /tmp/audit --no-figures

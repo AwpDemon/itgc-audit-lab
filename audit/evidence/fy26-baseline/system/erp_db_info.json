@@ -1,0 +1,5 @@
+{
+ "audit_login": "audit_ro",
+ "server_version": "PostgreSQL 16.4 (Debian 16.4-1.pgdg120+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit",
+ "collected_at": "2026-10-10T20:33:44.125825+00:00"
+}

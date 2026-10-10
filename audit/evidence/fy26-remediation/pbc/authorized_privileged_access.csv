@@ -1,0 +1,8 @@
+system,account,privilege,owner,business_justification,approved_by,approved_on
+Active Directory,adm-dgarcia,Domain Admins,dgarcia,Tier-0 administration,CFO,2025-09-15
+Active Directory,adm-mivanova,Domain Admins,mivanova,Tier-0 administration,CFO,2025-09-15
+Active Directory,adm-awilliams,Domain Admins,awilliams,Tier-0 administration,CFO,2025-09-15
+Active Directory,Administrator,Domain Admins,dgarcia,Break-glass built-in account (vaulted),CFO,2025-09-15
+ERP,erpadmin,ERP_ADMIN,dgarcia,Application administration (vaulted),CFO,2025-09-15
+ERP database,erp_owner,SUPERUSER,eokafor,Database owner / break-glass (vaulted),CFO,2025-09-15
+ERP database,eokafor,SUPERUSER,eokafor,Database administrator,CFO,2025-09-15

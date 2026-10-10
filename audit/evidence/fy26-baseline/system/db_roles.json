@@ -1,0 +1,76 @@
+[
+ {
+  "role": "ahaddad",
+  "superuser": true,
+  "can_login": true,
+  "create_role": false,
+  "create_db": false,
+  "bypass_rls": false,
+  "comment": "developer",
+  "member_of": []
+ },
+ {
+  "role": "audit_ro",
+  "superuser": false,
+  "can_login": true,
+  "create_role": false,
+  "create_db": false,
+  "bypass_rls": false,
+  "comment": null,
+  "member_of": [
+   "pg_read_all_data"
+  ]
+ },
+ {
+  "role": "eokafor",
+  "superuser": true,
+  "can_login": true,
+  "create_role": false,
+  "create_db": false,
+  "bypass_rls": false,
+  "comment": "DBA",
+  "member_of": []
+ },
+ {
+  "role": "erp_app",
+  "superuser": false,
+  "can_login": true,
+  "create_role": false,
+  "create_db": false,
+  "bypass_rls": false,
+  "comment": "application connection",
+  "member_of": []
+ },
+ {
+  "role": "erp_owner",
+  "superuser": true,
+  "can_login": true,
+  "create_role": true,
+  "create_db": true,
+  "bypass_rls": true,
+  "comment": null,
+  "member_of": []
+ },
+ {
+  "role": "erp_report",
+  "superuser": false,
+  "can_login": true,
+  "create_role": false,
+  "create_db": false,
+  "bypass_rls": false,
+  "comment": "read-only reporting",
+  "member_of": []
+ },
+ {
+  "role": "svc_backup",
+  "superuser": false,
+  "can_login": true,
+  "create_role": false,
+  "create_db": false,
+  "bypass_rls": false,
+  "comment": "backup (pg_read_all_data)",
+  "member_of": [
+   "pg_read_all_data"
+  ]
+ }
+]

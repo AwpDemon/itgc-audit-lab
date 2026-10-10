@@ -1,0 +1,2210 @@
+[
+    {
+        "sam":  "acosta",
+        "dn":  "CN=acosta,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Amy Costa",
+        "employee_id":  "E1029",
+        "department":  "Sales",
+        "title":  "Account Executive",
+        "manager":  "jhernandez",
+        "description":  "Account Executive, Sales",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2022-11-17T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-26T15:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Sales",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "adm-awilliams",
+        "dn":  "CN=adm-awilliams,OU=Admins,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Admins,OU=Kestrel",
+        "display_name":  "Angela Williams (admin)",
+        "employee_id":  "E1056",
+        "department":  "Information Technology",
+        "title":  "Systems Administrator",
+        "manager":  "dgarcia",
+        "description":  "Privileged admin account for awilliams",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2016-03-29T11:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-26T18:00:00+00:00",
+        "member_of":  [
+                          "Domain Admins"
+                      ]
+    },
+    {
+        "sam":  "adm-dgarcia",
+        "dn":  "CN=adm-dgarcia,OU=Admins,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Admins,OU=Kestrel",
+        "display_name":  "Daniel Garcia (admin)",
+        "employee_id":  "E1054",
+        "department":  "Information Technology",
+        "title":  "IT Manager",
+        "manager":  "ksilva",
+        "description":  "Privileged admin account for dgarcia",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2016-05-25T11:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-30T18:00:00+00:00",
+        "member_of":  [
+                          "Domain Admins"
+                      ]
+    },
+    {
+        "sam":  "Administrator",
+        "dn":  "CN=Administrator,CN=Users,DC=kestrel,DC=lab,DC=test",
+        "ou":  "",
+        "display_name":  null,
+        "employee_id":  null,
+        "department":  null,
+        "title":  null,
+        "manager":  null,
+        "description":  "Built-in account for administering the computer/domain",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2026-10-10T20:08:20+00:00",
+        "last_logon_timestamp":  null,
+        "member_of":  [
+                          "Administrators",
+                          "Domain Admins",
+                          "Enterprise Admins",
+                          "Group Policy Creator Owners",
+                          "Schema Admins"
+                      ]
+    },
+    {
+        "sam":  "adm-mivanova",
+        "dn":  "CN=adm-mivanova,OU=Admins,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Admins,OU=Kestrel",
+        "display_name":  "Michael Ivanova (admin)",
+        "employee_id":  "E1055",
+        "department":  "Information Technology",
+        "title":  "Systems Administrator",
+        "manager":  "dgarcia",
+        "description":  "Privileged admin account for mivanova",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2024-03-25T11:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-30T18:00:00+00:00",
+        "member_of":  [
+                          "Domain Admins"
+                      ]
+    },
+    {
+        "sam":  "agonzalez",
+        "dn":  "CN=agonzalez,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Andrew Gonzalez",
+        "employee_id":  "E1005",
+        "department":  "Finance",
+        "title":  "Controller",
+        "manager":  "ksilva",
+        "description":  "Controller, Finance",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2014-06-24T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-22T18:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-AP-Approver",
+                          "APP-ERP-GL-Approver",
+                          "APP-ERP-Users",
+                          "FS-Finance-RW",
+                          "GG-AllStaff",
+                          "GG-Finance",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "ahaddad",
+        "dn":  "CN=ahaddad,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Angela Haddad",
+        "employee_id":  "E1064",
+        "department":  "Engineering",
+        "title":  "Software Developer",
+        "manager":  "mwhite",
+        "description":  "Software Developer, Engineering",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2023-08-23T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-26T12:00:00+00:00",
+        "member_of":  [
+                          "DEV-Developers",
+                          "Domain Admins",
+                          "GG-AllStaff",
+                          "GG-Engineering",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "amartinez",
+        "dn":  "CN=amartinez,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Anna Martinez",
+        "employee_id":  "E1009",
+        "department":  "Finance",
+        "title":  "AP Manager",
+        "manager":  "agonzalez",
+        "description":  "AP Manager, Finance",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2020-06-08T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-27T16:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-AP-Approver",
+                          "APP-ERP-Users",
+                          "FS-Finance-RW",
+                          "GG-AllStaff",
+                          "GG-Finance"
+                      ]
+    },
+    {
+        "sam":  "apatel",
+        "dn":  "CN=apatel,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Anthony Patel",
+        "employee_id":  "E1007",
+        "department":  "Finance",
+        "title":  "AP Clerk",
+        "manager":  "agonzalez",
+        "description":  "AP Clerk, Finance",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2026-09-11T11:59:00+00:00",
+        "last_logon_timestamp":  "2026-09-29T12:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-AP-Clerk",
+                          "APP-ERP-Users",
+                          "FS-Finance-RW",
+                          "GG-AllStaff",
+                          "GG-Finance"
+                      ]
+    },
+    {
+        "sam":  "aperez",
+        "dn":  "CN=aperez,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Amy Perez",
+        "employee_id":  "E1051",
+        "department":  "Operations",
+        "title":  "Buyer",
+        "manager":  "prossi",
+        "description":  "Buyer, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2023-02-24T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-22T15:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "athomas",
+        "dn":  "CN=athomas,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Ashley Thomas",
+        "employee_id":  "E1038",
+        "department":  "Operations",
+        "title":  "Machinist",
+        "manager":  "prossi",
+        "description":  "Machinist, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2016-06-14T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-28T18:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "awilliams",
+        "dn":  "CN=awilliams,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Angela Williams",
+        "employee_id":  "E1056",
+        "department":  "Information Technology",
+        "title":  "Systems Administrator",
+        "manager":  "dgarcia",
+        "description":  "Systems Administrator, Information Technology",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2016-03-22T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-23T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-IT",
+                          "IT-Staff",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "bdavis",
+        "dn":  "CN=bdavis,OU=Disabled Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Disabled Users,OU=Kestrel",
+        "display_name":  "Betty Davis",
+        "employee_id":  "E1081",
+        "department":  "Finance",
+        "title":  "Financial Analyst",
+        "manager":  "agonzalez",
+        "description":  "Financial Analyst, Finance",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2016-11-01T10:00:00+00:00",
+        "last_logon_timestamp":  "2024-05-09T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "bking",
+        "dn":  "CN=bking,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Betty King",
+        "employee_id":  "E1028",
+        "department":  "Sales",
+        "title":  "Account Executive",
+        "manager":  "jhernandez",
+        "description":  "Account Executive, Sales",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2026-01-21T15:15:00+00:00",
+        "last_logon_timestamp":  "2026-09-28T16:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Sales",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "bnguyen",
+        "dn":  "CN=bnguyen,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Barbara Nguyen",
+        "employee_id":  "E1010",
+        "department":  "Finance",
+        "title":  "Financial Analyst",
+        "manager":  "agonzalez",
+        "description":  "Financial Analyst, Finance",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2019-08-16T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-28T15:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-GL-Poster",
+                          "APP-ERP-Users",
+                          "FS-Finance-RW",
+                          "GG-AllStaff",
+                          "GG-Finance"
+                      ]
+    },
+    {
+        "sam":  "brivera",
+        "dn":  "CN=brivera,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Brian Rivera",
+        "employee_id":  "E1008",
+        "department":  "Finance",
+        "title":  "AP Clerk",
+        "manager":  "agonzalez",
+        "description":  "AP Clerk, Finance",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2017-08-18T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-25T11:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-AP-Clerk",
+                          "APP-ERP-Users",
+                          "FS-Finance-RW",
+                          "GG-AllStaff",
+                          "GG-Finance"
+                      ]
+    },
+    {
+        "sam":  "bscott",
+        "dn":  "CN=bscott,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Brenda Scott",
+        "employee_id":  "E1065",
+        "department":  "Engineering",
+        "title":  "Release Manager",
+        "manager":  "mwhite",
+        "description":  "Release Manager, Engineering",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2014-09-08T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-21T10:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-Engineering",
+                          "PRD-Deployers",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "bsmith",
+        "dn":  "CN=bsmith,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Barbara Smith",
+        "employee_id":  "E1036",
+        "department":  "Operations",
+        "title":  "Production Supervisor",
+        "manager":  "prossi",
+        "description":  "Production Supervisor, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2012-04-20T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-28T10:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "cadams",
+        "dn":  "CN=cadams,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Cynthia Adams",
+        "employee_id":  "E1050",
+        "department":  "Operations",
+        "title":  "Logistics Coordinator",
+        "manager":  "prossi",
+        "description":  "Logistics Coordinator, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2026-07-16T09:41:00+00:00",
+        "last_logon_timestamp":  "2026-09-23T17:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-GL-Approver",
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "civanova",
+        "dn":  "CN=civanova,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Charles Ivanova",
+        "employee_id":  "E1035",
+        "department":  "Operations",
+        "title":  "Production Supervisor",
+        "manager":  "prossi",
+        "description":  "Production Supervisor, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2021-03-19T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-26T14:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "dadams",
+        "dn":  "CN=dadams,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Daniel Adams",
+        "employee_id":  "E1063",
+        "department":  "Engineering",
+        "title":  "Software Developer",
+        "manager":  "mwhite",
+        "description":  "Software Developer, Engineering",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2022-06-24T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-28T11:00:00+00:00",
+        "member_of":  [
+                          "DEV-Developers",
+                          "GG-AllStaff",
+                          "GG-Engineering",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "dgarcia",
+        "dn":  "CN=dgarcia,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Daniel Garcia",
+        "employee_id":  "E1054",
+        "department":  "Information Technology",
+        "title":  "IT Manager",
+        "manager":  "ksilva",
+        "description":  "IT Manager, Information Technology",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2016-05-18T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-25T17:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-IT",
+                          "IT-Staff",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "dhernandez",
+        "dn":  "CN=dhernandez,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Donna Hernandez",
+        "employee_id":  "E1043",
+        "department":  "Operations",
+        "title":  "Machinist",
+        "manager":  "prossi",
+        "description":  "Machinist, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2023-04-25T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-14T18:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "dking",
+        "dn":  "CN=dking,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Daniel King",
+        "employee_id":  "E1061",
+        "department":  "Engineering",
+        "title":  "Software Developer",
+        "manager":  "mwhite",
+        "description":  "Software Developer, Engineering",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2019-09-17T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-21T13:00:00+00:00",
+        "member_of":  [
+                          "DEV-Developers",
+                          "GG-AllStaff",
+                          "GG-Engineering",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "dokafor",
+        "dn":  "CN=dokafor,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Diego Okafor",
+        "employee_id":  "E1002",
+        "department":  "Executive",
+        "title":  "Chief Financial Officer",
+        "manager":  "ksilva",
+        "description":  "Chief Financial Officer, Executive",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2016-12-30T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-22T10:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "FS-Finance-RW",
+                          "GG-AllStaff",
+                          "GG-Executive",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "dthomas",
+        "dn":  "CN=dthomas,OU=Disabled Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Disabled Users,OU=Kestrel",
+        "display_name":  "Donna Thomas",
+        "employee_id":  "E1079",
+        "department":  "Operations",
+        "title":  "Buyer",
+        "manager":  "prossi",
+        "description":  "Buyer, Operations",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2016-09-13T10:00:00+00:00",
+        "last_logon_timestamp":  "2024-11-12T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "ebrown",
+        "dn":  "CN=ebrown,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Eric Brown",
+        "employee_id":  "E1018",
+        "department":  "Human Resources",
+        "title":  "HR Generalist",
+        "manager":  "gpatel",
+        "description":  "HR Generalist, Human Resources",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2026-02-17T12:49:00+00:00",
+        "last_logon_timestamp":  "2026-09-21T16:00:00+00:00",
+        "member_of":  [
+                          "FS-HR-RW",
+                          "GG-AllStaff",
+                          "GG-HR"
+                      ]
+    },
+    {
+        "sam":  "efischer",
+        "dn":  "CN=efischer,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Edward Fischer",
+        "employee_id":  "E1032",
+        "department":  "Sales",
+        "title":  "Sales Operations Analyst",
+        "manager":  "jhernandez",
+        "description":  "Sales Operations Analyst, Sales",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2016-02-04T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-23T15:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Sales"
+                      ]
+    },
+    {
+        "sam":  "eokafor",
+        "dn":  "CN=eokafor,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Edward Okafor",
+        "employee_id":  "E1059",
+        "department":  "Information Technology",
+        "title":  "Database Administrator",
+        "manager":  "dgarcia",
+        "description":  "Database Administrator, Information Technology",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2018-02-08T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-26T11:00:00+00:00",
+        "member_of":  [
+                          "DBA-Admins",
+                          "GG-AllStaff",
+                          "GG-IT",
+                          "IT-Staff",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "esanchez",
+        "dn":  "CN=esanchez,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Eric Sanchez",
+        "employee_id":  "E1046",
+        "department":  "Operations",
+        "title":  "Buyer",
+        "manager":  "prossi",
+        "description":  "Buyer, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2015-04-29T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-30T15:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "esilva",
+        "dn":  "CN=esilva,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Edward Silva",
+        "employee_id":  "E1015",
+        "department":  "Finance",
+        "title":  "Financial Analyst",
+        "manager":  "agonzalez",
+        "description":  "Financial Analyst, Finance",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2014-08-07T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-26T16:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "FS-Finance-RW",
+                          "GG-AllStaff",
+                          "GG-Finance"
+                      ]
+    },
+    {
+        "sam":  "ethomas",
+        "dn":  "CN=ethomas,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Edward Thomas",
+        "employee_id":  "E1076",
+        "department":  "Operations",
+        "title":  "Quality Engineer",
+        "manager":  "prossi",
+        "description":  "Quality Engineer, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2019-03-07T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-04-18T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "ewilson",
+        "dn":  "CN=ewilson,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Eric Wilson",
+        "employee_id":  "E1020",
+        "department":  "Sales",
+        "title":  "Sales Manager",
+        "manager":  "jhernandez",
+        "description":  "Sales Manager, Sales",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2026-07-07T13:34:00+00:00",
+        "last_logon_timestamp":  "2026-09-21T11:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Sales",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "framirez",
+        "dn":  "CN=framirez,OU=Disabled Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Disabled Users,OU=Kestrel",
+        "display_name":  "Fatima Ramirez",
+        "employee_id":  "E1075",
+        "department":  "Operations",
+        "title":  "Logistics Coordinator",
+        "manager":  "prossi",
+        "description":  "Logistics Coordinator, Operations",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2017-07-14T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-08-08T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "frontdesk",
+        "dn":  "CN=frontdesk,OU=Shared,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Shared,OU=Kestrel",
+        "display_name":  "Front Desk (shared)",
+        "employee_id":  null,
+        "department":  "Operations",
+        "title":  "Shared Account",
+        "manager":  null,
+        "description":  "Reception PC shared login",
+        "uac":  66048,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT",
+                          "DONT_EXPIRE_PASSWORD"
+                      ],
+        "enabled":  true,
+        "when_created":  "2020-02-11T09:30:00+00:00",
+        "last_logon_timestamp":  "2026-09-29T18:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "gmensah",
+        "dn":  "CN=gmensah,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "George Mensah",
+        "employee_id":  "E1013",
+        "department":  "Finance",
+        "title":  "Payroll Specialist",
+        "manager":  "agonzalez",
+        "description":  "Payroll Specialist, Finance",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2020-04-07T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-06-04T18:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "FS-Finance-RW",
+                          "FS-HR-RW",
+                          "GG-AllStaff",
+                          "GG-Finance"
+                      ]
+    },
+    {
+        "sam":  "gpatel",
+        "dn":  "CN=gpatel,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Gary Patel",
+        "employee_id":  "E1016",
+        "department":  "Human Resources",
+        "title":  "HR Director",
+        "manager":  "ksilva",
+        "description":  "HR Director, Human Resources",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2025-06-13T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-30T15:00:00+00:00",
+        "member_of":  [
+                          "FS-HR-RW",
+                          "GG-AllStaff",
+                          "GG-HR",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "Guest",
+        "dn":  "CN=Guest,CN=Users,DC=kestrel,DC=lab,DC=test",
+        "ou":  "",
+        "display_name":  null,
+        "employee_id":  null,
+        "department":  null,
+        "title":  null,
+        "manager":  null,
+        "description":  "Built-in account for guest access to the computer/domain",
+        "uac":  66082,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "PASSWD_NOTREQD",
+                          "NORMAL_ACCOUNT",
+                          "DONT_EXPIRE_PASSWORD"
+                      ],
+        "enabled":  false,
+        "when_created":  "2026-10-10T20:08:20+00:00",
+        "last_logon_timestamp":  null,
+        "member_of":  [
+                          "Guests"
+                      ]
+    },
+    {
+        "sam":  "jadams",
+        "dn":  "CN=jadams,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Jacob Adams",
+        "employee_id":  "E1049",
+        "department":  "Operations",
+        "title":  "Logistics Coordinator",
+        "manager":  "prossi",
+        "description":  "Logistics Coordinator, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2026-07-21T14:40:00+00:00",
+        "last_logon_timestamp":  "2026-09-22T16:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "jallen",
+        "dn":  "CN=jallen,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Jacob Allen",
+        "employee_id":  "E1023",
+        "department":  "Sales",
+        "title":  "Account Executive",
+        "manager":  "jhernandez",
+        "description":  "Account Executive, Sales",
+        "uac":  66048,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT",
+                          "DONT_EXPIRE_PASSWORD"
+                      ],
+        "enabled":  true,
+        "when_created":  "2022-03-29T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-25T13:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Sales",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "jgonzalez",
+        "dn":  "CN=jgonzalez,OU=Disabled Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Disabled Users,OU=Kestrel",
+        "display_name":  "Jessica Gonzalez",
+        "employee_id":  "E1073",
+        "department":  "Information Technology",
+        "title":  "Help Desk Technician",
+        "manager":  "dgarcia",
+        "description":  "Help Desk Technician, Information Technology",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2017-06-21T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-04-08T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "jhernandez",
+        "dn":  "CN=jhernandez,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "James Hernandez",
+        "employee_id":  "E1004",
+        "department":  "Executive",
+        "title":  "VP Sales",
+        "manager":  "ksilva",
+        "description":  "VP Sales, Executive",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2017-05-17T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-27T18:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Executive",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "jjackson",
+        "dn":  "CN=jjackson,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Jacob Jackson",
+        "employee_id":  "E1021",
+        "department":  "Sales",
+        "title":  "Account Executive",
+        "manager":  "jhernandez",
+        "description":  "Account Executive, Sales",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2025-11-26T13:01:00+00:00",
+        "last_logon_timestamp":  "2026-09-26T11:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Sales",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "jroberts",
+        "dn":  "CN=jroberts,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Jason Roberts",
+        "employee_id":  "E1045",
+        "department":  "Operations",
+        "title":  "Machinist",
+        "manager":  "prossi",
+        "description":  "Machinist, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2023-05-18T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-30T18:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "klee",
+        "dn":  "CN=klee,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Kenneth Lee",
+        "employee_id":  "E1070",
+        "department":  "Operations",
+        "title":  "Buyer",
+        "manager":  "prossi",
+        "description":  "Buyer, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2024-06-11T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-02-25T21:14:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "krbtgt",
+        "dn":  "CN=krbtgt,CN=Users,DC=kestrel,DC=lab,DC=test",
+        "ou":  "",
+        "display_name":  null,
+        "employee_id":  null,
+        "department":  null,
+        "title":  null,
+        "manager":  null,
+        "description":  "Key Distribution Center Service Account",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2026-10-10T20:08:20+00:00",
+        "last_logon_timestamp":  null,
+        "member_of":  [
+                          "Denied RODC Password Replication Group"
+                      ]
+    },
+    {
+        "sam":  "ksilva",
+        "dn":  "CN=ksilva,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Kenneth Silva",
+        "employee_id":  "E1001",
+        "department":  "Executive",
+        "title":  "Chief Executive Officer",
+        "manager":  null,
+        "description":  "Chief Executive Officer, Executive",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2014-08-29T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-28T17:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Executive",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "ktanaka",
+        "dn":  "CN=ktanaka,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Karen Tanaka",
+        "employee_id":  "E1027",
+        "department":  "Sales",
+        "title":  "Account Executive",
+        "manager":  "jhernandez",
+        "description":  "Account Executive, Sales",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2012-09-26T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-30T18:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Sales",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "ktanaka2",
+        "dn":  "CN=ktanaka2,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Kenneth Tanaka",
+        "employee_id":  "E1031",
+        "department":  "Sales",
+        "title":  "Sales Operations Analyst",
+        "manager":  "jhernandez",
+        "description":  "Sales Operations Analyst, Sales",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2018-07-02T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-30T16:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Sales"
+                      ]
+    },
+    {
+        "sam":  "lbaker",
+        "dn":  "CN=lbaker,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Laura Baker",
+        "employee_id":  "E1052",
+        "department":  "Operations",
+        "title":  "Quality Engineer",
+        "manager":  "prossi",
+        "description":  "Quality Engineer, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2016-08-18T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-05-22T18:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "ljones",
+        "dn":  "CN=ljones,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Laura Jones",
+        "employee_id":  "E1030",
+        "department":  "Sales",
+        "title":  "Account Executive",
+        "manager":  "jhernandez",
+        "description":  "Account Executive, Sales",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2023-02-22T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-22T18:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Sales",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "lnovak",
+        "dn":  "CN=lnovak,OU=Disabled Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Disabled Users,OU=Kestrel",
+        "display_name":  "Linda Novak",
+        "employee_id":  "E1078",
+        "department":  "Sales",
+        "title":  "Account Executive",
+        "manager":  "jhernandez",
+        "description":  "Account Executive, Sales",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2016-12-28T10:00:00+00:00",
+        "last_logon_timestamp":  "2024-02-06T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "lperez",
+        "dn":  "CN=lperez,OU=Disabled Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Disabled Users,OU=Kestrel",
+        "display_name":  "Laura Perez",
+        "employee_id":  "E1067",
+        "department":  "Sales",
+        "title":  "Account Executive",
+        "manager":  "jhernandez",
+        "description":  "Account Executive, Sales",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2015-01-28T10:00:00+00:00",
+        "last_logon_timestamp":  "2025-12-03T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "mbrown",
+        "dn":  "CN=mbrown,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Michelle Brown",
+        "employee_id":  "E1012",
+        "department":  "Finance",
+        "title":  "GL Accountant",
+        "manager":  "agonzalez",
+        "description":  "GL Accountant, Finance",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2026-07-15T10:53:00+00:00",
+        "last_logon_timestamp":  "2026-09-23T14:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-GL-Poster",
+                          "APP-ERP-Users",
+                          "FS-Finance-RW",
+                          "GG-AllStaff",
+                          "GG-Finance"
+                      ]
+    },
+    {
+        "sam":  "mchen",
+        "dn":  "CN=mchen,OU=Disabled Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Disabled Users,OU=Kestrel",
+        "display_name":  "Mary Chen",
+        "employee_id":  "E1071",
+        "department":  "Finance",
+        "title":  "GL Accountant",
+        "manager":  "agonzalez",
+        "description":  "GL Accountant, Finance",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2014-09-11T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-02-19T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "mdavis",
+        "dn":  "CN=mdavis,OU=Disabled Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Disabled Users,OU=Kestrel",
+        "display_name":  "Mary Davis",
+        "employee_id":  "E1072",
+        "department":  "Engineering",
+        "title":  "Software Developer",
+        "manager":  "mwhite",
+        "description":  "Software Developer, Engineering",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2024-10-25T10:00:00+00:00",
+        "last_logon_timestamp":  "2025-10-21T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "mhaddad",
+        "dn":  "CN=mhaddad,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Mei Haddad",
+        "employee_id":  "E1003",
+        "department":  "Executive",
+        "title":  "Chief Operating Officer",
+        "manager":  "ksilva",
+        "description":  "Chief Operating Officer, Executive",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2023-01-02T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-26T18:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Executive",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "mivanova",
+        "dn":  "CN=mivanova,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Michael Ivanova",
+        "employee_id":  "E1055",
+        "department":  "Information Technology",
+        "title":  "Systems Administrator",
+        "manager":  "dgarcia",
+        "description":  "Systems Administrator, Information Technology",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2024-03-18T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-21T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-IT",
+                          "IT-Staff",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "mmoore",
+        "dn":  "CN=mmoore,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Margaret Moore",
+        "employee_id":  "E1057",
+        "department":  "Information Technology",
+        "title":  "Help Desk Technician",
+        "manager":  "dgarcia",
+        "description":  "Help Desk Technician, Information Technology",
+        "uac":  544,
+        "uac_flags":  [
+                          "PASSWD_NOTREQD",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2023-11-16T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-24T14:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-IT",
+                          "IT-Helpdesk",
+                          "IT-Staff"
+                      ]
+    },
+    {
+        "sam":  "mmoreau",
+        "dn":  "CN=mmoreau,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Mary Moreau",
+        "employee_id":  "E1006",
+        "department":  "Finance",
+        "title":  "AP Clerk",
+        "manager":  "agonzalez",
+        "description":  "AP Clerk, Finance",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2026-08-14T12:30:00+00:00",
+        "last_logon_timestamp":  "2026-09-30T13:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-AP-Clerk",
+                          "APP-ERP-Users",
+                          "FS-Finance-RW",
+                          "GG-AllStaff",
+                          "GG-Finance"
+                      ]
+    },
+    {
+        "sam":  "mmoreau2",
+        "dn":  "CN=mmoreau2,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Mohammed Moreau",
+        "employee_id":  "E1040",
+        "department":  "Operations",
+        "title":  "Machinist",
+        "manager":  "prossi",
+        "description":  "Machinist, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2019-01-09T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-27T18:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "mrodriguez",
+        "dn":  "CN=mrodriguez,OU=Disabled Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Disabled Users,OU=Kestrel",
+        "display_name":  "Mei Rodriguez",
+        "employee_id":  "E1069",
+        "department":  "Operations",
+        "title":  "Machinist",
+        "manager":  "prossi",
+        "description":  "Machinist, Operations",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2017-02-03T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-03-08T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "mrossi",
+        "dn":  "CN=mrossi,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Mohammed Rossi",
+        "employee_id":  "E1014",
+        "department":  "Finance",
+        "title":  "Financial Analyst",
+        "manager":  "agonzalez",
+        "description":  "Financial Analyst, Finance",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2020-12-08T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-22T10:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "FS-Finance-RW",
+                          "GG-AllStaff",
+                          "GG-Finance"
+                      ]
+    },
+    {
+        "sam":  "msilva",
+        "dn":  "CN=msilva,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Michelle Silva",
+        "employee_id":  "E1024",
+        "department":  "Sales",
+        "title":  "Account Executive",
+        "manager":  "jhernandez",
+        "description":  "Account Executive, Sales",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2021-01-04T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-22T12:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Sales",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "mtaylor",
+        "dn":  "CN=mtaylor,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Mark Taylor",
+        "employee_id":  "E1019",
+        "department":  "Sales",
+        "title":  "Sales Manager",
+        "manager":  "jhernandez",
+        "description":  "Sales Manager, Sales",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2024-11-25T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-24T18:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Sales",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "mtaylor2",
+        "dn":  "CN=mtaylor2,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Mei Taylor",
+        "employee_id":  "E1042",
+        "department":  "Operations",
+        "title":  "Machinist",
+        "manager":  "prossi",
+        "description":  "Machinist, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2026-03-03T11:14:00+00:00",
+        "last_logon_timestamp":  "2026-09-12T18:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "mwhite",
+        "dn":  "CN=mwhite,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Michelle White",
+        "employee_id":  "E1060",
+        "department":  "Engineering",
+        "title":  "Development Manager",
+        "manager":  "ksilva",
+        "description":  "Development Manager, Engineering",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2020-08-03T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-27T14:00:00+00:00",
+        "member_of":  [
+                          "DEV-Developers",
+                          "GG-AllStaff",
+                          "GG-Engineering",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "mwhite2",
+        "dn":  "CN=mwhite2,OU=Disabled Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Disabled Users,OU=Kestrel",
+        "display_name":  "Melissa White",
+        "employee_id":  "E1068",
+        "department":  "Sales",
+        "title":  "Account Executive",
+        "manager":  "jhernandez",
+        "description":  "Account Executive, Sales",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2014-09-03T10:00:00+00:00",
+        "last_logon_timestamp":  "2025-12-03T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "nroberts",
+        "dn":  "CN=nroberts,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Nancy Roberts",
+        "employee_id":  "E1058",
+        "department":  "Information Technology",
+        "title":  "Help Desk Technician",
+        "manager":  "dgarcia",
+        "description":  "Help Desk Technician, Information Technology",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2015-08-04T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-27T13:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-IT",
+                          "IT-Helpdesk",
+                          "IT-Staff"
+                      ]
+    },
+    {
+        "sam":  "pbrown",
+        "dn":  "CN=pbrown,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Patricia Brown",
+        "employee_id":  "E1048",
+        "department":  "Operations",
+        "title":  "Buyer",
+        "manager":  "prossi",
+        "description":  "Buyer, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2019-12-03T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-29T16:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "phernandez",
+        "dn":  "CN=phernandez,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Pamela Hernandez",
+        "employee_id":  "E1037",
+        "department":  "Operations",
+        "title":  "Machinist",
+        "manager":  "prossi",
+        "description":  "Machinist, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2026-07-15T13:20:00+00:00",
+        "last_logon_timestamp":  "2026-09-16T18:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "pjohnson",
+        "dn":  "CN=pjohnson,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Paul Johnson",
+        "employee_id":  "E1026",
+        "department":  "Sales",
+        "title":  "Account Executive",
+        "manager":  "jhernandez",
+        "description":  "Account Executive, Sales",
+        "uac":  66048,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT",
+                          "DONT_EXPIRE_PASSWORD"
+                      ],
+        "enabled":  true,
+        "when_created":  "2018-08-06T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-21T10:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Sales",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "pkim",
+        "dn":  "CN=pkim,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Priya Kim",
+        "employee_id":  "E1053",
+        "department":  "Operations",
+        "title":  "Quality Engineer",
+        "manager":  "prossi",
+        "description":  "Quality Engineer, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2013-07-19T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-29T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "plewis",
+        "dn":  "CN=plewis,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Pamela Lewis",
+        "employee_id":  "E1041",
+        "department":  "Operations",
+        "title":  "Machinist",
+        "manager":  "prossi",
+        "description":  "Machinist, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2015-01-07T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-18T18:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "prossi",
+        "dn":  "CN=prossi,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Paul Rossi",
+        "employee_id":  "E1033",
+        "department":  "Operations",
+        "title":  "Plant Manager",
+        "manager":  "ksilva",
+        "description":  "Plant Manager, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2013-06-06T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-23T10:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Operations",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "pwright",
+        "dn":  "CN=pwright,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Pamela Wright",
+        "employee_id":  "E1039",
+        "department":  "Operations",
+        "title":  "Machinist",
+        "manager":  "prossi",
+        "description":  "Machinist, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2012-12-27T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-26T18:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "rharris",
+        "dn":  "CN=rharris,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Richard Harris",
+        "employee_id":  "E1034",
+        "department":  "Operations",
+        "title":  "Production Supervisor",
+        "manager":  "prossi",
+        "description":  "Production Supervisor, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2026-07-21T14:03:00+00:00",
+        "last_logon_timestamp":  "2026-09-21T16:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "rjackson",
+        "dn":  "CN=rjackson,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Ryan Jackson",
+        "employee_id":  "E1011",
+        "department":  "Finance",
+        "title":  "GL Accountant",
+        "manager":  "agonzalez",
+        "description":  "GL Accountant, Finance",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2026-02-25T09:42:00+00:00",
+        "last_logon_timestamp":  "2026-09-24T15:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-GL-Poster",
+                          "APP-ERP-Users",
+                          "FS-Finance-RW",
+                          "GG-AllStaff",
+                          "GG-Finance"
+                      ]
+    },
+    {
+        "sam":  "rjones",
+        "dn":  "CN=rjones,OU=Disabled Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Disabled Users,OU=Kestrel",
+        "display_name":  "Ryan Jones",
+        "employee_id":  "E1074",
+        "department":  "Sales",
+        "title":  "Sales Manager",
+        "manager":  "jhernandez",
+        "description":  "Sales Manager, Sales",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2017-07-12T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-05-04T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "rnovak",
+        "dn":  "CN=rnovak,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Rebecca Novak",
+        "employee_id":  "E1025",
+        "department":  "Sales",
+        "title":  "Account Executive",
+        "manager":  "jhernandez",
+        "description":  "Account Executive, Sales",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2022-09-26T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-04-19T18:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Sales",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "sfischer",
+        "dn":  "CN=sfischer,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Sharon Fischer",
+        "employee_id":  "E1017",
+        "department":  "Human Resources",
+        "title":  "HR Generalist",
+        "manager":  "gpatel",
+        "description":  "HR Generalist, Human Resources",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2017-10-17T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-21T13:00:00+00:00",
+        "member_of":  [
+                          "FS-HR-RW",
+                          "GG-AllStaff",
+                          "GG-HR"
+                      ]
+    },
+    {
+        "sam":  "sflores",
+        "dn":  "CN=sflores,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Sarah Flores",
+        "employee_id":  "E1044",
+        "department":  "Operations",
+        "title":  "Machinist",
+        "manager":  "prossi",
+        "description":  "Machinist, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2015-07-31T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-12T18:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "sgreen",
+        "dn":  "CN=sgreen,OU=Disabled Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Disabled Users,OU=Kestrel",
+        "display_name":  "Sharon Green",
+        "employee_id":  "E1080",
+        "department":  "Human Resources",
+        "title":  "HR Generalist",
+        "manager":  "gpatel",
+        "description":  "HR Generalist, Human Resources",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2021-08-10T10:00:00+00:00",
+        "last_logon_timestamp":  "2025-07-20T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "sroberts",
+        "dn":  "CN=sroberts,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Susan Roberts",
+        "employee_id":  "E1047",
+        "department":  "Operations",
+        "title":  "Buyer",
+        "manager":  "prossi",
+        "description":  "Buyer, Operations",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2012-04-23T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-23T10:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Operations"
+                      ]
+    },
+    {
+        "sam":  "sroberts2",
+        "dn":  "CN=sroberts2,OU=Disabled Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Disabled Users,OU=Kestrel",
+        "display_name":  "Steven Roberts",
+        "employee_id":  "E1077",
+        "department":  "Operations",
+        "title":  "Machinist",
+        "manager":  "prossi",
+        "description":  "Machinist, Operations",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2018-08-14T10:00:00+00:00",
+        "last_logon_timestamp":  "2024-11-05T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "sthomas",
+        "dn":  "CN=sthomas,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Sandra Thomas",
+        "employee_id":  "E1022",
+        "department":  "Sales",
+        "title":  "Account Executive",
+        "manager":  "jhernandez",
+        "description":  "Account Executive, Sales",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2022-10-20T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-29T10:00:00+00:00",
+        "member_of":  [
+                          "APP-ERP-Users",
+                          "GG-AllStaff",
+                          "GG-Sales",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "storres",
+        "dn":  "CN=storres,OU=Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Users,OU=Kestrel",
+        "display_name":  "Sharon Torres",
+        "employee_id":  "E1062",
+        "department":  "Engineering",
+        "title":  "Software Developer",
+        "manager":  "mwhite",
+        "description":  "Software Developer, Engineering",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2025-12-22T11:22:00+00:00",
+        "last_logon_timestamp":  "2026-09-23T15:00:00+00:00",
+        "member_of":  [
+                          "DEV-Developers",
+                          "GG-AllStaff",
+                          "GG-Engineering",
+                          "VPN-Users"
+                      ]
+    },
+    {
+        "sam":  "svc_audit_ro",
+        "dn":  "CN=svc_audit_ro,OU=Service Accounts,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Service Accounts,OU=Kestrel",
+        "display_name":  "External audit read-only",
+        "employee_id":  null,
+        "department":  null,
+        "title":  "Audit",
+        "manager":  null,
+        "description":  "Read-only account issued to the auditor for fieldwork",
+        "uac":  512,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  true,
+        "when_created":  "2026-10-10T20:27:43+00:00",
+        "last_logon_timestamp":  "2026-10-10T20:28:30+00:00",
+        "member_of":  [
+
+                      ]
+    },
+    {
+        "sam":  "svc_backup",
+        "dn":  "CN=svc_backup,OU=Service Accounts,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Service Accounts,OU=Kestrel",
+        "display_name":  "svc_backup",
+        "employee_id":  null,
+        "department":  "Information Technology",
+        "title":  "Service Account",
+        "manager":  null,
+        "description":  "Nightly backup agent",
+        "uac":  66048,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT",
+                          "DONT_EXPIRE_PASSWORD"
+                      ],
+        "enabled":  true,
+        "when_created":  "2021-02-07T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-30T16:00:00+00:00",
+        "member_of":  [
+                          "Backup Operators",
+                          "Domain Admins",
+                          "GG-ServiceAccounts"
+                      ]
+    },
+    {
+        "sam":  "svc_erp_app",
+        "dn":  "CN=svc_erp_app,OU=Service Accounts,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Service Accounts,OU=Kestrel",
+        "display_name":  "svc_erp_app",
+        "employee_id":  null,
+        "department":  "Information Technology",
+        "title":  "Service Account",
+        "manager":  null,
+        "description":  "ERP application service",
+        "uac":  66048,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT",
+                          "DONT_EXPIRE_PASSWORD"
+                      ],
+        "enabled":  true,
+        "when_created":  "2019-07-13T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-29T16:00:00+00:00",
+        "member_of":  [
+                          "GG-ServiceAccounts"
+                      ]
+    },
+    {
+        "sam":  "svc_legacyftp",
+        "dn":  "CN=svc_legacyftp,OU=Service Accounts,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Service Accounts,OU=Kestrel",
+        "display_name":  "svc_legacyftp",
+        "employee_id":  null,
+        "department":  "Information Technology",
+        "title":  "Service Account",
+        "manager":  null,
+        "description":  "Legacy EDI FTP bridge",
+        "uac":  66048,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT",
+                          "DONT_EXPIRE_PASSWORD"
+                      ],
+        "enabled":  true,
+        "when_created":  "2021-06-24T10:00:00+00:00",
+        "last_logon_timestamp":  "2025-08-14T16:00:00+00:00",
+        "member_of":  [
+                          "GG-ServiceAccounts"
+                      ]
+    },
+    {
+        "sam":  "svc_monitor",
+        "dn":  "CN=svc_monitor,OU=Service Accounts,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Service Accounts,OU=Kestrel",
+        "display_name":  "svc_monitor",
+        "employee_id":  null,
+        "department":  "Information Technology",
+        "title":  "Service Account",
+        "manager":  null,
+        "description":  "Monitoring agent (read-only)",
+        "uac":  66048,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT",
+                          "DONT_EXPIRE_PASSWORD"
+                      ],
+        "enabled":  true,
+        "when_created":  "2020-09-19T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-30T16:00:00+00:00",
+        "member_of":  [
+                          "GG-ServiceAccounts"
+                      ]
+    },
+    {
+        "sam":  "svc_scan",
+        "dn":  "CN=svc_scan,OU=Service Accounts,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Service Accounts,OU=Kestrel",
+        "display_name":  "svc_scan",
+        "employee_id":  null,
+        "department":  "Information Technology",
+        "title":  "Service Account",
+        "manager":  null,
+        "description":  "Network scanner/copier SMTP relay",
+        "uac":  66048,
+        "uac_flags":  [
+                          "NORMAL_ACCOUNT",
+                          "DONT_EXPIRE_PASSWORD"
+                      ],
+        "enabled":  true,
+        "when_created":  "2020-03-13T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-09-28T16:00:00+00:00",
+        "member_of":  [
+                          "GG-ServiceAccounts"
+                      ]
+    },
+    {
+        "sam":  "tgonzalez",
+        "dn":  "CN=tgonzalez,OU=Disabled Users,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Disabled Users,OU=Kestrel",
+        "display_name":  "Thomas Gonzalez",
+        "employee_id":  "E1066",
+        "department":  "Finance",
+        "title":  "AP Clerk",
+        "manager":  "agonzalez",
+        "description":  "AP Clerk, Finance",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2020-03-24T10:00:00+00:00",
+        "last_logon_timestamp":  "2026-02-20T16:00:00+00:00",
+        "member_of":  [
+                          "GG-AllStaff"
+                      ]
+    },
+    {
+        "sam":  "training01",
+        "dn":  "CN=training01,OU=Shared,OU=Kestrel,DC=kestrel,DC=lab,DC=test",
+        "ou":  "OU=Shared,OU=Kestrel",
+        "display_name":  "Training 01",
+        "employee_id":  null,
+        "department":  "Human Resources",
+        "title":  "Shared Account",
+        "manager":  null,
+        "description":  "Disabled training account",
+        "uac":  514,
+        "uac_flags":  [
+                          "ACCOUNTDISABLE",
+                          "NORMAL_ACCOUNT"
+                      ],
+        "enabled":  false,
+        "when_created":  "2021-05-03T09:30:00+00:00",
+        "last_logon_timestamp":  "2023-03-01T10:00:00+00:00",
+        "member_of":  [
+
+                      ]
+    }
+]

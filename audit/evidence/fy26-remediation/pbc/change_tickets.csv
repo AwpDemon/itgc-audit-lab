@@ -1,0 +1,31 @@
+change_id,type,summary,release_tag,requested_by,developer,approver,approved_at,test_evidence,uat_signoff_by,scheduled_for,implemented_by,status
+CHG-00001,Emergency,Pricing table update,rel-2025-10-07-hotfix,ewilson,dking,dgarcia,2025-10-08T10:00:00,Smoke test in production (emergency),ewilson,2025-10-07,bscott,Closed
+CHG-00002,Normal,Report filter bug,rel-2025-10-21,mtaylor,dking,dgarcia,2025-10-18T17:24:00,UAT sign-off attached; regression suite passed,mtaylor,2025-10-21,bscott,Closed
+CHG-00003,Emergency,GL interface mapping,rel-2025-11-04-hotfix,ewilson,dking,mwhite,2025-11-06T10:00:00,Smoke test in production (emergency),mtaylor,2025-11-04,bscott,Closed
+CHG-00004,Normal,Credit-limit check,rel-2025-11-18,ewilson,storres,dgarcia,2025-11-12T18:53:00,UAT sign-off attached; regression suite passed,agonzalez,2025-11-18,bscott,Closed
+CHG-00005,Normal,Credit-limit check,rel-2025-11-25,mtaylor,ahaddad,dgarcia,2025-11-21T18:21:00,UAT sign-off attached; regression suite passed,agonzalez,2025-11-25,ahaddad,Closed
+CHG-00006,Normal,Customer portal performance,rel-2025-12-09,ewilson,ahaddad,mwhite,2025-12-06T14:45:00,UAT sign-off attached; regression suite passed,mtaylor,2025-12-09,bscott,Closed
+CHG-00007,Normal,Credit-limit check,rel-2025-12-23,ewilson,dking,mwhite,2025-12-18T16:39:00,UAT sign-off attached; regression suite passed,ewilson,2025-12-23,bscott,Closed
+CHG-00008,Emergency,GL interface mapping,rel-2026-01-01-hotfix,mtaylor,ahaddad,dgarcia,2026-01-02T10:00:00,Smoke test in production (emergency),agonzalez,2026-01-01,bscott,Closed
+CHG-00009,Normal,Order entry validation fix,rel-2026-01-27,mtaylor,ahaddad,mwhite,2026-01-21T16:47:00,UAT sign-off attached; regression suite passed,amartinez,2026-01-27,bscott,Closed
+CHG-00010,Normal,Tax rate table,rel-2026-02-10,mtaylor,ahaddad,dgarcia,2026-02-09T17:31:00,UAT sign-off attached; regression suite passed,amartinez,2026-02-10,bscott,Closed
+CHG-00011,Normal,Tax rate table,rel-2026-02-17,agonzalez,ahaddad,mwhite,2026-02-16T16:14:00,UAT sign-off attached; regression suite passed,ewilson,2026-02-17,bscott,Closed
+CHG-00012,Normal,Customer portal performance,rel-2026-02-24,ewilson,ahaddad,mwhite,2026-02-23T16:33:00,UAT sign-off attached; regression suite passed,ewilson,2026-02-24,bscott,Closed
+CHG-00013,Normal,Order entry validation fix,rel-2026-03-10,ewilson,ahaddad,mwhite,2026-03-05T17:05:00,UAT sign-off attached; regression suite passed,agonzalez,2026-03-10,bscott,Closed
+CHG-00014,Normal,Shipping label API,rel-2026-03-31,ewilson,dadams,mwhite,2026-03-27T15:19:00,UAT sign-off attached; regression suite passed,agonzalez,2026-03-31,bscott,Closed
+CHG-00015,Normal,Report filter bug,rel-2026-04-07,agonzalez,dadams,mwhite,2026-04-03T15:11:00,UAT sign-off attached; regression suite passed,agonzalez,2026-04-07,bscott,Closed
+CHG-00016,Normal,Session timeout setting,rel-2026-04-21,agonzalez,dadams,dgarcia,2026-04-23T22:05:00,UAT sign-off attached; regression suite passed,ewilson,2026-04-21,bscott,Closed
+CHG-00017,Normal,Invoice export format,rel-2026-04-30,ewilson,dadams,mwhite,2026-04-28T15:11:00,UAT sign-off attached; regression suite passed,agonzalez,2026-04-30,bscott,Closed
+CHG-00018,Normal,Session timeout setting,rel-2026-05-14,agonzalez,ahaddad,dgarcia,2026-05-09T18:43:00,UAT sign-off attached; regression suite passed,amartinez,2026-05-14,bscott,Closed
+CHG-00019,Normal,Shipping label API,rel-2026-05-28,ewilson,ahaddad,mwhite,2026-05-22T15:38:00,UAT sign-off attached; regression suite passed,ewilson,2026-05-28,bscott,Closed
+CHG-00020,Normal,Tax rate table,rel-2026-06-04,ewilson,dking,mwhite,2026-06-01T18:16:00,UAT sign-off attached; regression suite passed,ewilson,2026-06-04,bscott,Closed
+CHG-00021,Normal,Invoice export format,rel-2026-06-16,ewilson,ahaddad,dgarcia,2026-06-14T16:50:00,UAT sign-off attached; regression suite passed,agonzalez,2026-06-16,ahaddad,Closed
+CHG-00022,Normal,GL interface mapping,rel-2026-06-23,mtaylor,storres,dgarcia,2026-06-20T17:07:00,UAT sign-off attached; regression suite passed,ewilson,2026-06-23,bscott,Closed
+CHG-00023,Normal,Invoice export format,rel-2026-07-07,agonzalez,dadams,mwhite,2026-07-02T17:33:00,UAT sign-off attached; regression suite passed,mtaylor,2026-07-07,bscott,Closed
+CHG-00024,Normal,Tax rate table,rel-2026-07-14,agonzalez,ahaddad,dgarcia,2026-07-12T14:09:00,UAT sign-off attached; regression suite passed,amartinez,2026-07-14,bscott,Closed
+CHG-00025,Normal,Order entry validation fix,rel-2026-07-23,ewilson,dking,mwhite,2026-07-18T14:01:00,UAT sign-off attached; regression suite passed,ewilson,2026-07-23,bscott,Closed
+CHG-00026,Normal,Shipping label API,rel-2026-08-06,mtaylor,dking,mwhite,2026-08-04T17:07:00,UAT sign-off attached; regression suite passed,amartinez,2026-08-06,bscott,Closed
+CHG-00027,Normal,Tax rate table,rel-2026-08-18,ewilson,ahaddad,mwhite,2026-08-12T15:24:00,UAT sign-off attached; regression suite passed,amartinez,2026-08-18,ahaddad,Closed
+CHG-00028,Normal,Pricing table update,rel-2026-08-27,mtaylor,ahaddad,mwhite,2026-08-21T14:44:00,UAT sign-off attached; regression suite passed,ewilson,2026-08-27,bscott,Closed
+CHG-00029,Emergency,Report filter bug,rel-2026-09-08-hotfix,ewilson,dking,mwhite,2026-09-09T10:00:00,Smoke test in production (emergency),amartinez,2026-09-08,bscott,Closed
+CHG-00030,Normal,Tax rate table,rel-2026-09-17,ewilson,storres,mwhite,2026-09-14T17:48:00,,,2026-09-17,bscott,Closed

@@ -1,0 +1,186 @@
+{
+ "generated_at": "2026-10-10T20:44:31+00:00",
+ "files": [
+  {
+   "file": "pbc/access_requests.csv",
+   "sha256": "a58309716953662b0d72bd0d95ec655b8351888b0ac53c4e4c384bdecf9c8664",
+   "bytes": 2178,
+   "records": 13
+  },
+  {
+   "file": "pbc/authorized_privileged_access.csv",
+   "sha256": "3b77b7af763562bb71a88a4224a2676d1119e285f60f7ad98ddc88b546ee3bab",
+   "bytes": 718,
+   "records": 7
+  },
+  {
+   "file": "pbc/backup_job_log.csv",
+   "sha256": "379f649b60c90cc00ef294b257b4e6dfa62ba9e797c7a7b748314383661b5ae3",
+   "bytes": 29656,
+   "records": 365
+  },
+  {
+   "file": "pbc/batch_job_log.csv",
+   "sha256": "63b931a6a27b0933d7f12ce2ede1f84b64d9d4cb55676365d9081418be2ae4ea",
+   "bytes": 11350,
+   "records": 261
+  },
+  {
+   "file": "pbc/change_tickets.csv",
+   "sha256": "ba790bb7a3faba9f5f1a15b00116716d652295ef41cb53678d3d34dcea6f83d7",
+   "bytes": 5421,
+   "records": 30
+  },
+  {
+   "file": "pbc/hr_roster.csv",
+   "sha256": "1037f5d34778914d020a86ab678238dbe8f2904b3c0ad83c276387e2bc48f724",
+   "bytes": 7048,
+   "records": 81
+  },
+  {
+   "file": "pbc/incidents.csv",
+   "sha256": "6e5eb8a13562e008aa838ca493e2f0225a01e2975b8a07f27c8c39f10cb136d1",
+   "bytes": 3996,
+   "records": 38
+  },
+  {
+   "file": "pbc/it_security_standard.yaml",
+   "sha256": "b811695e71d005de4028621a8fcff3ce8dfa06a241cc8b262a66298b3f8472e3",
+   "bytes": 2175,
+   "records": null
+  },
+  {
+   "file": "pbc/restore_test_log.csv",
+   "sha256": "19248a441cdc9faae4bb1098abfd46d5e210a3d60640ec1a3023350ffea0148c",
+   "bytes": 142,
+   "records": 1
+  },
+  {
+   "file": "pbc/service_account_inventory.csv",
+   "sha256": "db883f09b87fe9f96ddeeb73fd778ced35c43539f70674232d599fbc5f11eb8f",
+   "bytes": 445,
+   "records": 4
+  },
+  {
+   "file": "pbc/termination_tickets.csv",
+   "sha256": "1b8882888b7eb8324ea75a0390dc5c75f931f35f53eb2f39f2a44c7500fe9c25",
+   "bytes": 873,
+   "records": 11
+  },
+  {
+   "file": "pbc/transfer_tickets.csv",
+   "sha256": "464e8c703a1d1779fe2ecf70a4c6bf05e43ce967d68a4c2088934abd067426df",
+   "bytes": 337,
+   "records": 2
+  },
+  {
+   "file": "pbc/uar_detail.csv",
+   "sha256": "53edf3b5bc6f9c5cc0372904ea36b3c4d16ff8424772e885c61bec2924861b23",
+   "bytes": 220,
+   "records": 1
+  },
+  {
+   "file": "pbc/uar_signoffs.csv",
+   "sha256": "29e0c4b5e69ec2d0ad5b38ceb5d74ee5e3b04f8a6d34647d9002f541dc5b203f",
+   "bytes": 662,
+   "records": 8
+  },
+  {
+   "file": "system/ad_domain_policy.json",
+   "sha256": "174a4f89cba51a567dd81094397c9465236dd6a9ab0e1688f52c6fb51a54b140",
+   "bytes": 459,
+   "records": null,
+   "source": "Active Directory",
+   "method": "Base search on domain head + PSO container"
+  },
+  {
+   "file": "system/ad_privileged_groups.json",
+   "sha256": "af86d18ab27abca868fccaaa38fb82b0823b7cbc3b1ee1c6d6f46e1b1b86fc6c",
+   "bytes": 930,
+   "records": null,
+   "source": "Active Directory",
+   "method": "LDAP_MATCHING_RULE_IN_CHAIN recursive membership per privileged/app group"
+  },
+  {
+   "file": "system/ad_users.json",
+   "sha256": "725d33471491709dd5315751dac52832974d5a43d7159240329b988aa5d97375",
+   "bytes": 60214,
+   "records": 95,
+   "source": "Active Directory (Samba 4 AD DC)",
+   "method": "LDAPS paged search (&(objectCategory=person)(objectClass=user)) as read-only svc_audit_ro"
+  },
+  {
+   "file": "system/change_repo_info.json",
+   "sha256": "e316ebd10c10e405866b861372b51f1d9d964150db7ace0670ae947818bc8644",
+   "bytes": 73,
+   "records": null,
+   "source": "order-portal git repository",
+   "method": "git rev-parse HEAD"
+  },
+  {
+   "file": "system/db_roles.json",
+   "sha256": "f5770bc7efd5b129fecbcee346a690acfce148bb0ee767eda5967e38f117b243",
+   "bytes": 1362,
+   "records": 7,
+   "source": "ERP database (PostgreSQL)",
+   "method": "SELECT pg_roles / pg_auth_members as audit_ro"
+  },
+  {
+   "file": "system/deploy_log.json",
+   "sha256": "0ca44b132d3968251cb599f4c4ce1a388c0c79456ecd7a8709c0104ef3669ebd",
+   "bytes": 7713,
+   "records": 32,
+   "source": "CI/CD pipeline deployment log",
+   "method": "Export of production deployments"
+  },
+  {
+   "file": "system/erp_db_info.json",
+   "sha256": "3a7b64ccdf1d26b08e9b3257c48a47338d1ab2cfd5bd6dd91f44947827e2d346",
+   "bytes": 221,
+   "records": null,
+   "source": "ERP database (PostgreSQL)",
+   "method": "current_user, version(), now()"
+  },
+  {
+   "file": "system/erp_users.json",
+   "sha256": "fb859a75eedea20ea612ff28e36677d48b62bbaaa8cc1ee624c1294495ff7f11",
+   "bytes": 12853,
+   "records": 51,
+   "source": "ERP database (PostgreSQL)",
+   "method": "SELECT app.users + app.user_roles as audit_ro"
+  },
+  {
+   "file": "system/release_tags.json",
+   "sha256": "2fb9d754d48ee018a3215a7fd5fb348fdc6d3bda41a07350094a976c636add35",
+   "bytes": 32974,
+   "records": 32,
+   "source": "order-portal git repository",
+   "method": "git for-each-ref refs/tags + git log per release"
+  },
+  {
+   "file": "system/restore_test.json",
+   "sha256": "c28566590d36bf168100341b43f64bf934b0d038e3ce10dbbce8f5d3148b9919",
+   "bytes": 1547,
+   "records": null,
+   "source": "Auditor re-performance",
+   "method": "lab/scripts/restore_test.sh (pg_dump -> pg_restore into scratch DB -> per-table count + md5 compare)"
+  },
+  {
+   "file": "system/schema_migrations.json",
+   "sha256": "e9770a6dc1f3bb7a921f1f91cdcf167573666ede4321e09f2c824c3512cba71d",
+   "bytes": 1045,
+   "records": 11,
+   "source": "ERP database (PostgreSQL)",
+   "method": "SELECT public.schema_migrations"
+  }
+ ],
+ "label": "fy26-baseline",
+ "collected_at": "2026-10-10T20:33:45+00:00",
+ "ldap_tls_validated": true,
+ "audit_accounts": {
+  "ldap": "svc_audit_ro@kestrel.lab.test",
+  "postgres": "audit_ro"
+ },
+ "note": "system/ = pulled from lab systems by the collectors; pbc/ = management-provided documents (synthetic). Hashes let anyone verify the workpapers were built from this exact evidence.",
+ "change_evidence_recollected": "Git/CI change evidence re-collected after making the lab repo build line-ending independent (LF) so commit SHAs reproduce on Linux CI; AD/ERP evidence unchanged."
+}

@@ -1,0 +1,65 @@
+# Kestrel Valve Co. (fictional) - Information Security Standard ISS-04, v3.1
+# Machine-readable copy of the management-approved criteria the audit tests against.
+# Human-readable version: it_security_standard.md. Every threshold below is "criteria"
+# in the condition / criteria / cause / effect structure of each finding.
+
+document: ISS-04 Information Security Standard
+version: "3.1"
+approved_by: Chief Financial Officer
+approved_on: 2025-08-12
+
+logical_access:
+  password:
+    min_length: 12
+    complexity_required: true
+    history_length: 24
+    max_age_days: 90
+    min_age_days: 1
+    never_expires_allowed_for: service_accounts_with_approved_exception
+  lockout:
+    threshold: 5            # invalid attempts before lockout (0 = never locks: not allowed)
+    duration_minutes: 30
+    observation_window_minutes: 30
+  provisioning:
+    approval_required_before_access: true
+    approver: line_manager
+    access_must_match_request: true
+  transfers:
+    remove_prior_access_within_business_days: 5
+  termination:
+    disable_within_business_days: 1
+    applies_to: [active_directory, erp]
+  dormant_accounts:
+    disable_after_days_inactive: 90
+    replication_tolerance_days: 14   # lastLogonTimestamp is only replicated every 9-14 days
+  privileged_access:
+    authorized_list: authorized_privileged_access.csv
+    developers_prohibited_from: [domain_admin, database_superuser, production_deploy]
+  user_access_review:
+    frequency: quarterly
+    complete_within_days_of_quarter_end: 30
+    reviewer_may_not_review_own_access: true
+    removals_actioned_within_business_days: 5
+  service_accounts:
+    inventory: service_account_inventory.csv
+    owner_required: true
+  generic_accounts:
+    allowed: false
+
+change_management:
+  approval_before_production: true
+  testing_evidence_required: true
+  developer_may_not_deploy_own_change: true
+  emergency_retro_approval_within_business_days: 2
+  database_changes_via_release_only: true
+
+operations:
+  backup:
+    frequency: daily
+    failure_ticket_within_business_days: 1
+  restore_test:
+    frequency: annual
+  batch_monitoring:
+    failed_job_ticket_required: true
+  incident:
+    p1_rca_within_business_days: 10

@@ -1,0 +1,240 @@
+{
+ "seed": 2026,
+ "note": "Planted issues. NOT read by any control test; used only to score detection after the audit.",
+ "issues": [
+  {
+   "issue_id": "P2",
+   "control_id": "AC-01",
+   "item": "mtaylor2",
+   "description": "Access request approved 3 days after the account was created"
+  },
+  {
+   "issue_id": "P1",
+   "control_id": "AC-01",
+   "item": "mbrown",
+   "description": "New hire account created with no access request ticket"
+  },
+  {
+   "issue_id": "P3",
+   "control_id": "AC-01",
+   "item": "cadams",
+   "description": "New hire granted APP-ERP-GL-Approver, which was not on the approved request"
+  },
+  {
+   "issue_id": "M1",
+   "control_id": "AC-01",
+   "item": "bnguyen",
+   "description": "Transferred employee kept prior-role access (APP-ERP-GL-Poster) after transfer ticket closed"
+  },
+  {
+   "issue_id": "D4",
+   "control_id": "AC-02",
+   "item": "mchen",
+   "description": "AD/ERP access removed 9 business days after termination"
+  },
+  {
+   "issue_id": "D1",
+   "control_id": "AC-02",
+   "item": "klee",
+   "description": "Terminated user still enabled in AD and logged on after termination date"
+  },
+  {
+   "issue_id": "D2",
+   "control_id": "AC-02",
+   "item": "ethomas",
+   "description": "Terminated user still enabled in AD"
+  },
+  {
+   "issue_id": "D3",
+   "control_id": "AC-02",
+   "item": "framirez",
+   "description": "Terminated user disabled in AD but still active in the ERP"
+  },
+  {
+   "issue_id": "DM-rnovak",
+   "control_id": "AC-06",
+   "item": "rnovak",
+   "description": "Enabled account with no logon in more than 90 days"
+  },
+  {
+   "issue_id": "DM-gmensah",
+   "control_id": "AC-06",
+   "item": "gmensah",
+   "description": "Enabled account with no logon in more than 90 days"
+  },
+  {
+   "issue_id": "DM-lbaker",
+   "control_id": "AC-06",
+   "item": "lbaker",
+   "description": "Account of employee on leave of absence not disabled after 90 days of inactivity"
+  },
+  {
+   "issue_id": "PW3-pjohnson",
+   "control_id": "AC-05",
+   "item": "pjohnson",
+   "description": "Non-service user account set to 'password never expires'"
+  },
+  {
+   "issue_id": "PW3-jallen",
+   "control_id": "AC-05",
+   "item": "jallen",
+   "description": "Non-service user account set to 'password never expires'"
+  },
+  {
+   "issue_id": "PW4",
+   "control_id": "AC-05",
+   "item": "mmoore",
+   "description": "User account flagged PASSWD_NOTREQD (password not required)"
+  },
+  {
+   "issue_id": "PW1",
+   "control_id": "AC-05",
+   "item": "domain:minPwdLength",
+   "description": "Domain minimum password length 8 vs. standard 12"
+  },
+  {
+   "issue_id": "PW2",
+   "control_id": "AC-05",
+   "item": "domain:lockoutThreshold",
+   "description": "Account lockout disabled (threshold 0) vs. standard 5"
+  },
+  {
+   "issue_id": "PR1",
+   "control_id": "AC-03",
+   "item": "ahaddad",
+   "description": "Software developer's everyday account is a member of Domain Admins"
+  },
+  {
+   "issue_id": "PR2",
+   "control_id": "AC-03",
+   "item": "svc_backup",
+   "description": "Backup service account is a member of Domain Admins"
+  },
+  {
+   "issue_id": "SV2",
+   "control_id": "AC-07",
+   "item": "svc_scan",
+   "description": "Service account not in the service-account inventory (no owner)"
+  },
+  {
+   "issue_id": "SV3",
+   "control_id": "AC-07",
+   "item": "svc_legacyftp",
+   "description": "Service account owner is a terminated employee"
+  },
+  {
+   "issue_id": "DM-svc_legacyftp",
+   "control_id": "AC-06",
+   "item": "svc_legacyftp",
+   "description": "Service account inactive for 412 days but still enabled"
+  },
+  {
+   "issue_id": "SV1",
+   "control_id": "AC-07",
+   "item": "frontdesk",
+   "description": "Generic shared account enabled with ERP access"
+  },
+  {
+   "issue_id": "PR4",
+   "control_id": "AC-03",
+   "item": "apatel",
+   "description": "AP clerk holds the ERP_ADMIN role"
+  },
+  {
+   "issue_id": "SOD1",
+   "control_id": "AC-03",
+   "item": "brivera",
+   "description": "User can both enter vendor invoices (AP_CLERK) and approve payments (AP_APPROVER)"
+  },
+  {
+   "issue_id": "PR3",
+   "control_id": "AC-03",
+   "item": "ahaddad",
+   "description": "Software developer has SUPERUSER on the production ERP database"
+  },
+  {
+   "issue_id": "SOD-rel-2025-11-25",
+   "control_id": "CM-02",
+   "item": "rel-2025-11-25",
+   "description": "Developer deployed their own change to production"
+  },
+  {
+   "issue_id": "C1-rel-2026-01-13",
+   "control_id": "CM-01",
+   "item": "rel-2026-01-13",
+   "description": "Production release with no change ticket"
+  },
+  {
+   "issue_id": "C1-rel-2026-03-24",
+   "control_id": "CM-01",
+   "item": "rel-2026-03-24",
+   "description": "Production release with no change ticket"
+  },
+  {
+   "issue_id": "C2-rel-2026-04-21",
+   "control_id": "CM-01",
+   "item": "rel-2026-04-21",
+   "description": "Change approved two days after it was deployed"
+  },
+  {
+   "issue_id": "SOD-rel-2026-06-16",
+   "control_id": "CM-02",
+   "item": "rel-2026-06-16",
+   "description": "Developer deployed their own change to production"
+  },
+  {
+   "issue_id": "SOD-rel-2026-08-18",
+   "control_id": "CM-02",
+   "item": "rel-2026-08-18",
+   "description": "Developer deployed their own change to production"
+  },
+  {
+   "issue_id": "C3-rel-2026-09-17",
+   "control_id": "CM-01",
+   "item": "rel-2026-09-17",
+   "description": "No testing / UAT evidence on the change ticket"
+  },
+  {
+   "issue_id": "DB1",
+   "control_id": "CM-04",
+   "item": "V012",
+   "description": "Schema change applied directly to production outside the release process"
+  },
+  {
+   "issue_id": "U1",
+   "control_id": "AC-04",
+   "item": "FY26-Q2-ERP",
+   "description": "ERP access review signed off 41 days after quarter end (standard: 30)"
+  },
+  {
+   "issue_id": "U3",
+   "control_id": "AC-04",
+   "item": "FY26-Q3-ADPRIV",
+   "description": "IT Manager reviewed privileged groups that include his own admin account"
+  },
+  {
+   "issue_id": "U2",
+   "control_id": "AC-04",
+   "item": "FY26-Q4-ERP",
+   "description": "Access-review removal (APP-ERP-AP-Approver) marked complete but still present in AD"
+  },
+  {
+   "issue_id": "BK-2026-01-28",
+   "control_id": "OPS-01",
+   "item": "2026-01-28",
+   "description": "Backup failure with no incident ticket / follow-up"
+  },
+  {
+   "issue_id": "BK-2026-06-26",
+   "control_id": "OPS-01",
+   "item": "2026-06-26",
+   "description": "Backup failure with no incident ticket / follow-up"
+  },
+  {
+   "issue_id": "RT1",
+   "control_id": "OPS-02",
+   "item": "management restore test (FY2026)",
+   "description": "No restore test performed during the audit period (annual requirement)"
+  }
+ ]
+}

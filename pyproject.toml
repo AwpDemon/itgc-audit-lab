@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "itgc-audit-lab"
+version = "1.0.0"
+description = "IT General Controls audit of a lab Active Directory + ERP environment: evidence collectors, control tests, workpapers, deficiency evaluation."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Ali Askari" }]
+dependencies = [
+  "ldap3==2.9.1",
+  "psycopg[binary]==3.3.6",
+  "openpyxl==3.1.5",
+  "PyYAML==6.0.3",
+  "matplotlib==3.11.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1", "ruff==0.17.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 130
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501"]

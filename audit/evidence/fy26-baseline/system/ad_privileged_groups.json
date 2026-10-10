@@ -1,0 +1,65 @@
+{
+ "Domain Admins": [
+  "Administrator",
+  "adm-awilliams",
+  "adm-dgarcia",
+  "adm-mivanova",
+  "ahaddad",
+  "svc_backup"
+ ],
+ "Enterprise Admins": [
+  "Administrator"
+ ],
+ "Schema Admins": [
+  "Administrator"
+ ],
+ "Administrators": [
+  "Administrator",
+  "adm-awilliams",
+  "adm-dgarcia",
+  "adm-mivanova",
+  "ahaddad",
+  "svc_backup"
+ ],
+ "Account Operators": [],
+ "Backup Operators": [
+  "svc_backup"
+ ],
+ "Server Operators": [],
+ "Print Operators": [],
+ "Group Policy Creator Owners": [
+  "Administrator"
+ ],
+ "DnsAdmins": [],
+ "APP-ERP-AP-Clerk": [
+  "apatel",
+  "brivera",
+  "mmoreau"
+ ],
+ "APP-ERP-AP-Approver": [
+  "agonzalez",
+  "amartinez"
+ ],
+ "APP-ERP-GL-Poster": [
+  "bnguyen",
+  "mbrown",
+  "rjackson"
+ ],
+ "APP-ERP-GL-Approver": [
+  "agonzalez",
+  "cadams"
+ ],
+ "PRD-Deployers": [
+  "bscott"
+ ],
+ "DBA-Admins": [
+  "eokafor"
+ ],
+ "DEV-Developers": [
+  "ahaddad",
+  "dadams",
+  "dking",
+  "mwhite",
+  "storres"
+ ]
+}

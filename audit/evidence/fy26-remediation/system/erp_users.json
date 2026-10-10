@@ -1,0 +1,617 @@
+[
+ {
+  "username": "acosta",
+  "full_name": "Amy Costa",
+  "employee_id": "E1029",
+  "is_active": true,
+  "created_at": "2022-11-18T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-20T17:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "agonzalez",
+  "full_name": "Andrew Gonzalez",
+  "employee_id": "E1005",
+  "is_active": true,
+  "created_at": "2014-06-25T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-29T17:00:00",
+  "roles": [
+   "AP_APPROVER",
+   "GL_APPROVER"
+  ]
+ },
+ {
+  "username": "amartinez",
+  "full_name": "Anna Martinez",
+  "employee_id": "E1009",
+  "is_active": true,
+  "created_at": "2020-06-09T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-26T17:00:00",
+  "roles": []
+ },
+ {
+  "username": "apatel",
+  "full_name": "Anthony Patel",
+  "employee_id": "E1007",
+  "is_active": true,
+  "created_at": "2026-09-11T11:59:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-26T17:00:00",
+  "roles": [
+   "AP_CLERK"
+  ]
+ },
+ {
+  "username": "aperez",
+  "full_name": "Amy Perez",
+  "employee_id": "E1051",
+  "is_active": true,
+  "created_at": "2023-02-27T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-22T17:00:00",
+  "roles": [
+   "BUYER"
+  ]
+ },
+ {
+  "username": "bdavis",
+  "full_name": "Betty Davis",
+  "employee_id": "E1081",
+  "is_active": false,
+  "created_at": "2016-11-02T13:00:00",
+  "deactivated_at": "2024-05-09T17:00:00",
+  "last_login_at": "2024-05-09T15:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "bking",
+  "full_name": "Betty King",
+  "employee_id": "E1028",
+  "is_active": true,
+  "created_at": "2026-01-21T15:15:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-27T17:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "bnguyen",
+  "full_name": "Barbara Nguyen",
+  "employee_id": "E1010",
+  "is_active": true,
+  "created_at": "2019-08-19T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-20T17:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "brivera",
+  "full_name": "Brian Rivera",
+  "employee_id": "E1008",
+  "is_active": true,
+  "created_at": "2017-08-21T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-29T17:00:00",
+  "roles": [
+   "AP_CLERK"
+  ]
+ },
+ {
+  "username": "bsmith",
+  "full_name": "Barbara Smith",
+  "employee_id": "E1036",
+  "is_active": true,
+  "created_at": "2012-04-23T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-30T17:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "cadams",
+  "full_name": "Cynthia Adams",
+  "employee_id": "E1050",
+  "is_active": true,
+  "created_at": "2026-07-16T09:41:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-23T17:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "civanova",
+  "full_name": "Charles Ivanova",
+  "employee_id": "E1035",
+  "is_active": true,
+  "created_at": "2021-03-22T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-27T17:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "dokafor",
+  "full_name": "Diego Okafor",
+  "employee_id": "E1002",
+  "is_active": true,
+  "created_at": "2017-01-02T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-24T17:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "dthomas",
+  "full_name": "Donna Thomas",
+  "employee_id": "E1079",
+  "is_active": false,
+  "created_at": "2016-09-14T13:00:00",
+  "deactivated_at": "2024-11-14T17:00:00",
+  "last_login_at": "2024-11-14T15:00:00",
+  "roles": [
+   "BUYER"
+  ]
+ },
+ {
+  "username": "efischer",
+  "full_name": "Edward Fischer",
+  "employee_id": "E1032",
+  "is_active": true,
+  "created_at": "2016-02-05T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-30T17:00:00",
+  "roles": [
+   "SALES",
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "erpadmin",
+  "full_name": "ERP built-in administrator",
+  "employee_id": "",
+  "is_active": true,
+  "created_at": "2018-04-02T09:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-10T17:00:00",
+  "roles": [
+   "ERP_ADMIN"
+  ]
+ },
+ {
+  "username": "esanchez",
+  "full_name": "Eric Sanchez",
+  "employee_id": "E1046",
+  "is_active": true,
+  "created_at": "2015-04-30T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-20T17:00:00",
+  "roles": [
+   "BUYER"
+  ]
+ },
+ {
+  "username": "esilva",
+  "full_name": "Edward Silva",
+  "employee_id": "E1015",
+  "is_active": true,
+  "created_at": "2014-08-08T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-26T17:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "ewilson",
+  "full_name": "Eric Wilson",
+  "employee_id": "E1020",
+  "is_active": true,
+  "created_at": "2026-07-07T13:34:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-28T17:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "framirez",
+  "full_name": "Fatima Ramirez",
+  "employee_id": "E1075",
+  "is_active": false,
+  "created_at": "2017-07-17T13:00:00",
+  "deactivated_at": "2026-10-10T20:37:22.558183",
+  "last_login_at": "2026-08-11T15:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "frontdesk",
+  "full_name": "Front Desk (shared)",
+  "employee_id": "",
+  "is_active": false,
+  "created_at": "2020-02-11T10:00:00",
+  "deactivated_at": "2026-10-10T20:37:22.558183",
+  "last_login_at": "2026-09-29T17:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "gmensah",
+  "full_name": "George Mensah",
+  "employee_id": "E1013",
+  "is_active": true,
+  "created_at": "2020-04-08T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-23T17:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "jadams",
+  "full_name": "Jacob Adams",
+  "employee_id": "E1049",
+  "is_active": true,
+  "created_at": "2026-07-21T14:40:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-26T17:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "jallen",
+  "full_name": "Jacob Allen",
+  "employee_id": "E1023",
+  "is_active": true,
+  "created_at": "2022-03-30T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-29T17:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "jhernandez",
+  "full_name": "James Hernandez",
+  "employee_id": "E1004",
+  "is_active": true,
+  "created_at": "2017-05-18T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-19T17:00:00",
+  "roles": [
+   "SALES",
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "jjackson",
+  "full_name": "Jacob Jackson",
+  "employee_id": "E1021",
+  "is_active": true,
+  "created_at": "2025-11-26T13:01:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-19T17:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "klee",
+  "full_name": "Kenneth Lee",
+  "employee_id": "E1070",
+  "is_active": false,
+  "created_at": "2024-06-12T13:00:00",
+  "deactivated_at": "2026-10-10T20:37:22.558183",
+  "last_login_at": "2026-02-19T15:00:00",
+  "roles": [
+   "BUYER"
+  ]
+ },
+ {
+  "username": "ksilva",
+  "full_name": "Kenneth Silva",
+  "employee_id": "E1001",
+  "is_active": true,
+  "created_at": "2014-09-01T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-23T17:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "ktanaka",
+  "full_name": "Karen Tanaka",
+  "employee_id": "E1027",
+  "is_active": true,
+  "created_at": "2012-09-27T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-29T17:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "ktanaka2",
+  "full_name": "Kenneth Tanaka",
+  "employee_id": "E1031",
+  "is_active": true,
+  "created_at": "2018-07-03T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-22T17:00:00",
+  "roles": [
+   "SALES",
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "ljones",
+  "full_name": "Laura Jones",
+  "employee_id": "E1030",
+  "is_active": true,
+  "created_at": "2023-02-23T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-27T17:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "lnovak",
+  "full_name": "Linda Novak",
+  "employee_id": "E1078",
+  "is_active": false,
+  "created_at": "2016-12-29T13:00:00",
+  "deactivated_at": "2024-02-08T17:00:00",
+  "last_login_at": "2024-02-08T15:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "lperez",
+  "full_name": "Laura Perez",
+  "employee_id": "E1067",
+  "is_active": false,
+  "created_at": "2015-01-29T13:00:00",
+  "deactivated_at": "2025-12-04T14:00:00",
+  "last_login_at": "2025-12-04T15:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "mbrown",
+  "full_name": "Michelle Brown",
+  "employee_id": "E1012",
+  "is_active": true,
+  "created_at": "2026-07-15T10:53:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-29T17:00:00",
+  "roles": [
+   "GL_POSTER"
+  ]
+ },
+ {
+  "username": "mchen",
+  "full_name": "Mary Chen",
+  "employee_id": "E1071",
+  "is_active": false,
+  "created_at": "2014-09-12T13:00:00",
+  "deactivated_at": "2026-03-04T11:00:00",
+  "last_login_at": "2026-02-19T15:00:00",
+  "roles": [
+   "GL_POSTER"
+  ]
+ },
+ {
+  "username": "mhaddad",
+  "full_name": "Mei Haddad",
+  "employee_id": "E1003",
+  "is_active": true,
+  "created_at": "2023-01-03T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-18T17:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "mmoreau",
+  "full_name": "Mary Moreau",
+  "employee_id": "E1006",
+  "is_active": true,
+  "created_at": "2026-08-14T12:30:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-27T17:00:00",
+  "roles": [
+   "AP_CLERK"
+  ]
+ },
+ {
+  "username": "mrossi",
+  "full_name": "Mohammed Rossi",
+  "employee_id": "E1014",
+  "is_active": true,
+  "created_at": "2020-12-09T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-25T17:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "msilva",
+  "full_name": "Michelle Silva",
+  "employee_id": "E1024",
+  "is_active": true,
+  "created_at": "2021-01-05T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-26T17:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "mtaylor",
+  "full_name": "Mark Taylor",
+  "employee_id": "E1019",
+  "is_active": true,
+  "created_at": "2024-11-26T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-26T17:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "mwhite2",
+  "full_name": "Melissa White",
+  "employee_id": "E1068",
+  "is_active": false,
+  "created_at": "2014-09-04T13:00:00",
+  "deactivated_at": "2025-12-04T16:00:00",
+  "last_login_at": "2025-12-04T15:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "pbrown",
+  "full_name": "Patricia Brown",
+  "employee_id": "E1048",
+  "is_active": true,
+  "created_at": "2019-12-04T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-29T17:00:00",
+  "roles": [
+   "BUYER"
+  ]
+ },
+ {
+  "username": "pjohnson",
+  "full_name": "Paul Johnson",
+  "employee_id": "E1026",
+  "is_active": true,
+  "created_at": "2018-08-07T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-24T17:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "prossi",
+  "full_name": "Paul Rossi",
+  "employee_id": "E1033",
+  "is_active": true,
+  "created_at": "2013-06-07T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-30T17:00:00",
+  "roles": [
+   "BUYER",
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "rharris",
+  "full_name": "Richard Harris",
+  "employee_id": "E1034",
+  "is_active": true,
+  "created_at": "2026-07-21T14:03:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-25T17:00:00",
+  "roles": [
+   "VIEWER"
+  ]
+ },
+ {
+  "username": "rjackson",
+  "full_name": "Ryan Jackson",
+  "employee_id": "E1011",
+  "is_active": true,
+  "created_at": "2026-02-25T09:42:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-24T17:00:00",
+  "roles": [
+   "GL_POSTER"
+  ]
+ },
+ {
+  "username": "rjones",
+  "full_name": "Ryan Jones",
+  "employee_id": "E1074",
+  "is_active": false,
+  "created_at": "2017-07-13T13:00:00",
+  "deactivated_at": "2026-05-06T15:00:00",
+  "last_login_at": "2026-05-05T15:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "rnovak",
+  "full_name": "Rebecca Novak",
+  "employee_id": "E1025",
+  "is_active": true,
+  "created_at": "2022-09-27T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-18T17:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "sroberts",
+  "full_name": "Susan Roberts",
+  "employee_id": "E1047",
+  "is_active": true,
+  "created_at": "2012-04-24T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-25T17:00:00",
+  "roles": [
+   "BUYER"
+  ]
+ },
+ {
+  "username": "sthomas",
+  "full_name": "Sandra Thomas",
+  "employee_id": "E1022",
+  "is_active": true,
+  "created_at": "2022-10-21T13:00:00",
+  "deactivated_at": null,
+  "last_login_at": "2026-09-30T17:00:00",
+  "roles": [
+   "SALES"
+  ]
+ },
+ {
+  "username": "tgonzalez",
+  "full_name": "Thomas Gonzalez",
+  "employee_id": "E1066",
+  "is_active": false,
+  "created_at": "2020-03-25T13:00:00",
+  "deactivated_at": "2026-02-23T11:00:00",
+  "last_login_at": "2026-02-23T15:00:00",
+  "roles": [
+   "AP_CLERK"
+  ]
+ }
+]

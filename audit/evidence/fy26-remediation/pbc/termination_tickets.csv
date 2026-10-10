@@ -1,0 +1,12 @@
+ticket_id,employee_id,account,termination_date,completed_at,completed_by,status
+TRM-00001,E1072,mdavis,2025-10-22,2025-10-22T12:00:00,helpdesk,Closed
+TRM-00002,E1067,lperez,2025-12-04,2025-12-04T14:00:00,helpdesk,Closed
+TRM-00003,E1068,mwhite2,2025-12-04,2025-12-04T16:00:00,helpdesk,Closed
+TRM-00004,E1070,klee,2026-02-19,2026-02-20T16:00:00,helpdesk,Closed
+TRM-00005,E1071,mchen,2026-02-19,2026-03-04T11:00:00,helpdesk,Closed
+TRM-00006,E1066,tgonzalez,2026-02-23,2026-02-23T11:00:00,helpdesk,Closed
+TRM-00007,E1069,mrodriguez,2026-03-09,2026-03-10T15:00:00,helpdesk,Closed
+TRM-00008,E1073,jgonzalez,2026-04-08,2026-04-08T16:00:00,helpdesk,Closed
+TRM-00009,E1076,ethomas,2026-04-20,2026-04-20T14:00:00,helpdesk,Closed
+TRM-00010,E1074,rjones,2026-05-05,2026-05-06T15:00:00,helpdesk,Closed
+TRM-00011,E1075,framirez,2026-08-11,2026-08-11T11:00:00,helpdesk,Closed
